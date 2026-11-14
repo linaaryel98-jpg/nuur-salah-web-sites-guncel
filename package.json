@@ -1,0 +1,17 @@
+{
+  "name": "nuur-salah-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Nuur Salah tanıtım sitesi (statik).",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node scripts/dev.mjs"
+  },
+  "devDependencies": {
+    "marked": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

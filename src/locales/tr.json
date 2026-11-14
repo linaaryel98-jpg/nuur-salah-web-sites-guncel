@@ -1,0 +1,268 @@
+{
+  "langName": "Türkçe",
+  "slugs": {
+    "privacy": "gizlilik",
+    "terms": "kosullar",
+    "support": "destek",
+    "deleteAccount": "hesap-silme"
+  },
+  "common": {
+    "skip": "İçeriğe geç",
+    "soon": "Yakında",
+    "home": "Ana sayfa",
+    "language": "Dil",
+    "newTab": "yeni sekmede açılır",
+    "emailPending": "Destek adresi yakında burada yer alacak.",
+    "logoAlt": "Nuur Salah logosu: mihrap kemeri ve sekiz köşeli yıldız"
+  },
+  "nav": {
+    "label": "Ana gezinme",
+    "features": "Özellikler",
+    "premium": "Premium",
+    "support": "Destek",
+    "screens": "Ekranlar",
+    "download": "İndir"
+  },
+  "meta": {
+    "home": {
+      "title": "Nuur Salah · Namaz vakitleri, ezan, kıble ve Kur'an",
+      "description": "Nuur Salah, günlük ibadeti tek bir sade arayüzde toplayan iOS uygulamasıdır: namaz vakitleri, ezan bildirimi, kıble pusulası, Kur'an-ı Kerîm ve rehberler."
+    },
+    "support": {
+      "title": "Destek · Nuur Salah",
+      "description": "Nuur Salah hakkında sık sorulan sorular ve destek iletişim bilgisi."
+    },
+    "notFound": {
+      "title": "Sayfa bulunamadı · Nuur Salah",
+      "description": "Aradığınız sayfa bulunamadı."
+    }
+  },
+  "hero": {
+    "eyebrow": "iPhone ve Apple Watch için",
+    "title": "Nuur Salah",
+    "tagline": "Namaz vakitleri, ezan, kıble ve Kur'an tek uygulamada.",
+    "note": "Ücretsiz. İsteğe bağlı Premium aboneliği vardır.",
+    "imageAlt": "Nuur Salah uygulamasının giriş ekranı",
+    "titleA": "Nuur",
+    "titleB": "Salah",
+    "lead": "Günlük ibadetiniz için sade ve sakin bir yardımcı. Vakitleri takip edin, kıbleyi bulun, Kur'an okuyun.",
+    "cta2": "Özellikleri keşfedin",
+    "cardTitle": "QR ile indirin",
+    "cardText": "Telefonunuzun kamerasıyla okutarak App Store sayfasını açın."
+  },
+  "store": {
+    "appStoreSmall": "iPhone için",
+    "appStore": "App Store",
+    "appStoreAria": "Nuur Salah'ı App Store'dan indirin",
+    "googlePlaySmall": "Android için",
+    "googlePlay": "Google Play",
+    "qrAppStoreAlt": "App Store bağlantısı için QR kodu",
+    "qrGooglePlayAlt": "Google Play bağlantısı için QR kodu",
+    "qrLabel": "QR kodu",
+    "qrHint": "Telefonunuzun kamerasıyla okutun."
+  },
+  "features": {
+    "title": "Günlük ibadet için gerekenler, bir arada",
+    "intro": "Her bölüm tek işe odaklanır; arayüz sade kalır.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Namaz vakitleri ve hatırlatmalar",
+        "text": "Bulunduğunuz konuma göre beş vakit; dilediğiniz vakit için hatırlatma."
+      },
+      {
+        "icon": "bell",
+        "title": "Ezan bildirimi",
+        "text": "Vakit girdiğinde ezan sesiyle bildirim; her vakit için ayrı ayarlanabilir."
+      },
+      {
+        "icon": "compass",
+        "title": "Kıble pusulası",
+        "text": "Bulunduğunuz yerden Kâbe yönünü gösteren sade bir pusula."
+      },
+      {
+        "icon": "book",
+        "title": "Kur'an-ı Kerîm ve meal",
+        "text": "Arapça metin, meal ve okunuş bir arada; kaldığınız yerden devam edin."
+      },
+      {
+        "icon": "steps",
+        "title": "Abdest ve namaz rehberleri",
+        "text": "Adım adım anlatım; yeni başlayanlar ve hatırlamak isteyenler için."
+      },
+      {
+        "icon": "beads",
+        "title": "Tesbih ve Esmâ-ül Hüsnâ",
+        "text": "Dijital tesbih ile zikir; Allah'ın doksan dokuz ismi ve anlamları."
+      },
+      {
+        "icon": "kaaba",
+        "title": "Hac ve umre rehberi",
+        "text": "Yolculuk öncesinde ve sırasında başvurabileceğiniz adım adım rehber."
+      },
+      {
+        "icon": "mosque",
+        "title": "Yakındaki camiler",
+        "text": "Çevrenizdeki camileri haritada görün, yol tarifi alın."
+      }
+    ],
+    "more": "Ayrıca: siyer ve peygamber kıssaları, Apple Watch uygulaması ve ana ekran widget'ları.",
+    "eyebrow": "Özellikler"
+  },
+  "screens": {
+    "title": "Uygulamadan görüntüler",
+    "intro": "Sade bir arayüz; aradığınız şey birkaç dokunuş uzakta.",
+    "regionLabel": "Ekran görüntüleri, yatay kaydırılabilir",
+    "placeholder": "Ekran görüntüsü eklenecek",
+    "items": {
+      "prayer": "Namaz vakitleri",
+      "qibla": "Kıble pusulası",
+      "quran": "Kur'an-ı Kerîm",
+      "guides": "Rehberler",
+      "tasbih": "Tesbih"
+    },
+    "eyebrow": "Ekranlar"
+  },
+  "premium": {
+    "title": "İsteyenler için birkaç ek",
+    "lead": "Temel özellikler ücretsizdir ve öyle kalır. Premium aboneliği, uygulamayı kendinize göre düzenlemek isteyenler içindir.",
+    "items": [
+      {
+        "icon": "beads",
+        "title": "Özel tesbih modelleri",
+        "text": "Zikir için farklı tesbih görünümleri."
+      },
+      {
+        "icon": "book",
+        "title": "Mushaf kaplamaları",
+        "text": "Kur'an okuma ekranı için kaplama seçenekleri."
+      },
+      {
+        "icon": "calendar",
+        "title": "Gelişmiş hatim planı",
+        "text": "Hatmi günlere bölün, ilerlemenizi izleyin."
+      },
+      {
+        "icon": "image",
+        "title": "Görselli Cuma mesajları",
+        "text": "Paylaşmaya hazır, görselli Cuma mesajları."
+      }
+    ],
+    "note": "Güncel fiyat ve abonelik koşulları App Store'da gösterilir. Abonelik dilediğiniz zaman iptal edilebilir.",
+    "eyebrow": "Premium",
+    "button": "Uygulamayı indirin"
+  },
+  "download": {
+    "title": "Nuur Salah'ı indirin",
+    "intro": "iPhone için App Store'da. Android sürümü üzerinde çalışılıyor.",
+    "iosTitle": "iPhone ve Apple Watch",
+    "androidTitle": "Android",
+    "androidText": "Google Play sürümü hazırlık aşamasında.",
+    "eyebrow": "İndirin"
+  },
+  "footer": {
+    "tagline": "Günlük ibadet için sade bir yardımcı.",
+    "legalLabel": "Bilgi ve destek",
+    "privacy": "Gizlilik politikası",
+    "terms": "Kullanım koşulları",
+    "support": "Destek",
+    "deleteAccount": "Hesap silme",
+    "contact": "İletişim",
+    "socialLabel": "Sosyal medya",
+    "appTitle": "Uygulama",
+    "infoTitle": "Bilgi",
+    "contactTitle": "İletişim",
+    "socialTitle": "Bizi izleyin"
+  },
+  "legal": {
+    "toc": "İçindekiler",
+    "updated": "Son güncelleme",
+    "draft": "Bu sayfa taslaktır. Kesin metin hazırlandığında burada yayınlanacaktır."
+  },
+  "support": {
+    "title": "Destek",
+    "intro": "Sık sorulan soruların yanıtları aşağıda. Aradığınızı bulamazsanız bize yazın.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "Bildirimler neden gelmiyor?",
+        "a": "Çoğu zaman sebep bir cihaz ayarıdır. Sırasıyla şunlara bakın:\n\n1. **Ayarlar › Bildirimler › Nuur Salah** altında bildirimlere ve seslere izin verildiğinden emin olun.\n2. Odak modlarının (Rahatsız Etme, Uyku) bildirimleri susturmadığını kontrol edin.\n3. Uygulamada ilgili vakit için hatırlatmanın açık olduğuna bakın.\n4. Konumunuz değiştiyse uygulamayı bir kez açın; vakitler yeni konuma göre yeniden planlanır.\n\nSorun sürerse cihaz modelinizi ve iOS sürümünüzü belirterek bize yazın."
+      },
+      {
+        "q": "Vakitler neden başka kaynaklardan farklı?",
+        "a": "Namaz vakitleri konuma ve seçilen hesaplama yöntemine göre belirlenir. Farklı kurumlar farklı açılar ve ihtiyat payları kullandığı için birkaç dakikalık fark olağandır.\n\nUygulamanın ayarlarından hesaplama yöntemini ve konumunuzu kontrol edin. Bulunduğunuz yerdeki resmî takvimi esas almak isterseniz ona karşılık gelen yöntemi seçin."
+      },
+      {
+        "q": "Kıble yönü doğru mu?",
+        "a": "Kıble yönü, konumunuz ile Kâbe arasındaki açıdan hesaplanır; yönü gösteren ise telefonunuzun pusula sensörüdür. Sensör çevredeki metal ve manyetik alanlardan etkilenir.\n\nDaha doğru sonuç için telefonu yatay tutun, mıknatıslı kılıfı çıkarın, metal eşyalardan ve elektronik cihazlardan uzaklaşın ve telefonu havada sekiz çizerek pusulayı kalibre edin. İmkânınız varsa yönü yakındaki bir caminin kıblesiyle karşılaştırın."
+      },
+      {
+        "q": "Aboneliği nasıl iptal ederim?",
+        "a": "Premium aboneliği Apple üzerinden yönetilir; uygulamayı silmek aboneliği sona erdirmez.\n\niPhone'da **Ayarlar › [Adınız] › Abonelikler › Nuur Salah › Aboneliği İptal Et** yolunu izleyin. İptal ettiğinizde Premium, içinde bulunduğunuz dönemin sonuna kadar açık kalır. İade talepleri Apple tarafından değerlendirilir."
+      },
+      {
+        "q": "Hesabımı nasıl silerim?",
+        "a": "Uygulamada **Profil › Hesabım › Hesabımı Sil** yolunu izleyin. Neyin silindiği ve dikkat edilecek noktalar [hesap silme]({{deleteAccountUrl}}) sayfasında anlatılır."
+      },
+      {
+        "q": "Verilerim nerede saklanıyor?",
+        "a": "Hangi verinin işlendiği, nerede ve ne kadar süre saklandığı [gizlilik politikasında]({{privacyUrl}}) ayrıntılı olarak açıklanır. Bu web sitesi çerez, analiz aracı ya da izleme kodu kullanmaz."
+      }
+    ],
+    "contactTitle": "İletişim",
+    "contactText": "Sorunuzu e-postayla iletebilirsiniz. Cihaz modelinizi, iOS sürümünüzü ve sorunu nasıl yaşadığınızı yazarsanız daha çabuk yardımcı olabiliriz.",
+    "responseNote": "Genelde 2 iş günü içinde dönüş yapılır."
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "text": "Aradığınız sayfa taşınmış ya da kaldırılmış olabilir.",
+    "back": "Ana sayfaya dön"
+  },
+  "topbar": {
+    "items": [
+      {
+        "icon": "clock",
+        "text": "Konuma göre namaz vakitleri"
+      },
+      {
+        "icon": "bell",
+        "text": "Ezan bildirimi"
+      },
+      {
+        "icon": "compass",
+        "text": "Kıble pusulası"
+      },
+      {
+        "icon": "book",
+        "text": "Kur'an-ı Kerîm ve meal"
+      }
+    ]
+  },
+  "strip": {
+    "title": "Beş vakit, konumunuza göre",
+    "note": "Vakitler bulunduğunuz yere göre uygulamada hesaplanır; her vakit için hatırlatma ve ezan ayrı ayarlanır.",
+    "items": [
+      {
+        "icon": "sunrise",
+        "name": "Sabah"
+      },
+      {
+        "icon": "sun",
+        "name": "Öğle"
+      },
+      {
+        "icon": "sunlow",
+        "name": "İkindi"
+      },
+      {
+        "icon": "sunset",
+        "name": "Akşam"
+      },
+      {
+        "icon": "moon",
+        "name": "Yatsı"
+      }
+    ],
+    "button": "Tüm özellikler"
+  }
+}
