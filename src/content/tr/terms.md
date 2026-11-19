@@ -39,7 +39,7 @@ Hizmeti başkalarının haklarını ihlal etmek, izinsiz kişisel veri paylaşma
 
 ## 9. Fikrî haklar ve kaynaklar
 
-Nuur'un yazılımı, tasarımı ve kendi içerikleri üzerindeki haklar Ömer Yolcu'ya veya lisans verenlere aittir. Kur'an metni, mealler, hadis çevirileri, sesler, görseller ve yazı tipleri farklı kaynak ve lisanslara tabi olabilir; ilgili atıflar ve lisans bağlantıları Atıflar sekmesindedir. Açık lisansların tanıdığı haklar bu koşullarla daraltılmaz.
+Nuur'un yazılımı, tasarımı ve kendi içerikleri üzerindeki haklar Ömer Yolcu'ya veya lisans verenlere aittir. Kur'an metni, mealler, hadis çevirileri, sesler, görseller ve yazı tipleri farklı kaynak ve lisanslara tabi olabilir; ilgili atıflar ve lisans bağlantıları Atıflar sekmesindedir. Açık lisansların tanıdığı haklar bu koşullarla daraltılmaz. Nuur'daki ezan ve makamlı ezan kayıtları Nuur'a (Ömer Yolcu'ya) aittir ya da lisanslıdır ve telif hakkıyla korunur; bu kayıtları kopyalamak, uygulamadan ayıklamak, yeniden yayımlamak, zil sesi, bildirim sesi veya başka bir yapımda kullanmak yazılı izin olmadan yasaktır. İzin için: info@nuursalah.com.
 
 ## 10. Kısıtlama ve hizmetin sona ermesi
 

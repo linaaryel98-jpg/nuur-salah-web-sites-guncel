@@ -41,7 +41,7 @@ Do not use the service to infringe the rights of others, to share personal data 
 
 ## 9. Intellectual property and sources
 
-The rights in Nuur's software, design and own content belong to Ömer Yolcu (sole proprietorship) or its licensors. The Quran text, translations, hadith translations, sounds, images and fonts may be subject to different sources and licences; the relevant attributions and licence links are in the Credits tab. The rights granted by open licences are not narrowed by these terms.
+The rights in Nuur's software, design and own content belong to Ömer Yolcu (sole proprietorship) or its licensors. The Quran text, translations, hadith translations, sounds, images and fonts may be subject to different sources and licences; the relevant attributions and licence links are in the Credits tab. The rights granted by open licences are not narrowed by these terms. The adhan and maqam adhan recordings in Nuur belong to or are licensed to Nuur (Ömer Yolcu) and are protected by copyright. Copying them, extracting them from the app, republishing them, or using them as a ringtone, notification sound or in any other production is prohibited without written permission. For permission: info@nuursalah.com.
 
 ## 10. Restriction and end of service
 
