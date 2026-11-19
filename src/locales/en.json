@@ -245,8 +245,7 @@
       }
     ],
     "contactTitle": "Contact",
-    "contactText": "You can send your question by email. Including your device model, iOS version and how the problem occurs helps us respond more quickly.",
-    "responseNote": "We usually reply within 2 business days."
+    "contactText": "You can send your question by email. Including your device model, iOS version and how the problem occurs helps us respond more quickly."
   },
   "notFound": {
     "title": "Page not found",

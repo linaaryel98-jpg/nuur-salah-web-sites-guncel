@@ -245,8 +245,7 @@
       }
     ],
     "contactTitle": "İletişim",
-    "contactText": "Sorunuzu e-postayla iletebilirsiniz. Cihaz modelinizi, iOS sürümünüzü ve sorunu nasıl yaşadığınızı yazarsanız daha çabuk yardımcı olabiliriz.",
-    "responseNote": "Genelde 2 iş günü içinde dönüş yapılır."
+    "contactText": "Sorunuzu e-postayla iletebilirsiniz. Cihaz modelinizi, iOS sürümünüzü ve sorunu nasıl yaşadığınızı yazarsanız daha çabuk yardımcı olabiliriz."
   },
   "notFound": {
     "title": "Sayfa bulunamadı",

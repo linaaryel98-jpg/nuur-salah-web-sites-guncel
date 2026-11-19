@@ -580,7 +580,6 @@ ${faq}
     <h2 id="iletisim-baslik">${esc(t.support.contactTitle)}</h2>
     <p>${esc(t.support.contactText)}</p>
     ${mailBtn}
-    <p class="contact-note">${esc(t.support.responseNote)}</p>
   </section>
 </div>`;
   return layout({ code, page: 'support', title: t.meta.support.title, description: t.meta.support.description, body });
