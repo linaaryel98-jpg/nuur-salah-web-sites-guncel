@@ -6,6 +6,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { marked } from 'marked';
 import config from './site.config.mjs';
+import {previewPhone} from './src/assets/js/device-preview.js';
 
 const root = dirname(fileURLToPath(import.meta.url));
 const src = join(root, 'src');
@@ -77,7 +78,7 @@ const ICONS = {
 for (const k in ICONS) ICONS[k] = ICONS[k].replace(/(\d)\.(\d)00/g, '$1.$2');
 
 const logoMark = (size = 36) =>
-  `<svg class="logo-mark" viewBox="0 0 64 64" width="${size}" height="${size}" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="15" fill="#064E3B"/><path d="M17 55V30c0-11 9-17 15-23 6 6 15 12 15 23v25" fill="none" stroke="#CFA650" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g fill="#CFA650"><rect x="25" y="27" width="14" height="14"/><rect x="25" y="27" width="14" height="14" transform="rotate(45 32 34)"/></g><circle cx="32" cy="34" r="3" fill="#064E3B"/></svg>`;
+  `<svg class="logo-mark" viewBox="0 0 64 64" width="${size}" height="${size}" aria-hidden="true" focusable="false"><rect width="64" height="64" rx="15" fill="#252529"/><path d="M17 55V30c0-11 9-17 15-23 6 6 15 12 15 23v25" fill="none" stroke="#CFA650" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><g fill="#CFA650"><rect x="25" y="27" width="14" height="14"/><rect x="25" y="27" width="14" height="14" transform="rotate(45 32 34)"/></g><circle cx="32" cy="34" r="3" fill="#252529"/></svg>`;
 
 const heroArt = `<svg class="hero-art" viewBox="0 0 320 440" aria-hidden="true" focusable="false" fill="none" stroke="#CFA650" stroke-linejoin="round"><path d="M20 440V180C20 96 110 56 160 8c50 48 140 88 140 172v260" stroke-width="1.500" opacity=".9"/><path d="M48 440V186c0-66 72-100 112-138 40 38 112 72 112 138v254" stroke-width="1" opacity=".5"/><path d="M76 440V192c0-50 54-76 84-104 30 28 84 54 84 104v248" stroke-width="1" opacity=".28"/><g transform="translate(160 236)"><rect x="-34" y="-34" width="68" height="68" stroke-width="1.500"/><rect x="-34" y="-34" width="68" height="68" transform="rotate(45)" stroke-width="1.500"/><circle r="15" stroke-width="1"/><circle r="4" fill="#CFA650" stroke="none"/></g></svg>`;
 
@@ -116,6 +117,8 @@ function storeBadge(t, store) {
 
 function qrBox(t, store) {
   const src = store === 'apple' ? config.qrAppStore : config.qrGooglePlay;
+  const link = store === 'apple' ? config.appStoreLink : config.googlePlayLink;
+  if (!isSet(link) || !isSet(src)) return '';
   const alt = store === 'apple' ? t.store.qrAppStoreAlt : t.store.qrGooglePlayAlt;
   if (isSet(src)) {
     return `<figure class="qr"><img src="${esc(src)}" alt="${esc(alt)}" width="132" height="132" loading="lazy" decoding="async"><figcaption>${esc(t.store.qrHint)}</figcaption></figure>`;
@@ -123,15 +126,25 @@ function qrBox(t, store) {
   return `<div class="qr is-soon"><div class="qr-empty">${ICONS.qr}<span>${esc(t.store.qrLabel)}</span><span class="chip">${esc(t.common.soon)}</span></div></div>`;
 }
 
+// Onaylanan gerçekçi görsel tek atlas olarak korunur; CSS her bölgeyi ayrı gösterir.
+const topbarIcons = Object.fromEntries(
+  ['clock', 'bell', 'compass', 'book'].map(key => [key,
+    `<span class="realistic-topbar-icon realistic-topbar-${key}" aria-hidden="true"></span>`
+  ])
+);
+
 function langSwitcher(code, page) {
   const t = strings[code];
-  const items = config.locales
-    .map((l) => {
-      const current = l.code === code;
-      return `<li><a href="${urlFor(l.code, page)}" lang="${l.code}" hreflang="${l.code}"${current ? ' aria-current="true"' : ''}>${esc(strings[l.code].langName)}</a></li>`;
-    })
-    .join('');
-  return `<details class="lang"><summary aria-label="${esc(t.common.language)}: ${esc(t.langName)}">${ICONS.globe}<span>${code.toUpperCase()}</span>${ICONS.chevron}</summary><ul>${items}</ul></details>`;
+  const ordered = [...config.locales].sort((a,b) => {
+    const rank = l => l.code === 'tr' ? 0 : l.code === 'en' ? 1 : 2;
+    return rank(a) - rank(b);
+  });
+  const items = ordered.map(l => {
+    const current = l.code === code;
+    const flag = isSet(l.flag) ? `<img class="language-flag" src="${esc(l.flag)}" alt="" width="24" height="16">` : '';
+    return `<li><a href="${urlFor(l.code, page)}" lang="${l.code}" hreflang="${l.code}"${current ? ' aria-current="true"' : ''}>${flag}<span>${esc(strings[l.code].langName)}</span>${current ? '<span class="language-check" aria-hidden="true">✓</span>' : ''}</a></li>`;
+  }).join('');
+  return `<details class="lang"><summary aria-label="${esc(t.common.language)}: ${esc(t.langName)}"><span class="language-world" aria-hidden="true"></span><span>${esc(t.common.language)}</span></summary><ul aria-label="${esc(t.common.language)}">${items}</ul></details>`;
 }
 
 function socialList(t) {
@@ -149,6 +162,30 @@ function socialList(t) {
   return items ? `<ul class="social" aria-label="${esc(t.footer.socialLabel)}">${items}</ul>` : '';
 }
 
+function appMark(size = 40) {
+  return isSet(config.appIcon)
+    ? `<span class="app-icon"><img src="${esc(config.appIcon)}" alt="" width="1254" height="1254" decoding="async"></span>`
+    : logoMark(size);
+}
+function appGlyph(key) {
+  return isSet(config.appIcons?.[key])
+    ? `<img class="icon app-glyph" src="${esc(config.appIcons[key])}" alt="" width="24" height="24">`
+    : ICONS[key] || '';
+}
+function navigation(code, suffix) {
+  const t = strings[code];
+  const home = urlFor(code, 'home');
+  const groups = [
+    [t.nav.features, `${home}#ozellikler`, t.features.items.map(i => [i.title, `${home}#feature-${i.icon}`])],
+    [t.nav.screens, `${home}#ekranlar`, config.screenshots.map(i => [t.screens.items[i.key], `${home}#screen-${i.key}`]).concat([[t.showcase.themeEyebrow, `${home}#gorunum`]])],
+    [t.nav.support, urlFor(code, 'support'), [[t.support.faqTitle, `${urlFor(code,'support')}#sss-baslik`], [t.support.contactTitle, `${urlFor(code,'support')}#iletisim`], [t.footer.deleteAccount, urlFor(code,'deleteAccount')]]]
+  ];
+  return groups.map(([label,href,items],n) => `<div class="nav-group">
+    <div class="nav-label"><a href="${href}">${esc(label)}</a><button class="nav-expand" type="button" aria-expanded="false" aria-controls="submenu-${suffix}-${n}" aria-label="${esc(label)} — ${esc(t.nav.submenu)}">${ICONS.chevron}</button></div>
+    <div class="nav-panel" id="submenu-${suffix}-${n}" hidden><p>${esc(label)}</p><ul>${items.map(([text,url])=>`<li><a href="${url}">${esc(text)}</a></li>`).join('')}</ul></div>
+  </div>`).join('');
+}
+
 function header(code, page) {
   const t = strings[code];
   const home = urlFor(code, 'home');
@@ -157,21 +194,21 @@ function header(code, page) {
 <div class="topbar">
   <div class="wrap topbar-inner">
     <ul class="topbar-list">
-      ${t.topbar.items.map((i) => `<li>${ICONS[i.icon] || ''}<span>${esc(i.text)}</span></li>`).join('\n      ')}
+      ${t.topbar.items.map((i) => `<li>${topbarIcons[i.icon] || appGlyph(i.icon)}<span>${esc(i.text)}</span></li>`).join('\n      ')}
     </ul>
     ${langSwitcher(code, langPage)}
   </div>
 </div>
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="${home}"${page === 'home' ? ' aria-current="page"' : ''}>${logoMark(40)}<span>${esc(config.appName)}</span></a>
-    <nav class="main-nav" aria-label="${esc(t.nav.label)}">
-      <a href="${home}#ozellikler">${esc(t.nav.features)}</a>
-      <a href="${home}#ekranlar">${esc(t.nav.screens)}</a>
-      <a href="${home}#premium">${esc(t.nav.premium)}</a>
-      <a href="${urlFor(code, 'support')}"${page === 'support' ? ' aria-current="page"' : ''}>${esc(t.nav.support)}</a>
-    </nav>
-    <a class="button button-small header-cta" href="${home}#indir">${ICONS.download}<span>${esc(t.nav.download)}</span></a>
+    <a class="brand" href="${home}"${page === 'home' ? ' aria-current="page"' : ''}>${appMark(40)}<span>${esc(config.appName)}</span></a>
+    <nav class="main-nav" aria-label="${esc(t.nav.label)}">${navigation(code, 'desktop')}</nav>
+    <div class="header-tools">
+      <details class="mobile-menu"><summary>${esc(t.nav.menu)} ${ICONS.chevron}</summary>
+        <nav aria-label="${esc(t.nav.label)}">${navigation(code, 'mobile')}<a class="mobile-download" href="${home}#indir">${esc(t.nav.download)}</a></nav>
+      </details>
+    </div>
+    <a class="button button-small header-cta digital-download" href="${home}#indir">${ICONS.download}<span>${esc(t.nav.download)}</span></a>
   </div>
 </header>`;
 }
@@ -184,7 +221,7 @@ function footer(code, page) {
   return `<footer class="site-footer">
   <div class="wrap footer-inner">
     <div class="footer-brand">
-      <a class="brand" href="${home}">${logoMark(36)}<span>${esc(config.appName)}</span></a>
+      <a class="brand" href="${home}">${appMark(36)}<span>${esc(config.appName)}</span></a>
       <p>${esc(t.footer.tagline)}</p>
       ${socialList(t)}
     </div>
@@ -193,7 +230,6 @@ function footer(code, page) {
       <ul class="footer-links">
         <li><a href="${home}#ozellikler">${esc(t.nav.features)}</a></li>
         <li><a href="${home}#ekranlar">${esc(t.nav.screens)}</a></li>
-        <li><a href="${home}#premium">${esc(t.nav.premium)}</a></li>
         <li><a href="${home}#indir">${esc(t.nav.download)}</a></li>
       </ul>
     </nav>
@@ -210,7 +246,6 @@ function footer(code, page) {
       <ul class="footer-links footer-contact">
         ${link('support', t.footer.support)}
         <li>${ICONS.mail}${emailHtml(t)}</li>
-        <li class="footer-note">${esc(t.support.responseNote)}</li>
       </ul>
     </div>
   </div>
@@ -227,6 +262,7 @@ function footer(code, page) {
 }
 
 let cssVersion = '';
+let uiVersion = '';
 
 function layout({ code, page, title, description, body, noindex = false, alternates = true }) {
   const locale = config.locales.find((l) => l.code === code);
@@ -263,7 +299,7 @@ ${path ? `<meta property="og:url" content="${abs(path)}">` : ''}
 <meta property="og:locale" content="${locale.ogLocale}">
 ${ogAlt}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#064E3B">
+<meta name="theme-color" content="#f5f5f7">
 <meta name="color-scheme" content="light dark">
 <meta name="format-detection" content="telephone=no">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -271,6 +307,8 @@ ${ogAlt}
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/playfair-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<script src="/assets/js/site.js?v=${uiVersion}"></script>
+<script type="module" src="/assets/js/device-preview.js?v=${uiVersion}"></script>
 <link rel="stylesheet" href="/assets/css/site.css?v=${cssVersion}">
 </head>
 <body class="page-${page}">
@@ -286,50 +324,72 @@ ${footer(code, page)}
 
 /* ---------- sayfalar ---------- */
 
+function productScreen(t, key, caption, eager = false) {
+  const src = config.productScreens?.[key];
+  const watch = key === 'watch';
+  const hero = key === 'hero';
+  const animated = hero && isSet(src) && /\.gif(?:$|\?)/i.test(src) && isSet(config.productScreens.heroPoster);
+  const poster = config.productScreens.heroPoster;
+  const image = isSet(src)
+    ? (animated
+      ? `<picture><source media="(prefers-reduced-motion: reduce)" srcset="${esc(poster)}"><img class="hero-language-animation" src="${esc(src)}" data-animated="${esc(src)}" data-poster="${esc(poster)}" alt="${esc(t.hero.imageAlt)}" width="780" height="1585" fetchpriority="high" decoding="async"><div class="phone-language-flags" aria-label="Türkçe, English, Deutsch, Français, العربية, 日本語"><span>🇹🇷</span><span>🇬🇧</span><span>🇩🇪</span><span>🇫🇷</span><span>🇸🇦</span><span>🇯🇵</span></div></picture>`
+      : `<img src="${esc(src)}" alt="${esc(caption)}" width="${watch ? 396 : 390}" height="${watch ? 484 : 844}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`)
+    : `<div class="screen-pending">${logoMark(48)}<span>${esc(t.showcase.pending)}</span></div>`;
+  return `<figure class="product-screen product-screen-${key}">
+    <div class="product-frame${watch ? ' watch-frame' : ''}">${['day','night'].includes(key) ? '<span class="gallery-island" aria-hidden="true"></span>' : ''}${animated ? `<span class="iphone-island" aria-hidden="true"></span><span class="iphone-home" aria-hidden="true"></span>` : ''}${image}${animated ? `<button class="hero-animation-toggle" type="button" aria-label="${esc(t.hero.pause)}" aria-pressed="false" data-pause-label="${esc(t.hero.pause)}" data-play-label="${esc(t.hero.play)}"><span aria-hidden="true"></span></button>` : ''}</div>
+    ${hero ? '' : `<figcaption>${esc(caption)}</figcaption>`}
+  </figure>`;
+}
+
 function homePage(code) {
   const t = strings[code];
   const home = urlFor(code, 'home');
-  const features = t.features.items
-    .map((f) => {
-      const img = config.featureImages?.[f.icon];
-      const top = isSet(img)
-        ? `<div class="feature-top has-image"><img src="${esc(img)}" alt="" loading="lazy" decoding="async"></div>`
-        : '<div class="feature-top"></div>';
-      return `<li class="feature">${top}<span class="feature-icon">${ICONS[f.icon] || ''}</span><div class="feature-body"><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p></div></li>`;
-    })
-    .join('\n');
-  const shots = config.screenshots
-    .map((s) => {
+
+  const sprite = (atlas, box, cls) => `<svg class="${cls}" viewBox="${box}" fill="none" aria-hidden="true" focusable="false"><image href="/assets/img/features/bento/${atlas}-reference.png" width="1586" height="992"/></svg>`;
+  const icons = {
+    clock: ['showcase', '90 227 84 84'], book: ['list', '76 473 82 82'],
+    compass: ['showcase', '70 581 70 70'], bell: ['icon-grid', '464 280 123 123'],
+    beads: ['showcase', '1073 582 70 70'], steps: ['list', '76 560 82 82'],
+    kaaba: ['list', '76 741 82 82'], mosque: ['icon-grid', '1211 603 123 123']
+  };
+  const art = {clock:'440 213 405 305',book:'1205 211 326 303',compass:'350 607 149 155',bell:'892 562 122 210',beads:'1385 607 156 163',steps:'432 815 101 140'};
+  const target = {clock:'screen-prayer',book:'screen-quran',compass:'screen-qibla',bell:'screen-prayer',beads:'screen-tasbih',steps:'screen-guides'};
+  const features = ['clock','book','compass','bell','beads','steps','kaaba','mosque'].map(key => {
+    const f=t.features.items.find(item=>item.icon===key);
+    const icon=icons[key];
+    return `<li class="feature bento-feature bento-${key}" id="feature-${key}"><a class="bento-card" href="#${target[key] || 'ekranlar'}">${['beads','steps'].includes(key) ? `<img class="bento-cutout bento-cutout-${key}" src="/assets/img/features/bento/${key}-cutout.png" alt="" width="1024" height="1024" loading="lazy" decoding="async">` : art[key] ? sprite('showcase',art[key],`bento-art bento-art-${key}`) : ''}<span class="bento-icon">${sprite(icon[0],icon[1],'bento-icon-image')}</span><div class="feature-body"><h3>${esc(f.title)}</h3><p>${esc(f.text)}</p></div><span class="bento-arrow" aria-hidden="true">${ICONS.arrow}</span></a></li>`;
+  }).join('\n');
+  const plannedFeatures = t.features.planned.items.map(item => `<li class="feature bento-feature bento-added bento-${esc(item.key)}" id="feature-${esc(item.key)}"><article class="bento-card"><img class="bento-added-art" src="/assets/img/features/bento/${esc(item.key)}-art.png" alt="" width="1024" height="1024" loading="lazy" decoding="async"><div class="feature-body"><h3>${esc(item.title)}</h3><p>${esc(item.text)}</p></div></article></li>`).join('');
+  const renderShotFigure = (s) => {
       const caption = t.screens.items[s.key] || s.key;
       const screen = isSet(s.src)
-        ? `<img src="${esc(s.src)}" alt="${esc(caption)}" width="390" height="844" loading="lazy" decoding="async">`
+        ? (s.key === 'prayer' ? `<picture><source media="(prefers-reduced-motion: reduce)" srcset="/assets/img/screens/gallery/prayer-istanbul.png"><img src="${esc(s.src)}" alt="${esc(caption)}" width="1290" height="2796" loading="lazy" decoding="async"></picture>` : `<img src="${esc(s.src)}" alt="${esc(caption)}" width="1290" height="2796" loading="lazy" decoding="async">`)
         : `<div class="phone-empty">${logoMark(44)}<span>${esc(t.screens.placeholder)}</span></div>`;
-      return `<li><figure class="phone"><div class="phone-frame">${screen}</div><figcaption>${esc(caption)}</figcaption></figure></li>`;
-    })
-    .join('\n');
+      return `<figure class="phone gallery-iphone${s.key.startsWith('widget-') ? ' gallery-widget' : ''}"><div class="phone-frame"><span class="gallery-island" aria-hidden="true"></span>${screen}<span class="gallery-home" aria-hidden="true"></span></div><figcaption>${esc(caption)}</figcaption></figure>`;
+    };
+  const shots = config.screenshots.filter(s => s.key !== 'widget-night').map(s => {
+    if (s.key === 'widget-day') {
+      const night = config.screenshots.find(item => item.key === 'widget-night');
+      return `<li class="widget-pair" id="screen-widgets"><div id="screen-widget-day">${renderShotFigure(s)}</div><div id="screen-widget-night">${renderShotFigure(night)}</div></li>`;
+    }
+    return `<li id="screen-${esc(s.key)}">${renderShotFigure(s)}</li>`;
+  }).join('\n');
   const heroBg = isSet(config.heroImage)
     ? `<img class="hero-bg" src="${esc(config.heroImage)}" alt="" fetchpriority="high" decoding="async">`
-    : heroScene;
+    : '<div class="hero-atmosphere" aria-hidden="true"></div>';
   const body = `<section class="hero${isSet(config.heroImage) ? ' has-image' : ''}">
   ${heroBg}
   <div class="wrap hero-inner">
     <div class="hero-copy">
-      <p class="eyebrow">${esc(t.hero.eyebrow)}</p>
-      <h1>${esc(t.hero.titleA)} <span>${esc(t.hero.titleB)}</span></h1>
-      <div class="ornament" aria-hidden="true"></div>
+      <h1>${esc(t.hero.title)}</h1>
       <p class="tagline">${esc(t.hero.tagline)}</p>
-      <p class="hero-lead">${esc(t.hero.lead)}</p>
-      <div class="hero-actions">
-        ${storeBadge(t, 'apple')}
-        <a class="button button-outline" href="#ozellikler">${esc(t.hero.cta2)}</a>
-      </div>
       <p class="hero-note">${esc(t.hero.note)}</p>
     </div>
-    <aside class="hero-card" aria-label="${esc(t.hero.cardTitle)}">
-      ${qrBox(t, 'apple')}
-      <h2>${esc(t.hero.cardTitle)}</h2>
-      <p>${esc(t.hero.cardText)}</p>
-    </aside>
+    <div class="hero-product hero-devices" data-device-preview data-preview-language="${code}">
+
+      <div class="device-preview device-iphone">${previewPhone(code)}<a class="device-store" href="${isSet(config.appStoreLink) ? esc(config.appStoreLink) : '#indir'}"${isSet(config.appStoreLink) ? externalAttrs : ''}><img class="store-symbol appstore-symbol" src="/assets/img/stores/app-store-user.jpg" width="148" height="148" alt="" decoding="async"><span><strong>App Store</strong><small>${isSet(config.appStoreLink) ? (code === 'tr' ? 'İndir' : 'Download') : (code === 'tr' ? 'Yakında' : 'Coming soon')}</small></span></a></div>
+      <div class="device-preview device-samsung">${previewPhone(code)}<div class="device-store device-store-soon"><img class="store-symbol googleplay-symbol" src="/assets/img/stores/google-play-user.png" width="158" height="148" alt="" decoding="async"><span><strong>Google Play</strong><small>${code === 'tr' ? 'Yakında' : 'Coming soon'}</small></span></div></div>
+    </div>
   </div>
 </section>
 
@@ -341,7 +401,7 @@ function homePage(code) {
     </div>
     <div class="strip-row">
       <ul class="strip-grid">
-        ${t.strip.items.map((i) => `<li>${ICONS[i.icon] || ''}<span>${esc(i.name)}</span></li>`).join('\n        ')}
+        ${t.strip.items.map((i, index) => `<li><span class="prayer-app-icon prayer-app-icon-${index}" aria-hidden="true"></span><span>${esc(i.name)}</span></li>`).join('\n        ')}
       </ul>
       <a class="button strip-button" href="#ozellikler"><span>${esc(t.strip.button)}</span>${ICONS.arrow}</a>
     </div>
@@ -355,24 +415,12 @@ function homePage(code) {
       <h2 id="ozellikler-baslik">${esc(t.features.title)}</h2>
       <p>${esc(t.features.intro)}</p>
     </header>
-    <ul class="features">
+    <ul class="features bento-features card-slider" id="feature-slider" tabindex="0" aria-labelledby="ozellikler-baslik">
 ${features}
+${plannedFeatures}
     </ul>
-    <p class="features-more">${esc(t.features.more)}</p>
+    
   </div>
-</section>
-
-<section class="split" id="premium" aria-labelledby="premium-baslik">
-  <div class="split-main">
-    <p class="eyebrow">${esc(t.premium.eyebrow)}</p>
-    <h2 id="premium-baslik">${esc(t.premium.title)}</h2>
-    <p>${esc(t.premium.lead)}</p>
-    <p class="split-note">${esc(t.premium.note)}</p>
-    <a class="button button-gold" href="#indir"><span>${esc(t.premium.button)}</span>${ICONS.arrow}</a>
-  </div>
-  <ul class="split-points">
-    ${t.premium.items.map((i) => `<li>${ICONS[i.icon] || ''}<div><h3>${esc(i.title)}</h3><p>${esc(i.text)}</p></div></li>`).join('\n    ')}
-  </ul>
 </section>
 
 <section class="section" id="ekranlar" aria-labelledby="ekranlar-baslik">
@@ -382,14 +430,25 @@ ${features}
       <h2 id="ekranlar-baslik">${esc(t.screens.title)}</h2>
       <p>${esc(t.screens.intro)}</p>
     </header>
+
   </div>
-  <div class="shots" role="region" aria-label="${esc(t.screens.regionLabel)}" tabindex="0">
+  <div class="shots" id="screen-slider" role="region" aria-label="${esc(t.screens.regionLabel)}" tabindex="0">
     <ul>
 ${shots}
     </ul>
   </div>
 </section>
 
+<section class="section theme-showcase" id="gorunum" aria-labelledby="gorunum-baslik">
+  <div class="wrap"><header class="section-head">
+    <p class="eyebrow">${esc(t.showcase.themeEyebrow)}</p>
+    <h2 id="gorunum-baslik">${esc(t.showcase.themeTitle)}</h2>
+    <p>${esc(t.showcase.themeIntro)}</p>
+  </header><div class="theme-pair">
+    <div class="theme-day">${productScreen(t, 'day', t.showcase.day)}</div>
+    <div class="theme-night">${productScreen(t, 'night', t.showcase.night)}</div>
+  </div></div>
+</section>
 <section class="section section-alt download" id="indir" aria-labelledby="indir-baslik">
   <div class="wrap">
     <header class="section-head">
@@ -409,7 +468,10 @@ ${shots}
       </div>
     </div>
   </div>
-</section>`;
+</section>
+<section class="section contact-section"><div class="wrap"><h2>${esc(t.showcase.contactTitle)}</h2>
+<p>${esc(t.showcase.contactText)}</p><a class="button button-gold" href="mailto:${esc(config.supportEmail)}">${ICONS.mail}${esc(t.showcase.contactButton)}</a>
+</div></section>`;
   return layout({ code, page: 'home', title: t.meta.home.title, description: t.meta.home.description, body });
 }
 
@@ -550,6 +612,7 @@ await cp(join(src, 'assets'), join(dist, 'assets'), { recursive: true });
 for (const f of ['favicon.svg', 'favicon.png', 'apple-touch-icon.png']) {
   await cp(join(src, 'assets', 'img', f), join(dist, f));
 }
+uiVersion = createHash('sha1').update(await readFile(join(src, 'assets', 'js', 'site.js'))).update(await readFile(join(src, 'assets', 'js', 'device-preview.js'))).digest('hex').slice(0, 8);
 cssVersion = createHash('sha1').update(await readFile(join(src, 'assets', 'css', 'site.css'))).digest('hex').slice(0, 8);
 
 const sitemap = [];

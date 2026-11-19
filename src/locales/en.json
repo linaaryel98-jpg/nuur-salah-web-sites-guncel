@@ -21,7 +21,12 @@
     "premium": "Premium",
     "support": "Support",
     "screens": "Screens",
-    "download": "Download"
+    "download": "Download",
+    "menu": "Menu",
+    "submenu": "Topics",
+    "theme": "Night theme",
+    "toLight": "Switch to day theme",
+    "toDark": "Switch to night theme"
   },
   "meta": {
     "home": {
@@ -39,16 +44,18 @@
   },
   "hero": {
     "eyebrow": "For iPhone and Apple Watch",
-    "title": "Nuur Salah",
-    "tagline": "Prayer times, adhan, qibla and the Qur'an in one app.",
-    "note": "Free. An optional Premium subscription is available.",
-    "imageAlt": "The opening screen of the Nuur Salah app",
-    "titleA": "Nuur",
-    "titleB": "Salah",
-    "lead": "A simple, calm companion for your daily worship. Follow the prayer times, find the qibla, read the Qur'an.",
+    "title": "The digital experience of spirituality.",
+    "tagline": "Your digital companion, bringing spiritual values together with elegant design and technology.",
+    "note": "Core features are free. An optional subscription offers additional benefits.",
+    "imageAlt": "Nuur Salah welcome screen in Turkish, English, German, French, Arabic and Japanese.",
+    "titleA": "The digital experience",
+    "titleB": "of spirituality.",
+    "lead": "",
     "cta2": "Explore the features",
-    "cardTitle": "Get it by QR code",
-    "cardText": "Scan with your phone's camera to open the App Store page."
+    "cardTitle": "A calmer view of daily worship",
+    "cardText": "The real home screen will appear here.",
+    "pause": "Pause the language screen animation",
+    "play": "Play the language screen animation"
   },
   "store": {
     "appStoreSmall": "Download on the",
@@ -107,7 +114,33 @@
       }
     ],
     "more": "Also included: the Prophet's biography and stories of the prophets, an Apple Watch app, and home screen widgets.",
-    "eyebrow": "Features"
+    "eyebrow": "Features",
+    "planned": {
+      "label": "Placeholder",
+      "text": "Description and artwork to be added.",
+      "items": [
+        {
+          "key": "widgets",
+          "title": "Home screen widgets",
+          "text": "See prayer times and the next prayer on your home screen, without opening the app."
+        },
+        {
+          "key": "stories",
+          "title": "Stories of the prophets",
+          "text": "Explore stories from the lives of the prophets, with reflections on patience, hope and wisdom."
+        },
+        {
+          "key": "sirah",
+          "title": "Sirah",
+          "text": "Explore the life and exemplary character of Prophet Muhammad through his biography."
+        },
+        {
+          "key": "friday",
+          "title": "Visual Friday greetings",
+          "text": "Create visual Friday greetings and share a meaningful message with your loved ones."
+        }
+      ]
+    }
   },
   "screens": {
     "title": "A look inside the app",
@@ -119,13 +152,15 @@
       "qibla": "Qibla compass",
       "quran": "Holy Qur'an",
       "guides": "Guides",
-      "tasbih": "Tasbih"
+      "tasbih": "Tasbih",
+      "widget-day": "Day",
+      "widget-night": "Night"
     },
     "eyebrow": "Screens"
   },
   "premium": {
-    "title": "A few extras for those who want them",
-    "lead": "The core features are free and stay free. The Premium subscription is for those who want to make the app their own.",
+    "title": "Make it your own",
+    "lead": "Explore Premium options to make the app your own.",
     "items": [
       {
         "icon": "beads",
@@ -154,7 +189,7 @@
   },
   "download": {
     "title": "Get Nuur Salah",
-    "intro": "On the App Store for iPhone. An Android version is in the works.",
+    "intro": "Coming soon to the App Store. Our Android version is also in preparation.",
     "iosTitle": "iPhone and Apple Watch",
     "androidTitle": "Android",
     "androidText": "The Google Play version is being prepared.",
@@ -202,7 +237,7 @@
       },
       {
         "q": "How do I delete my account?",
-        "a": "In the app, go to **Profile › My Account › Delete My Account**. What is deleted, and what to keep in mind, is explained on the [account deletion]({{deleteAccountUrl}}) page."
+        "a": "In the app, go to **Profile › Account and privacy › Delete my account**. What is deleted, and what to keep in mind, is explained on the [account deletion]({{deleteAccountUrl}}) page."
       },
       {
         "q": "Where is my data stored?",
@@ -264,5 +299,19 @@
       }
     ],
     "button": "All features"
+  },
+  "showcase": {
+    "pending": "Real screenshot pending",
+    "themeEyebrow": "Day / Night",
+    "themeTitle": "The calm of day. The stillness of night.",
+    "themeIntro": "Nuur Salah through the day. Two appearances, one calm experience.",
+    "day": "Day",
+    "night": "Night",
+    "watchTitle": "A companion for your daily worship, on your wrist.",
+    "watchIntro": "The Nuur Salah Watch experience.",
+    "watchCaption": "Apple Watch app",
+    "contactTitle": "Need a hand?",
+    "contactText": "Write to us with your questions and suggestions about Nuur Salah.",
+    "contactButton": "Contact us"
   }
 }

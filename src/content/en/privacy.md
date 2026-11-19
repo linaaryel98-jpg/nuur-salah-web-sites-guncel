@@ -1,82 +1,157 @@
 ---
 title: Privacy policy
-description: Explains how the Nuur Salah app and this website handle personal data.
-updated: 2026-11-12
-draft: true
+description: How the Nuur Salah app processes personal data.
+updated: 2026-11-19
+draft: false
 ---
 
-This page explains what data is processed when you use the Nuur Salah app, for what purpose, and what your rights are. The headings below show the intended layout; the final text will replace this file once it is ready.
+This page has three parts: the Privacy Policy, the Notice under Turkish Data Protection Law (KVKK) and Data Retention and Deletion. Data controller: Ömer Yolcu (sole proprietorship), Merve Mahallesi, Enbiye Sokak No: 1/5, Yenidoğan, Sancaktepe/Istanbul, Türkiye. Contact: info@nuursalah.com. The Turkish text prevails in case of differences.
 
-## 1. Data controller
+## Privacy Policy
 
-Text for this section will be added.
+### 1. Summary and controller
 
-## 2. Data we process
+This policy applies to Nuur Salah's mobile and web versions. Controller: Ömer Yolcu (sole proprietorship), Merve Mahallesi, Enbiye Sokak No: 1/5, Yenidoğan, Sancaktepe/Istanbul, Türkiye. Privacy requests: info@nuursalah.com. Summary: your location, worship records (prayer, qada, dhikr, khatm) and saved items are processed on your device. If you create an account, your account details, Premium status and the feedback messages you send us reach the server. For online functions (maps, mosque search, city search, prayer-time table), the minimum necessary information is sent to the relevant service providers, even if you have no account. We do not sell your data. The app may show “Sponsored” items only from companies chosen by the project owner; there are no third-party ad networks, ad SDKs or user tracking; Premium members see no ads.
 
-Text for this section will be added. Tables appear as follows:
+### 2. Local use and data sent out
 
-| Type of data | Purpose | Retention period |
-|---|---|---|
-| Sample data type | Sample purpose | Sample period |
-| Sample data type | Sample purpose | Sample period |
-| Sample data type | Sample purpose | Sample period |
+Location, prayer and qada records, dhikr counts, the khatm plan, saved items and your profile name are processed on your device. There is currently no cloud backup or cross-device sync; if added, it will be offered only with your separate explicit consent and you will be informed separately. Not having an account does not mean no technical data is processed: your IP address may be seen by the relevant providers during prayer-time table, map and city search requests and version checks. Data flows leaving the device are explained in the relevant sections.
 
-### 2.1. Data you provide
+### 3. Account, verification and support
 
-Text for this section will be added.
+For an account, your email address and verification records are processed; when you sign in with Apple or Google, a user ID and email (or the private relay email the provider offers) is received from that provider. A profile name you write is kept only on your device. For support, your request and contact details are processed. Whether each field is mandatory is shown during registration. The sign-in provider's own processing is subject to its own policy; our responsibility for the data Nuur receives continues. Processing needed for the account and the service you request relies on the conclusion and performance of the contract, legal obligations rely on the relevant legislation, and proportionate security processing relies on the applicable legal basis; purpose-based details are in the KVKK tab.
 
-### 2.2. Data generated automatically
+### 4. Worship records and sensitive data
 
-Text for this section will be added.
+Prayer, qada, dhikr, khatm and religious preference records can reveal information about religious belief (KVKK Art. 6, GDPR Art. 9); dua and support content may also contain health, family or other sensitive information. We do not treat such data as ordinary data merely because it is used within the app. Worship records are currently kept only on your device. If they are offered in the cloud in future, separate explicit consent will be requested; if you do not consent, local features continue to work, you can withdraw consent, and what happens to an existing cloud copy is explained in advance. We do not use this data for advertising, profiling or sharing with third parties. Encryption alone does not mean data is anonymous.
 
-## 3. Why we process data
+### 5. Location and maps
 
-Text for this section will be added. Lists appear as follows:
+Location is used to show times, qibla or nearby mosques. For prayer times and qibla your location is calculated on your device and is not sent to our servers. In Find a Mosque, with your explicit permission, your approximate location (≈100 m) goes to Apple Maps on iOS, and also to OpenStreetMap-based Overpass services and map image providers; these requests do not pass through Nuur's servers. In Türkiye, the province/district of your location goes to the table service for the Diyanet prayer-time table. When you choose a city, the city name you type is sent to a geographic search service (Open-Meteo); your location is not sent. Approximate location can also be personal data; providers may see your IP address and are subject to their own policies. You can use prayer times without giving device location by choosing a city manually. The operating system permission is not a general permission for other purposes. The app does not track location in the background and does not keep a location history. The list of providers is in the Credits tab and will be finalized before release.
 
-- Sample item
-- Sample item
-- Sample item
+### 6. AI, translation and moderation
 
-## 4. Location data
+At present the text you write is not sent to a third-party AI service; the Dream Guide is not offered. When an AI-assisted feature such as translation, free-form questions or sharing safety is activated, the content and technical fields to be sent, the provider and its country, and the retention and training-use status will be explained before sending, the necessary explicit consent will be requested, and declining does not block other features. We do not say “not stored” or “not used for training” until the provider contract is verified. Not sending identity fields does not mean the text contains no personal data; do not add unnecessary personal information. To object to an AI result or a content decision: info@nuursalah.com.
 
-Text for this section will be added.
+### 7. Purchases, notifications and security
 
-## 5. Notifications
+The payment provider is the relevant store (Apple, Google, Huawei). Nuur receives the subscription status and transaction/product information; your card details do not reach us. This data is used to verify the purchase, provide access, for refunds/support and legal record-keeping obligations. Adhan and reminder notifications are scheduled locally on the device; no notification token or notification content is sent to a server. You can manage whether worship notifications are visible on the lock screen in the phone's notification settings. The commercial message preference is separate from service and security notifications. In account use, security-related server logs (sign-in attempts, IP address) may arise at the hosting provider; their durations are in the Data Retention tab.
 
-Text for this section will be added.
+### 8. Analytics, cookies and advertising
 
-## 6. Account and authentication
+The app contains no analytics, error tracking or advertising SDK; no usage statistics are collected. The web version uses only essential browser storage (language, theme, preferences); there is no optional measurement tool. Advertising: the app may show “Sponsored” items only from companies chosen by the project owner; there is no third-party ad network or personalized tracking; ads are not targeted using religious or other sensitive data, and are shown only by language, country and date; Premium members see no ads. No ads are currently shown in the app; if they are introduced, this policy will be updated in advance. If this model changes, you will be told in advance and the necessary consent will be obtained. You can change your commercial electronic message preference under Profile › Legal Texts › Privacy.
 
-Text for this section will be added.
+### 9. Recipients and international transfers
 
-## 7. Subscription and payments
+Data may be shared, limited to the relevant purpose, with the hosting and authentication provider (Supabase), map and search providers (Apple Maps, OpenStreetMap/Overpass, Open-Meteo, map image providers), the Diyanet prayer-time table service, sign-in providers (Apple, Google) and app stores; disclosures to competent authorities may be made where required by law. The recipients of content you choose to share publicly are other users. Server location: Sweden (Stockholm, EU). For storage or remote access outside Türkiye, KVKK Art. 9 applies; for the EU and the UK their own transfer rules apply separately. A standard contract, adequacy decision or other safeguard is cited as a basis only if it actually exists and applies to the relevant flow; accepting the service is not a general consent for regular transfers abroad. For information on the appropriate safeguards you can apply to info@nuursalah.com.
 
-Text for this section will be added.
+### 10. Retention, security and deletion
 
-## 8. Service providers and transfers
+Data is kept for the time needed for the purpose and subject to legal obligations; the durations by data group, their start points and deletion methods are in the Data Retention tab. You can delete your account at any time under Profile › Delete my account. Data is transmitted over an encrypted connection (HTTPS). No system gives an absolute security guarantee; this does not remove our legal security obligation.
 
-Text for this section will be added.
+### 11. Your rights and children
 
-## 9. Retention periods
+Under the applicable law you may have the rights of information, access, rectification, erasure, restriction of processing, objection, portability and withdrawal of consent; not every right applies to every processing in the same scope. Withdrawal of consent does not make processing based on earlier valid consent unlawful retroactively. Requests: info@nuursalah.com. Identity verification is kept proportionate to the nature of the request; unnecessary ID documents are not requested merely because you made a request, and no unlawful discrimination is applied because you exercised a right. To withdraw permissions, use the preferences under Profile › Legal Texts › Privacy. Account creation by children under 13 and the processing of their personal data may take place only with the permission and supervision of a parent or legal guardian; if it is reported that data which should not be processed without the required legal representative process has been collected, the appropriate restriction and deletion process is run.
 
-Text for this section will be added.
+### 12. Additional rights by region
 
-## 10. Your rights
+This section is completed as target countries are verified; it does not claim that the same rule applies everywhere. European Union, European Economic Area and United Kingdom: your rights of access, rectification, erasure, restriction, objection, portability and withdrawal of consent under the GDPR / UK GDPR are reserved; you may complain to your country's data protection authority. Legal bases are purpose-based: performance of the contract (account, Premium), legitimate interest (security, preventing abuse), legal obligation and, where required, explicit consent (commercial messages); for special categories such as religious belief, the GDPR Art. 9 condition is determined separately. EU/UK representative and data protection officer: none is currently appointed; if one is appointed, it will be stated in this text. United Kingdom: the right to complain to the Information Commissioner's Office (ICO) is reserved; a valid mechanism such as the IDTA or the UK Addendum applies to transfers, and the EU standard contract alone is not treated as sufficient for every UK transfer; design and platform safety duties are assessed separately for services children can access. United States (California and other states): once scope is verified, rights of information/access, correction, deletion and non-discrimination are explained by state; we do not sell your personal information or share it for cross-context advertising; if California applies, the notice at collection, data categories, retention criteria and the 45-day response period for verifiable requests are explained; sensitive data such as religion and precise location is assessed specially. If the US children's rule (COPPA) applies, no personal data is collected from children under 13 until parental consent and protective processes are in place. Local supplements for Canada, Brazil, Australia, Japan, South Korea, Saudi Arabia and the United Arab Emirates will be completed after the target-country decision; your statutory rights in those countries are reserved. You can exercise your rights at info@nuursalah.com; in Türkiye requests are answered within 30 days at the latest, and under EU/EEA and applicable UK rules generally within one calendar month.
 
-Text for this section will be added.
+### 13. Data breach notification
 
-## 11. Children's privacy
+In a security breach affecting your data, notification is made in accordance with the conditions and periods of applicable legislation. In Türkiye the Personal Data Protection Board is notified without delay and within 72 hours at the latest, and the persons concerned in the shortest reasonable time after they are identified (KVKK Board Decision 2019/10). Under the GDPR, notification to the supervisory authority within 72 hours depends on the risk threshold, and notification to individuals depends on the high-risk condition.
 
-Text for this section will be added.
+### 14. Changes and contact
 
-## 12. This website
+Current and previous versions are at nuursalah.com. Significant changes are notified through an appropriate channel; processing that needs new consent does not start without the necessary consent. A policy update alone does not create permission for a new purpose or recipient. Controller: Ömer Yolcu (sole proprietorship), Merve Mahallesi, Enbiye Sokak No: 1/5, Yenidoğan, Sancaktepe/Istanbul, Türkiye. For any privacy question: info@nuursalah.com.
 
-This website does not use cookies, analytics or tracking code, and contains no forms.
+## KVKK Notice
 
-## 13. Changes to this policy
+### 1. Data controller
 
-Text for this section will be added.
+Under Law No. 6698 on the Protection of Personal Data (KVKK), the data controller is: Ömer Yolcu (sole proprietorship), Merve Mahallesi, Enbiye Sokak No: 1/5, Yenidoğan, Sancaktepe/Istanbul, Türkiye, Sultanbeyli Tax Office, Tax ID: 9810973032, VERBIS: not registered. Data subject requests: info@nuursalah.com. This text is for information purposes; it is not an explicit consent text.
 
-## 14. Contact
+### 2. Data groups, purposes and legal bases
 
-For questions about privacy: {{supportEmail}}
+• Account contact details and verification records: creating the account, sign-in and recovery; Art. 5/2-c to the extent directly related to and necessary for the conclusion/performance of the contract.
+• Transaction/subscription verification data: providing the purchased right and support; Art. 5/2-c, and Art. 5/2-ç if there is a record-keeping obligation.
+• Security and abuse records: account and service security; Art. 5/2-ç where concretely required, Art. 5/2-f if proportionality and balancing are met, and Art. 5/2-e for the establishment, exercise or protection of a right (the basis of each sub-purpose will be verified before release).
+• Support and rights requests: handling the request; Art. 5/2-c, ç or e depending on the request.
+• Dua posts and moderation: providing the selected post and community safety; an Art. 5 condition and, if there is religious or other special-category data, an Art. 6 condition as well (to be determined by a lawyer before release).
+• Location, map and city queries: providing the selected function; a concrete condition according to purpose and technical design; an operating-system permission alone is not general explicit consent.
+• Commercial electronic message preference: announcement and campaign messages; explicit consent and the relevant commercial communication legislation.
+Worship records are currently kept only on your device and do not reach our systems; if a cloud copy is offered, separate explicit consent is obtained under Art. 6/3-a.
+
+### 3. Special-category personal data (Art. 6)
+
+Prayer, qada, dhikr and khatm records and dua content may reveal your religious belief or other special information such as health. Worship records currently stay only on your device. If a cloud copy is offered, it will be made only with your separate explicit consent; if you do not consent, unrelated core features are not blocked, and you can withdraw consent at any time. The processing condition for special-category data in dua posts is determined separately.
+
+### 4. Method of collection
+
+Data is collected electronically by automatic or partly automatic means through the app and web interface, the information you enter, support requests, Apple/Google sign-in and store verifications, and the technical systems used.
+
+### 5. Transfers
+
+Data is transferred only for these purposes, as necessary and proportionate, to the providers from which we obtain hosting and authentication, maps and search, sign-in and store services. Art. 8 applies to transfers within Türkiye, and Art. 9 and the relevant processing conditions to transfers abroad; if a standard contract is used it is notified to the Board within five business days of signing. Recipients abroad, their countries and the safeguards are shown in the table below. Consent to transfer abroad is not collected as a mandatory box covering all activities.
+
+### 6. Your rights (KVKK Art. 11)
+
+To learn whether your data is processed; to request information if processed; to learn the purpose of processing and whether it is used accordingly; to know the recipients at home or abroad; to request correction of incomplete or inaccurate data, and erasure or destruction under the statutory conditions; to request that these operations be notified to third parties to whom the data was transferred; to object to a result against you arising from analysis exclusively by automated systems; and to claim compensation for damage caused by unlawful processing. You can submit your request in writing, by KEP, secure electronic signature, mobile signature, the email address you previously notified to us, or by email to info@nuursalah.com; the request must include your name, surname, suitable identification information, notification address and your request. Do not share unnecessary data or ID documents. Requests are concluded as soon as possible and within 30 days at the latest; if the process requires a separate cost, only the tariff permitted by legislation may be charged. If the reply is found insufficient, is a refusal, or no reply is given in time, you may, provided you first applied to the controller, complain to the Personal Data Protection Board within 30 days of learning the reply and in any case within 60 days of the application date.
+
+### 7. Commercial electronic messages
+
+Campaign and announcement messages are sent through the channel you choose only if you give consent, and are recorded via the Message Management System (İYS) (no campaign messages are currently sent). You can withdraw your consent via the opt-out link in the message, the switch under Profile › Legal Texts › Privacy, or info@nuursalah.com; after refusal, commercial sending stops within three business days at the latest. Service and security messages do not depend on this consent and contain no advertising. Consent to commercial messages is not a single explicit consent for all personal data processing.
+
+### Recipients abroad
+
+
+| Recipient | Purpose | Data transferred | Location |
+|---|---|---|---|
+| Supabase (hosting and authentication) | Account, sign-in, feedback messages | Email, user ID, feedback text | Server: Stockholm, Sweden (EU) |
+| Apple (Sign in with Apple, App Store, Apple Maps) | Sign-in, subscription, mosque search | Apple identity token, approximate location | Apple's global infrastructure |
+| Google (Sign in with Google) | Sign-in | Google identity token | Google's global infrastructure |
+| OpenStreetMap / Overpass and map tiles | Find a Mosque map and search | Approximate location, IP address | Providers' servers |
+| Open-Meteo | City search | City name typed | Provider's servers |
+| Diyanet prayer-time table | Official table in Türkiye | District | Türkiye |
+
+## Data Retention and Deletion
+
+### 1. Retention principle
+
+Data is not kept indefinitely without a specific purpose or applicable legal obligation. The periods below are calendar periods and the start event is stated. Periods in square brackets will be finalized before release based on measured technical operation and the relevant legislation.
+
+### 2. Account and contact details
+
+The necessary fields are kept while the account exists. After a deletion request is verified, they are deleted from the active system within 30 days; mandatory exceptions are set aside.
+
+### 3. Verification codes and sign-in records
+
+A verification code is single-use and valid for 10 minutes. Sending and security records are kept for 1 day; code content and logs are deleted separately.
+
+### 4. Location and map requests
+
+Your location stays on your device and is not stored by us. Map, mosque search, city search and prayer-time table requests go to third-party providers; the providers' retention periods depend on their own policies. Nuur does not record these requests.
+
+### 5. Feedback messages
+
+Your suggestion, request, complaint and bug messages, and the contact address if you wrote one, are kept until the support process ends and for at most 24 months. For messages sent without an account, a random identifier generated by the app on the device is also kept to prevent abuse. If you delete your account, the messages linked to your account are also deleted.
+
+### 6. Purchase and subscription records
+
+Payments are processed by the stores. Subscription status is kept for the duration of your account, and invoices and financial records for the period set by the applicable tax and commercial legislation (generally 5–10 years) according to the document type and applicable legislation; they are securely destroyed at the end of the period. Even if you delete your account, the store subscription may continue unless you cancel it in the store.
+
+### 7. Support and rights requests
+
+Kept for 24 months; basis: proof and limitation periods in case of a dispute from the closing of the request; unnecessary attachments are deleted earlier.
+
+### 8. Consent records
+
+Which version of the terms and permissions you accepted and when is kept for 2 years after the account is deleted (proof and limitation periods; legitimate interest) appropriate to the need for proof; not the content but only the necessary evidence is kept, in a limited way.
+
+### 9. Security logs and backups
+
+In account use, security logs at the hosting provider are kept for 1 day from creation and deleted automatically at the end of the period; sensitive content is not unnecessarily included in these logs. No analytics or error-tracking records are collected in the app. System backups are not currently kept; if backups are added, their period will be stated in this text.
+
+### 10. Deleting the account and copies on the device
+
+You can delete your account and data under Profile › Delete my account or via info@nuursalah.com. After secure and proportionate verification, deletion is completed in the active system immediately and within 30 days at the latest; no system backups are kept, so no copies remain in backups; the result is notified. If limited records must be kept by law, the data type, purpose and period are explained; these records are not used for normal use, marketing or profiling. Deleting the account may not automatically cancel the store subscription; cancelling a subscription also does not by itself delete the account. Records on the device (location, prayer tracking, qada counters, dhikr, saved items) are deleted by Delete my account or by removing the app; for browser storage, operating system backups and copies on other devices, use the device and browser settings. We remove Nuur's copy of your post; we have no control over others' independent copies.

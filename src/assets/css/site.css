@@ -39,25 +39,25 @@
 :root {
   color-scheme: light dark;
 
-  --emerald: #064e3b;
-  --emerald-2: #0a5c40;
-  --emerald-deep: #053b2d;
+  --emerald: #313136;
+  --emerald-2: #3b3b40;
+  --emerald-deep: #232327;
   --gold: #cfa650;
   --cream: #f5f1e8;
 
   --bg: #fbf9f4;
   --bg-alt: #f5f1e8;
   --surface: #ffffff;
-  --text: #24302c;
-  --muted: #5a6661;
-  --line: rgba(6, 78, 59, 0.14);
-  --heading: #1d2b27;
-  --heading-accent: #064e3b;
-  --link: #064e3b;
+  --text: #252529;
+  --muted: #626269;
+  --line: rgba(30, 30, 35, 0.14);
+  --heading: #1d1d1f;
+  --heading-accent: #313136;
+  --link: #313136;
   --accent: #8a6716; /* açık zeminde okunaklı altın tonu */
-  --icon-bg: rgba(6, 78, 59, 0.08);
-  --icon-fg: #064e3b;
-  --shadow: 0 1px 2px rgba(6, 40, 30, 0.05), 0 14px 36px -14px rgba(6, 40, 30, 0.2);
+  --icon-bg: rgba(30, 30, 35, 0.08);
+  --icon-fg: #313136;
+  --shadow: 0 1px 2px rgba(30, 30, 35, 0.05), 0 14px 36px -14px rgba(30, 30, 35, 0.2);
 
   /* kahraman bölüm manzarası */
   --sky: linear-gradient(180deg, #fbf3e2 0%, #f6e3bf 55%, #efd3a0 100%);
@@ -73,30 +73,7 @@
   --radius: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #071d17;
-    --bg-alt: #0a261e;
-    --surface: #0d2d24;
-    --text: #ece7db;
-    --muted: #a9b6af;
-    --line: rgba(207, 166, 80, 0.2);
-    --heading: #f5f1e8;
-    --heading-accent: #dcb968;
-    --link: #dcb968;
-    --accent: #cfa650;
-    --icon-bg: rgba(207, 166, 80, 0.12);
-    --icon-fg: #cfa650;
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 14px 36px -14px rgba(0, 0, 0, 0.55);
 
-    --sky: linear-gradient(180deg, #061a15 0%, #0a3a2c 60%, #0f4d3a 100%);
-    --scene-glow: #16604a;
-    --scene-far: #0c4534;
-    --scene-main: #062a20;
-    --scene-arch: #cfa650;
-    --scene-gold: #cfa650;
-  }
-}
 
 /* ---------- temel ---------- */
 *,
@@ -589,7 +566,7 @@ a.button-gold:hover {
   padding-block: 0.5rem;
   padding-inline: 1rem 1.25rem;
   border-radius: 0.5rem;
-  background: #101513;
+  background: #232327;
   color: #fff;
   border: 1px solid rgba(255, 255, 255, 0.22);
   text-decoration: none;
@@ -786,13 +763,13 @@ a.badge:hover {
   background: url("/assets/img/pattern.svg") center / 84px 84px var(--emerald-2);
 }
 .feature:nth-child(4n + 2) .feature-top {
-  background-color: #1c6a4f;
+  background-color: #dddde3;
 }
 .feature:nth-child(4n + 3) .feature-top {
   background-color: var(--emerald);
 }
 .feature:nth-child(4n + 4) .feature-top {
-  background-color: #0d4a39;
+  background-color: #e8e8ed;
 }
 .feature-top.has-image {
   block-size: 10rem;
@@ -974,8 +951,8 @@ a.badge:hover {
 .phone-frame {
   aspect-ratio: 390 / 844;
   border-radius: 2.2rem;
-  border: 0.45rem solid #14201c;
-  background: #14201c;
+  border: 0.45rem solid #333338;
+  background: #333338;
   overflow: hidden;
   box-shadow: var(--shadow);
 }
@@ -996,7 +973,7 @@ a.badge:hover {
   text-align: center;
   font-size: 0.8rem;
   color: rgba(245, 241, 232, 0.7);
-  background: url("/assets/img/pattern.svg") center / 90px 90px, linear-gradient(170deg, #064e3b, #0a5c40);
+  background: url("/assets/img/pattern.svg") center / 90px 90px, linear-gradient(170deg, #313136, #3b3b40);
   background-blend-mode: soft-light;
 }
 .phone figcaption {
@@ -1057,7 +1034,7 @@ a.badge:hover {
 @media (prefers-color-scheme: dark) {
   .site-footer,
   .split-main {
-    background: #05382b;
+    background: #232327;
   }
 }
 .footer-inner {
@@ -1069,7 +1046,7 @@ a.badge:hover {
   color: var(--cream);
 }
 .site-footer .logo-mark rect:first-child {
-  fill: #0a5c40;
+  fill: #3b3b40;
 }
 .footer-brand p {
   margin-block-start: 0.9rem;
@@ -1407,3 +1384,668 @@ a.badge:hover {
     color: #000;
   }
 }
+
+/* Yenileme: ürün odaklı sahneler. Gerçek ekranlar ayarlardan bağlanır. */
+
+.page-home .hero {background: #f5f5f7;}
+.hero-atmosphere {position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 80% 45%,#b8b8c530,transparent 60%);}
+.page-home .hero-inner {padding-block:5rem 7rem;gap:3rem;}
+.page-home .hero h1 {font-size:clamp(2.9rem,6vw,5.5rem);line-height:1.08;max-inline-size:13ch;}
+.page-home .hero h1 span {display:block;}
+.page-home .tagline {font-family:var(--sans);font-size:1.2rem;max-inline-size:36ch;line-height:1.6;}
+.page-home .hero-lead {color:var(--muted);}
+.hero-product {min-inline-size:0;justify-self:center;inline-size:100%;}
+.product-screen {margin:0;display:grid;justify-items:center;gap:1.25rem;min-inline-size:0;}
+.product-frame {inline-size:min(100%,19rem);aspect-ratio:390/844;border:1px solid #d9b97550;border-radius:2.5rem;padding:.5rem;background:#e8e8ed;box-shadow:0 32px 90px #0005;overflow:hidden;}
+.product-frame img {inline-size:100%;block-size:100%;object-fit:contain;border-radius:2rem;}
+.screen-pending {block-size:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1.5rem;text-align:center;padding:1.5rem;border:1px dashed #d9b97540;border-radius:2rem;background:linear-gradient(145deg,#ededf1,#e8e8ed);color:#b8c7be;font-size:.85rem;}
+.product-screen figcaption {font-size:.875rem;text-align:center;color:inherit;max-inline-size:30ch;}
+.hero-product .product-frame {inline-size:min(100%,18rem);}
+.page-home .feature-top:not(.has-image) {display:none;}
+.page-home .feature {border-radius:1.5rem;box-shadow:none;}
+.page-home .section {padding-block:6rem;}
+.page-home .section-head {max-inline-size:46rem;}
+.theme-pair {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;}
+.theme-day,.theme-night {padding:3rem 1.25rem;border-radius:1.5rem;min-inline-size:0;}
+.theme-day {background:#f6f2e9;color:#252529;}
+.theme-night {background:#ededf1;color:#f6f1e7;border:1px solid #ffffff20;}
+.theme-day .product-frame {border-color:#14372c50;}
+.theme-day .screen-pending {background:#fffdf8;color:#626269;border-color:#14372c40;}
+.watch-layout {display:grid;align-items:center;gap:3rem;}
+.watch-layout h2 {font-size:clamp(2rem,4vw,3.5rem);margin-block:1rem 1.5rem;}
+.watch-layout p {color:var(--muted);max-inline-size:34rem;}
+.watch-frame {inline-size:min(100%,15rem);aspect-ratio:396/484;border-radius:3rem;}
+.watch-frame .screen-pending,.watch-frame img {border-radius:2.5rem;}
+.contact-section {border-block-start:1px solid var(--line);text-align:center;}
+.contact-section h2 {font-size:clamp(2rem,4vw,3.5rem);}
+.contact-section p {margin-block:1.5rem;color:var(--muted);}
+.mobile-menu {display:none;position:relative;}
+.mobile-menu summary {cursor:pointer;display:flex;align-items:center;gap:.5rem;padding:.75rem;list-style:none;}
+.mobile-menu summary::-webkit-details-marker {display:none;}
+.mobile-menu nav {position:absolute;inset-block-start:100%;inset-inline-end:0;inline-size:min(17rem,calc(100vw - 2rem));padding:1rem;background:var(--surface);border:1px solid var(--line);border-radius:1rem;box-shadow:var(--shadow);z-index:20;}
+.mobile-menu nav a {display:block;padding:.8rem;color:var(--text);text-decoration:none;}
+.page-home .site-header {position:relative;z-index:5;}
+@media(min-width:60rem){.page-home .hero-inner{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr)}.watch-layout{grid-template-columns:1.3fr 1fr}}
+@media(max-width:51.99rem){.mobile-menu{display:block}.header-inner{flex-wrap:wrap;gap:.75rem}.header-cta{margin-inline-start:auto}.brand{font-size:1.05rem}.page-home .hero-inner{padding-block:3rem 5rem}.page-home .section{padding-block:3.5rem}}
+@media(max-width:35.99rem){.theme-pair{grid-template-columns:1fr}.theme-day,.theme-night{padding:2rem 1.25rem}.hero-product .product-frame{inline-size:min(100%,15rem)}.header-cta{display:none}.mobile-menu{margin-inline-start:auto}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* 17 Kasım: nötr gündüz/gece sistemi; yeşil sayfa yüzeyi kullanılmaz. */
+:root {
+  color-scheme:light;
+  --bg:#f5f5f7;--bg-alt:#ededf1;--surface:#fff;--text:#252529;--muted:#626269;
+  --heading:#1d1d1f;--heading-accent:#767680;--link:#34343d;--accent:#6c5b37;
+  --line:#1d1d1f20;--icon-bg:#ededf1;--icon-fg:#53535c;--shadow:0 12px 40px #1d1d1f0c;
+  --emerald:#313136;--emerald-2:#3b3b40;--emerald-deep:#232327;--radius:1.5rem;
+}
+:root[data-theme="dark"] {
+  color-scheme:dark;
+  --bg:#111113;--bg-alt:#18181c;--surface:#202025;--text:#f5f5f7;--muted:#a8a8b2;
+  --heading:#f5f5f7;--heading-accent:#b7b7c2;--link:#e4e4eb;--accent:#d4bc87;
+  --line:#ffffff20;--icon-bg:#2c2c33;--icon-fg:#c4c4cf;--shadow:0 12px 40px #0002;
+}
+body {transition:background-color .22s ease,color .22s ease;}
+.page-home .hero,.topbar,.site-header,.site-footer,.split-main {background:var(--bg);color:var(--text);}
+.topbar {border-block-end:1px solid var(--line);font-size:.72rem;}
+.topbar-list .icon {color:var(--muted);}
+.site-header {border-block-end:1px solid var(--line);position:relative;z-index:30;}
+.header-inner {min-block-size:5rem;gap:1.5rem;}
+.brand {font-family:var(--sans);font-size:1.1rem;font-weight:650;letter-spacing:-.04em;color:var(--heading);}
+.site-footer .brand,.site-footer h2 {color:var(--heading);}
+.site-footer .logo-mark rect:first-child {fill:#252529;}
+.site-footer {border-block-start:1px solid var(--line);}
+.footer-contact .footer-note,.footer-brand p {color:var(--muted);}
+.footer-links a:hover,.footer-links a[aria-current] {color:var(--heading);}
+.footer-bottom {background:var(--bg-alt);}
+.app-icon {display:block;object-fit:contain;border-radius:24%;flex:none;}
+.app-glyph {object-fit:contain;}
+.hero-atmosphere {background:radial-gradient(ellipse at 80% 45%,#9090a018,transparent 60%);}
+.product-frame,.watch-frame {background:var(--surface);border-color:var(--line);box-shadow:var(--shadow);}
+.screen-pending {background:var(--bg-alt);border-color:var(--line);color:var(--muted);}
+.page-home .hero h1 span {color:var(--heading-accent);}
+.page-home .section-head h2,.feature h3,.watch-layout h2,.contact-section h2,.split-main h2 {font-family:var(--sans);letter-spacing:-.045em;font-weight:600;}
+.page-home .feature {box-shadow:var(--shadow);transition:transform .2s ease,border-color .2s ease;}
+.feature-icon {margin-block-start:1.25rem;border:0;border-radius:.9rem;background:var(--icon-bg);color:var(--icon-fg);}
+@media(hover:hover){.feature:hover{transform:translateY(-4px);border-color:var(--muted)}}
+.phone-frame {background:var(--surface);border-color:var(--line);}
+.phone-empty {background:var(--bg-alt);color:var(--muted);}
+.theme-day {background:#f5f5f7;color:#252529;border:1px solid #1d1d1f20;}
+.theme-night {background:#18181c;color:#f5f5f7;border:1px solid #ffffff20;}
+.theme-day .product-frame,.theme-day .screen-pending {background:#ededf1;color:#626269;border-color:#1d1d1f20;}
+.theme-night .product-frame,.theme-night .screen-pending {background:#202025;color:#a8a8b2;border-color:#ffffff20;}
+.split-main h2,.split-main .eyebrow {color:var(--heading);}
+.split-main .split-note {color:var(--muted);}
+.split-main::before {display:none;}
+.header-tools {display:flex;align-items:center;gap:.5rem;}
+.theme-switch {display:flex;align-items:center;gap:.6rem;min-block-size:44px;padding:.5rem;border:0;background:none;color:var(--muted);cursor:pointer;flex:none;}
+.theme-switch[hidden] {display:none;}
+.theme-switch > .icon {inline-size:20px;block-size:20px;}
+.switch-track {display:block;inline-size:38px;block-size:22px;border-radius:20px;background:#c8c8d0;padding:3px;transition:background .2s;}
+.switch-track span {display:block;inline-size:16px;block-size:16px;border-radius:50%;background:white;box-shadow:0 1px 3px #0003;transition:transform .2s;}
+.theme-switch[aria-checked="true"] .switch-track {background:#666674;}
+.theme-switch[aria-checked="true"] .switch-track span {transform:translateX(16px);}
+[dir="rtl"] .theme-switch[aria-checked="true"] .switch-track span {transform:translateX(-16px);}
+.theme-label {position:absolute;inline-size:1px;block-size:1px;overflow:hidden;clip-path:inset(50%);}
+.digital-download {border-radius:100px;background:var(--heading)!important;color:var(--bg)!important;border:1px solid var(--line);box-shadow:0 3px 10px #0001;font-size:.85rem;gap:.5rem;}
+.digital-download .icon {inline-size:18px;block-size:18px;}
+.digital-download:hover {opacity:.85;}
+.main-nav {gap:1.3rem;font-size:.8rem;}
+.nav-group {position:relative;}
+.nav-label {display:flex;align-items:center;}
+.main-nav .nav-label > a {padding-block:1.5rem;border:0;color:var(--muted);transition:color .15s;}
+.main-nav .nav-label > a:hover {color:var(--heading);}
+.nav-expand {display:grid;place-items:center;inline-size:28px;block-size:44px;padding:0;background:none;border:0;color:var(--muted);cursor:pointer;}
+.nav-expand .icon {inline-size:12px;block-size:12px;}
+.nav-panel {position:absolute;inset-block-start:100%;inset-inline-start:-1.5rem;inline-size:20rem;max-inline-size:calc(100vw - 2rem);padding:1.25rem;background:var(--surface);border:1px solid var(--line);border-radius:1.25rem;box-shadow:0 24px 70px #0002;z-index:40;}
+.nav-panel[hidden] {display:none;}
+.nav-panel > p {font-size:.7rem;color:var(--muted);padding:.25rem .75rem .75rem;}
+.nav-panel ul {list-style:none;display:grid;gap:.15rem;}
+.nav-panel a,.main-nav .nav-panel a {display:block;border:0!important;padding:.65rem .75rem;border-radius:.6rem;color:var(--heading);font-size:.82rem;line-height:1.45;text-decoration:none;}
+.nav-panel a:hover {background:var(--bg-alt);}
+.nav-group:last-child .nav-panel {inset-inline-start:auto;inset-inline-end:0;}
+[id^="feature-"],[id^="screen-"],[id^="premium-"] {scroll-margin-block-start:2rem;}
+.mobile-menu nav .nav-panel {position:static;inline-size:auto;max-inline-size:none;box-shadow:none;padding:.5rem;margin-block-end:.5rem;background:var(--bg-alt);}
+.mobile-menu .nav-label > a {flex:1;}
+.mobile-menu .nav-expand {inline-size:44px;}
+.mobile-menu .nav-panel > p {display:none;}
+.mobile-menu summary {font-size:.8rem;}
+.mobile-download {margin-block-start:.5rem;}
+@media(max-width:70rem){.main-nav{gap:.65rem}.header-inner{gap:.75rem}.nav-expand{inline-size:20px}}
+@media(max-width:59.99rem){.main-nav{display:none}.mobile-menu{display:block}.header-tools{margin-inline-start:auto}.header-inner{flex-wrap:nowrap}.brand{font-size:1rem}}
+@media(max-width:35.99rem){.header-inner{gap:.4rem}.brand{gap:.5rem;font-size:.95rem}.brand .logo-mark,.brand .app-icon{inline-size:32px;block-size:32px}.theme-switch{gap:.35rem;padding:.25rem}.header-tools{gap:.25rem}.header-cta{display:inline-flex;font-size:.75rem;padding:.55rem .75rem;min-block-size:44px}.header-cta .icon{display:none}.mobile-menu{margin:0}.mobile-menu summary{padding:.6rem .35rem}.mobile-menu summary > .icon{display:none}.theme-switch > .icon{inline-size:16px;block-size:16px}.topbar-inner{gap:.5rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+
+/* Üst şerit: 24 px sabit çizgisel ikonlar ve etiketli dil seçici. */
+.topbar-list .topbar-symbol {inline-size:19px;block-size:19px;flex:none;color:var(--muted);}
+.topbar-list li {gap:.6rem;}
+.lang summary .topbar-symbol {inline-size:18px;block-size:18px;flex:none;}
+.lang summary {min-block-size:44px;gap:.5rem;color:var(--text);}
+.lang summary > .icon:last-child {inline-size:14px;block-size:14px;}
+.lang ul {min-inline-size:12rem;z-index:60;padding:.5rem;}
+.lang li a {display:flex;align-items:center;gap:.75rem;min-block-size:44px;padding:.65rem .75rem;color:var(--text);}
+.lang li a[aria-current] {color:var(--heading);background:var(--bg-alt);font-weight:600;}
+.language-flag {inline-size:24px;block-size:16px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px var(--line);flex:none;}
+.language-check {margin-inline-start:auto;color:var(--muted);font-size:.85rem;}
+.topbar-symbol,.language-flag {animation:none!important;transition:none!important;}
+.topbar {position:relative;z-index:40;}
+@media(max-width:35.99rem){.topbar-list{font-size:.67rem}.topbar-list .topbar-symbol{inline-size:17px;block-size:17px}.lang summary{font-size:.72rem}.topbar-inner{gap:.75rem}}
+
+
+/* Onaylanan gerçekçi ikonlar: özgün transparan görselden dört bölge. */
+.realistic-topbar-icon {display:block;inline-size:40px;block-size:40px;flex:none;background-image:url('/assets/img/topbar/realistic-icons-v1.png');background-size:200% 200%;background-repeat:no-repeat;animation:none!important;transition:none!important;}
+.realistic-topbar-clock {background-position:0 0;}
+.realistic-topbar-bell {background-position:100% 0;}
+.realistic-topbar-compass {background-position:0 100%;}
+.realistic-topbar-book {background-position:100% 100%;}
+.topbar-inner {min-block-size:60px;}
+.topbar-list {gap:1.5rem;}
+.topbar-list li {gap:.55rem;}
+@media(max-width:35.99rem){.realistic-topbar-icon{inline-size:34px;block-size:34px}.topbar-inner{min-block-size:52px}}
+
+/* Her ikonun gerçek sınırı ayrı: komşu görsel sızıntısı yok, tam çözünürlük. */
+.realistic-topbar-icon {background-image:none;position:relative;--icon-size:44px;inline-size:var(--icon-size);block-size:var(--icon-size);}
+.realistic-topbar-icon::before {content:"";position:absolute;inset-inline-start:50%;inset-block-start:50%;transform:translate(-50%,-50%);background-image:url("/assets/img/topbar/realistic-icons-v1.png");background-repeat:no-repeat;}
+.realistic-topbar-clock::before {inline-size:calc(var(--icon-size) * 0.9841270);block-size:calc(var(--icon-size) * 1.0000000);background-size:calc(var(--icon-size) * 2.5357143) calc(var(--icon-size) * 2.4404762);background-position:calc(var(--icon-size) * -0.1686508) calc(var(--icon-size) * -0.2043651);}
+.realistic-topbar-bell::before {inline-size:calc(var(--icon-size) * 0.4195122);block-size:calc(var(--icon-size) * 1.0000000);background-size:calc(var(--icon-size) * 2.0780488) calc(var(--icon-size) * 2.0000000);background-position:calc(var(--icon-size) * -1.3382114) calc(var(--icon-size) * -0.0146341);}
+.realistic-topbar-compass::before {inline-size:calc(var(--icon-size) * 0.8589744);block-size:calc(var(--icon-size) * 1.0000000);background-size:calc(var(--icon-size) * 2.3406593) calc(var(--icon-size) * 2.2527473);background-position:calc(var(--icon-size) * -0.1813187) calc(var(--icon-size) * -1.1978022);}
+.realistic-topbar-book::before {inline-size:calc(var(--icon-size) * 1.0000000);block-size:calc(var(--icon-size) * 0.9694794);background-size:calc(var(--icon-size) * 2.2944345) calc(var(--icon-size) * 2.2082585);background-position:calc(var(--icon-size) * -1.1903052) calc(var(--icon-size) * -1.2190305);}
+@media(max-width:35.99rem){.realistic-topbar-icon{--icon-size:36px;}}
+
+
+/* Kullanıcının sağladığı özgün mobil ikon: yalnız CSS ile dış boşluk kırpılır. */
+.brand .app-icon {position:relative;display:block;inline-size:44px;block-size:44px;border-radius:24%;overflow:hidden;flex:none;box-shadow:0 2px 8px #0002;}
+.brand .app-icon img {position:absolute;max-inline-size:none;inline-size:118.5%;block-size:118.5%;inset-inline-start:-9.25%;inset-block-start:-8.2%;object-fit:cover;}
+.site-footer .brand .app-icon {inline-size:40px;block-size:40px;}
+.language-world {display:block;inline-size:40px;block-size:40px;flex:none;background:url('/assets/img/topbar/language-world-v1.png') center / contain no-repeat;}
+.lang summary {gap:.55rem;}
+@media(max-width:35.99rem){.brand .app-icon{inline-size:36px;block-size:36px}.language-world{inline-size:32px;block-size:32px}}
+
+
+/* Minimal dünya ikonu ve modern hero metni. */
+.language-world {inline-size:26px;block-size:26px;}
+.lang summary {gap:.45rem;}
+.page-home .hero h1 {font-family:var(--sans);font-size:clamp(2.1rem,3.8vw,3.5rem);font-weight:550;letter-spacing:-.055em;line-height:1.17;max-inline-size:19ch;margin-block:1.25rem 1.4rem;text-wrap:balance;}
+.page-home .tagline {font-family:var(--sans);font-size:1.0625rem;font-weight:400;line-height:1.8;letter-spacing:-.015em;color:var(--muted);max-inline-size:31rem;text-wrap:pretty;}
+.page-home .hero-actions {margin-block-start:1.75rem;}
+@media(max-width:35.99rem){.language-world{inline-size:23px;block-size:23px}.page-home .hero h1{font-size:2.1rem;max-inline-size:19ch}.page-home .tagline{font-size:1rem;line-height:1.75}}
+
+/* Kullanıcının seçtiği iki bağımsız arka plan: gündüz bej, gece lacivert. */
+:root {--wallpaper-image:url('/assets/img/backgrounds/beige-texture-web-v1.jpg');--wallpaper-wash:rgba(250,248,243,.10);--bg:#f3eee5;--bg-alt:#eae3d8;--surface:#fffaf2;}
+:root[data-theme="dark"] {--wallpaper-image:url('/assets/img/backgrounds/navy-pattern-web-v1.jpg');--wallpaper-wash:rgba(3,9,19,.50);--bg:#091322;--bg-alt:#101c2d;--surface:#142135;--line:#b9c9df24;}
+body {isolation:isolate;}
+body::before {content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(var(--wallpaper-wash),var(--wallpaper-wash)),var(--wallpaper-image);background-size:cover;background-position:center;}
+.page-home .hero {background:transparent;}
+.hero-atmosphere {display:none;}
+.topbar,.site-header,.site-footer {background:color-mix(in srgb,var(--bg) 88%,transparent);}
+.strip {background:color-mix(in srgb,var(--surface) 94%,transparent);}
+@media(prefers-reduced-transparency:reduce){.topbar,.site-header,.site-footer,.strip{background:var(--bg)}}
+
+
+/* Videodan ayrılan altı gerçek dil ekranı; sistem durum çubuğu kırpıldı. */
+.product-screen-hero .product-frame {position:relative;aspect-ratio:780/1585;padding:0;border-radius:2rem;overflow:hidden;}
+.product-screen-hero picture {display:block;inline-size:100%;block-size:100%;}
+.product-screen-hero .hero-language-animation {display:block;inline-size:100%;block-size:100%;object-fit:contain;border-radius:0;}
+.hero-animation-toggle {position:absolute;inset-inline-end:.6rem;inset-block-end:.6rem;display:grid;place-items:center;inline-size:34px;block-size:34px;min-block-size:0;border:1px solid #ffffff50;border-radius:50%;background:#0a111ed9;color:white;cursor:pointer;padding:0;}
+.hero-animation-toggle span {inline-size:9px;block-size:11px;border-inline:3px solid currentColor;}
+.hero-animation-toggle.is-paused span {inline-size:0;block-size:0;border:0;border-inline-start:9px solid currentColor;border-block:6px solid transparent;margin-inline-start:2px;}
+.hero-animation-toggle[hidden] {display:none;}
+@media(prefers-reduced-motion:reduce){.hero-animation-toggle{display:none}}
+/* Telefonun tüm ekranı ilk masaüstü görünümüne daha rahat sığar. */
+.page-home .hero-inner {padding-block:2.75rem 4rem;}
+.hero-product .product-frame {inline-size:min(100%,16.25rem);}
+@media(max-width:35.99rem){.hero-product .product-frame{inline-size:min(100%,15rem)}}
+
+/* Sabit bej web görünümü ve iPhone donanım çerçevesi. */
+.product-screen-hero .product-frame {aspect-ratio:9/19.5;padding:1.85rem .42rem .9rem;border:3px solid #777570;border-radius:2.8rem;background:#152d3b;box-shadow:0 0 0 2px #292a2b,0 0 0 4px #c2bdb4,0 25px 65px #25201b38;overflow:visible;}
+.product-screen-hero picture {overflow:hidden;border-radius:.45rem .45rem 1.9rem 1.9rem;}
+.iphone-island {position:absolute;top:.48rem;left:50%;transform:translateX(-50%);width:29%;height:.85rem;background:#050506;border-radius:2rem;box-shadow:inset -9px 0 8px #11131b;z-index:3;}
+.iphone-island::after {content:"";position:absolute;right:8px;top:4px;width:5px;height:5px;border-radius:50%;background:#182238;box-shadow:inset 0 0 2px #000;}
+.iphone-home {position:absolute;bottom:.35rem;left:35%;width:30%;height:3px;background:#eee9dfb3;border-radius:4px;}
+.phone-language-flags {position:absolute;top:2.25rem;right:1rem;width:14%;height:1.35rem;border-radius:1rem;background:#29424e;box-shadow:0 0 0 2px #29424e;display:grid;place-items:center;overflow:hidden;}
+.phone-language-flags span {grid-area:1/1;font-size:1rem;line-height:1;visibility:hidden;animation:language-flag 18s step-end infinite;}
+.phone-language-flags span:nth-child(2){animation-delay:-15s}.phone-language-flags span:nth-child(3){animation-delay:-12s}.phone-language-flags span:nth-child(4){animation-delay:-9s}.phone-language-flags span:nth-child(5){animation-delay:-6s}.phone-language-flags span:nth-child(6){animation-delay:-3s}
+@keyframes language-flag {0%{visibility:visible}16.6667%,100%{visibility:hidden}}
+.animation-paused .phone-language-flags span {animation:none;visibility:hidden}.animation-paused .phone-language-flags span:first-child {visibility:visible}
+@media(prefers-reduced-motion:reduce){.phone-language-flags span{animation:none;visibility:hidden}.phone-language-flags span:first-child{visibility:visible}}
+.hero-animation-toggle {bottom:1.1rem;right:.8rem;}
+
+.product-screen-hero picture {position:relative;}
+.product-screen-hero .hero-language-animation {object-fit:fill;}
+.phone-language-flags {top:1.3%;right:2.8%;width:14%;height:4.2%;box-shadow:0 0 0 2px #29424e;}
+.flags-restart .phone-language-flags span {animation:none;}
+
+/* İki cihaz: gerçek ekran oranı korunur, alt bölüme taşma yoktur. */
+.page-home .hero-inner {padding-block:2.75rem 5rem;gap:2rem;}
+.hero-devices {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;align-items:start;max-inline-size:26rem;}
+.device-preview {position:relative;min-inline-size:0;display:flex;flex-direction:column;align-items:center;}
+.hero-devices .product-screen {inline-size:100%;}
+.hero-devices .product-frame {inline-size:min(100%,11.25rem);aspect-ratio:auto;padding:1.6rem .32rem .65rem;border-radius:2rem;box-sizing:border-box;}
+.hero-devices .product-screen-hero picture {aspect-ratio:780/1585;block-size:auto;border-radius:.6rem .6rem 1.4rem 1.4rem;}
+.hero-devices .hero-language-animation {aspect-ratio:780/1585;block-size:auto;object-fit:contain;}
+.hero-devices .iphone-island {top:.4rem;height:.65rem;}
+.hero-devices .iphone-island::after {top:3px;right:6px;width:4px;height:4px;}
+.hero-devices .iphone-home {bottom:.25rem;height:2px;}
+.hero-devices .phone-language-flags span {font-size:.8rem;}
+.hero-devices .hero-animation-toggle {width:25px;height:25px;bottom:.85rem;right:.55rem;}
+.hero-devices .hero-animation-toggle span {height:8px;width:7px;border-inline-width:2px;}
+.device-name {margin:1rem 0 0;font-size:.7rem;font-weight:600;text-align:center;color:var(--muted);line-height:1.5;}
+.device-samsung .product-frame {border-radius:1.1rem;border-color:#aaa9a6;background:#142733;}
+.device-samsung .product-screen-hero picture {border-radius:.35rem .35rem .65rem .65rem;filter:none;}
+.device-samsung .iphone-island {width:.5rem;height:.5rem;top:.55rem;border-radius:50%;background:#06080b;box-shadow:0 0 0 2px #63758340;}
+.device-samsung .iphone-island::after {display:none;}
+.device-samsung .iphone-home {display:none;}
+.android-lock {position:absolute;top:12%;left:calc(50% - 13px);width:26px;height:26px;color:#fff9e7;pointer-events:none;filter:drop-shadow(0 2px 6px #0009);}
+.android-lock svg {width:100%;height:100%;}
+.android-coming {font-size:.75rem;font-weight:600;text-align:center;margin:.25rem 0 0;color:var(--text);}
+.android-coming span {display:block;margin-top:.25rem;font-size:.6rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);}
+@media(min-width:60rem){.page-home .hero-inner{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}}
+@media(max-width:35.99rem){.hero-devices{gap:1rem;max-inline-size:23rem}.hero-devices .product-frame{inline-size:min(100%,10rem)}.device-name{font-size:.6rem}.hero-devices .phone-language-flags span{font-size:.7rem}}
+
+.device-samsung .android-lock {top:7%;}
+
+/* Görsel cihaz ekranını kenardan kenara doldurur; donanım üstte katmandır. */
+.hero-devices .product-frame {padding:.3rem;border-radius:2rem;background:#090c10;}
+.hero-devices .product-screen-hero picture {border-radius:1.6rem;overflow:hidden;}
+.hero-devices .hero-language-animation {display:block;width:100%;height:auto;aspect-ratio:780/1585;object-fit:cover;}
+.hero-devices .iphone-island {top:.7rem;z-index:4;}
+.hero-devices .iphone-home {bottom:.6rem;z-index:4;}
+.device-samsung .product-frame {border-radius:1.1rem;}
+.device-samsung .product-screen-hero picture {border-radius:.75rem;}
+.device-samsung .iphone-island {top:.7rem;}
+.device-store {display:flex;justify-content:center;align-items:center;gap:.55rem;margin:1.2rem 0 0;min-height:52px;padding:.5rem .7rem;border:1px solid #b5aa9959;border-radius:.8rem;background:#fffaf2b3;color:#222;text-decoration:none;inline-size:100%;max-inline-size:11.25rem;box-sizing:border-box;}
+.device-store:hover {background:#fffaf2;}
+.device-store-soon {background:#fffaf260;}
+.store-symbol {width:28px;height:28px;flex:none;}
+.device-store span {display:flex;flex-direction:column;gap:.15rem;}
+.device-store strong {font-size:.8rem;font-weight:600;line-height:1.25;}
+.device-store small {font-size:.65rem;line-height:1.25;color:var(--muted);}
+@media(max-width:35.99rem){.device-store{padding:.5rem;gap:.35rem}.store-symbol{width:23px;height:23px}.device-store strong{font-size:.72rem}}
+
+/* Kullanıcının özgün mağaza logoları: 28px alanda 5x kaynak yoğunluğu. */
+.device-store img.store-symbol {object-fit:contain;display:block;image-rendering:auto;}
+.device-store .appstore-symbol {border-radius:7px;}
+.device-store .googleplay-symbol {width:30px;height:28px;}
+
+.page-home .hero-note {font-family:var(--sans);font-size:clamp(.95rem,1.15vw,1.05rem);font-weight:550;line-height:1.7;letter-spacing:-.015em;color:#3f3930;max-inline-size:43ch;margin-block-start:1.7rem;}
+
+/* Gerçek uygulama ikonları: özgün ekran görüntüsünden dairesel CSS kırpımı. */
+.prayer-app-icon {display:block;inline-size:46px;block-size:46px;flex:none;border-radius:50%;background-image:url('/assets/img/prayer/app-prayer-icons-source.png');background-repeat:no-repeat;background-size:539.45px 1169.24px;box-shadow:0 2px 7px #5a452019;}
+.prayer-app-icon-0 {background-position:-38.47px -397.69px;}
+.prayer-app-icon-1 {background-position:-38.47px -480.49px;}
+.prayer-app-icon-2 {background-position:-38.47px -563.29px;}
+.prayer-app-icon-3 {background-position:-38.47px -646.09px;}
+.prayer-app-icon-4 {background-position:-38.47px -728.89px;}
+
+/* Kayışsız saat kasaları; ekranlar daha sonra gerçek görsellerle doldurulur. */
+.hero-devices {max-inline-size:32rem;gap:1.8rem;}
+.hero-devices .device-iphone .product-screen,.device-iphone .device-store {inline-size:73%;align-self:flex-end;}
+.hero-devices .device-samsung .product-screen,.device-samsung .device-store {inline-size:73%;align-self:flex-start;}
+.hero-devices .product-frame {inline-size:100%;max-inline-size:11.25rem;}
+.watch-shell {position:absolute;top:48%;transform:translateY(-50%);inline-size:22%;max-inline-size:4rem;aspect-ratio:44/49;border:1px solid #b4ada0;border-radius:24%;background:linear-gradient(130deg,#e7e1d5,#8f8d87 45%,#dfd8ca 72%,#a09a90);box-shadow:inset 0 0 0 2px #e2ddd1,0 6px 12px #34271c30;isolation:isolate;}
+.watch-apple {left:0;}
+.watch-screen {position:absolute;inset:8%;border:2px solid #292c2c;border-radius:21%;background:linear-gradient(135deg,#182024,#040506 48%,#0b1115);box-shadow:inset 0 0 0 1px #ffffff12;overflow:hidden;}
+.watch-crown {position:absolute;right:-7%;top:24%;width:8%;height:18%;border-radius:30%;background:repeating-linear-gradient(0deg,#7d7b76 0 1px,#d5cbb9 1px 3px);border:1px solid #9e9687;z-index:-1;}
+.watch-apple::before {content:"";position:absolute;left:-4%;top:31%;width:4%;height:21%;border-radius:3px;background:#df742a;}
+.watch-apple::after {content:"";position:absolute;right:-3%;top:55%;width:4%;height:21%;border-radius:3px;background:#aaa293;}
+.watch-galaxy {right:0;aspect-ratio:1;border-radius:29%;background:linear-gradient(135deg,#a9a8a3,#50514e 48%,#b9b7af);border-color:#696b69;box-shadow:inset 0 0 0 2px #a1a19a,0 6px 12px #34271c30;}
+.watch-bezel {position:absolute;inset:5%;border-radius:50%;background:repeating-conic-gradient(#d38946 0deg 2deg,#303331 2deg 30deg);box-shadow:0 0 0 1px #1b201f,inset 0 0 0 2px #5f615b;}
+.watch-galaxy .watch-screen {inset:9%;border-radius:50%;border:1px solid #151b1e;}
+.watch-galaxy .watch-crown {background:#c6672b;top:41%;height:17%;right:-6%;}
+@media(min-width:60rem){.page-home .hero-inner{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:2rem}}
+@media(max-width:35.99rem){.hero-devices{gap:1.2rem;max-inline-size:29rem}.watch-shell{inline-size:21%}.device-store{gap:.3rem;padding:.5rem .3rem}.device-store strong{font-size:.62rem}.device-store small{font-size:.6rem}.device-store .store-symbol{inline-size:21px;block-size:21px}.prayer-app-icon{transform:scale(.9)}}
+
+/* Kullanıcının saat fotoğraflarından temizlenen şeffaf uygulama kompozitleri. */
+.watch-shell.watch-photo {inline-size:30%;max-inline-size:6.25rem;aspect-ratio:auto;border:0;border-radius:0;background:none;box-shadow:none;top:48%;}
+.watch-photo img {display:block;inline-size:100%;block-size:auto;object-fit:contain;filter:drop-shadow(0 4px 5px #30271e1c);}
+.watch-photo::before,.watch-photo::after {display:none;}
+.watch-apple.watch-photo {left:-7%;}
+.watch-galaxy.watch-photo {right:-7%;}
+@media(max-width:35.99rem){.watch-shell.watch-photo{inline-size:28%}.watch-apple.watch-photo{left:-5%}.watch-galaxy.watch-photo{right:-5%}}
+
+/* Önden ve yakından kadranlar: iki saat aynı Ayasofya ekranıyla başlar. */
+.hero-devices .device-iphone .product-screen,.device-iphone .device-store {inline-size:61%;}
+.hero-devices .device-samsung .product-screen,.device-samsung .device-store {inline-size:61%;}
+.watch-shell.watch-photo {inline-size:34%;max-inline-size:6.5rem;top:47%;}
+.watch-apple.watch-photo {left:0;}
+.watch-galaxy.watch-photo {right:0;}
+@media(max-width:35.99rem){.watch-shell.watch-photo{inline-size:34%}.watch-apple.watch-photo{left:0}.watch-galaxy.watch-photo{right:0}.device-store{flex-direction:column;text-align:center;gap:.25rem}.device-store .store-symbol{inline-size:23px;block-size:23px}.device-store span{align-items:center}}
+
+/* Galaxy kadranı biraz daha büyük, cam içeriği oranı korunur. */
+.watch-galaxy.watch-photo {inline-size:39%;max-inline-size:7.25rem;right:-4%;}
+@media(max-width:35.99rem){.watch-galaxy.watch-photo{inline-size:38%;right:-3%}}
+/* Yerelleştirilebilir uygulama önizlemesi: tek görsel katmanı, gerçek metin. */
+.preview-toolbar {grid-column:1/-1;display:flex;align-items:center;justify-content:center;gap:.7rem;flex-wrap:wrap;margin-bottom:.2rem;}
+.preview-toolbar p {font-size:.65rem;color:var(--muted);margin:0;}
+.preview-language-buttons {display:flex;padding:3px;background:#fffaf2c9;border:1px solid #b5aa9945;border-radius:2rem;gap:2px;}
+.preview-language-buttons button {background:transparent;border:0;border-radius:2rem;padding:.4rem .6rem;font:500 .65rem var(--sans);color:#595247;cursor:pointer;min-height:32px;}
+.preview-language-buttons button[aria-pressed="true"]{background:#282723;color:#fffaf2;}
+.hero-devices .live-phone-frame {aspect-ratio:780/1585;position:relative;overflow:hidden;}
+.live-phone-frame>.live-screen-mount {width:100%;height:100%;border-radius:1.6rem;overflow:hidden;}
+.live-screen-mount {position:relative;inline-size:100%;block-size:100%;}
+.live-screen {position:relative;inline-size:100%;block-size:100%;overflow:hidden;isolation:isolate;color:#fff8e7;background:#063452;font-family:var(--sans),Arial,sans-serif;text-align:start;container-type:inline-size;}
+.live-screen-art {position:absolute;inset:0;z-index:-2;background:url('/assets/img/watches/screens/live-mosque-background-v1.png') center bottom/cover no-repeat;}
+.live-screen::after {content:"";position:absolute;inset:0;background:linear-gradient(#04263c5e,#062d4830 45%,#031321e8);z-index:-1;}
+.live-screen-content {height:100%;display:flex;flex-direction:column;padding:18% 8% 8%;box-sizing:border-box;}
+.live-location {display:flex;justify-content:space-between;align-items:center;font-size:5cqi;font-weight:500;gap:4%;}
+.live-location bdi {font-size:4.5cqi;font-variant-numeric:tabular-nums;}
+.live-brand {font-family:Georgia,serif;color:#f6dc90;font-size:11cqi;text-align:center;margin-top:12%;line-height:1.1;white-space:nowrap;}
+.live-motto {text-align:center;font-size:4cqi;letter-spacing:.04em;margin:3% 0 8%;color:#fff3cf;}
+.live-next {display:flex;flex-direction:column;align-items:center;text-align:center;padding:7% 3%;border:1px solid #f0dfab6b;border-radius:8cqi;background:#092e43b3;backdrop-filter:blur(5px);}
+.live-next>span {font-size:4.5cqi;color:#eee7cf;}
+.live-next>strong {font-size:8cqi;font-weight:550;line-height:1.4;}
+.live-time {display:block;font-size:18cqi;letter-spacing:-.035em;line-height:1.15;font-weight:500;direction:ltr;font-variant-numeric:tabular-nums;}
+.live-next small {font-size:4.2cqi;margin-top:3%;color:#e9dcae;}
+.live-prayers {margin-top:auto;padding-top:6%;}
+.live-prayers h3 {font:500 4.5cqi var(--sans);color:#eee2ba;margin:0 0 4%;}
+.live-prayer-row {display:flex;align-items:center;gap:5%;font-size:4.5cqi;padding:3% 4%;margin:2% 0;background:#061a25ba;border:1px solid #ffffff12;border-radius:3cqi;line-height:1.25;}
+.live-prayer-row.current {background:#c7a459e8;color:#141c22;border-color:#f6dc90;}
+.live-prayer-row bdi {margin-inline-start:auto;font-size:4.5cqi;font-weight:550;}
+.live-prayer-symbol {inline-size:1em;text-align:center;color:#f4d588;}
+.live-prayer-row.current .live-prayer-symbol {color:#283845;}
+.live-bottom-nav {display:flex;justify-content:space-around;font-size:3.6cqi;padding:6% 0 2%;color:#f6e8bc;gap:3%;}
+.watch-live .watch-live-glass {position:absolute;overflow:hidden;}
+.watch-apple.watch-live .watch-live-glass {left:9.27%;top:12.1%;width:75.73%;height:73.34%;border-radius:24%;}
+.watch-galaxy.watch-live .watch-live-glass {left:15.47%;top:16.35%;width:66.99%;height:66.99%;border-radius:50%;}
+.live-watch .live-screen-content {padding:14% 12% 10%;}
+.live-watch .live-location {font-size:10cqi;justify-content:center;}
+.live-watch .live-location bdi {display:none;}
+.live-watch .live-next {padding:4% 0 0;border:0;background:none;backdrop-filter:none;margin-top:auto;margin-bottom:12%;}
+.live-watch .live-next>span {font-size:8cqi;}
+.live-watch .live-next>strong {font-size:14cqi;}
+.live-watch .live-time {font-size:28cqi;}
+.live-watch .live-next small {font-size:9cqi;}
+.watch-galaxy .live-watch .live-screen-content {padding:16% 13%;}
+.watch-galaxy .live-watch .live-location {font-size:9cqi;}
+.watch-galaxy .live-watch .live-next {margin-top:5%;margin-bottom:0;}
+.watch-galaxy .live-watch .live-next>span {font-size:7cqi;}
+.watch-galaxy .live-watch .live-time {font-size:25cqi;}
+.live-screen[dir="rtl"] {font-family:Tahoma,Arial,sans-serif;}
+.live-screen[dir="rtl"] .live-brand {font-family:Georgia,serif;direction:ltr;}
+.live-screen[dir="rtl"] .live-prayers h3 {font-family:Tahoma,Arial,sans-serif;}
+@media(max-width:35.99rem){.preview-toolbar{gap:.35rem}.preview-toolbar p{font-size:.6rem}.preview-language-buttons button{font-size:.6rem;padding:.35rem .5rem}}
+.live-phone .live-screen-content {padding-block:17% 10%;}
+.live-phone .live-brand {margin-top:8%;}
+.live-phone .live-motto {margin-bottom:5%;}
+.live-phone .live-next {padding-block:5%;}
+.live-phone .live-prayer-row {padding-block:2.5%;margin-block:1.5%;}
+.live-phone .live-bottom-nav {padding-block:4% 0;}
+.watch-galaxy .live-watch .live-screen-content {padding:11% 13% 8%;}
+.watch-galaxy .live-watch .live-location {font-size:8cqi;}
+.watch-galaxy .live-watch .live-next {margin-top:2%;padding-top:0;}
+.watch-galaxy .live-watch .live-next>span {font-size:6cqi;}
+.watch-galaxy .live-watch .live-next>strong {font-size:11cqi;line-height:1.3;}
+.watch-galaxy .live-watch .live-time {font-size:24cqi;}
+.watch-galaxy .live-watch .live-next small {font-size:7cqi;margin-top:2%;}
+
+.hero-devices .authentic-phone-frame .authentic-app-screen {display:block;width:100%;height:100%;object-fit:cover;border-radius:1.6rem;}
+
+.watch-photo .watch-live-glass .native-watch-screen {display:block;inline-size:100%;block-size:100%;object-fit:fill;filter:none;}
+/* Android camı: gerçek görüntünün oranı ve kasa köşe eğrisi aynı alanda buluşur. */
+.hero-devices .device-samsung .authentic-phone-frame {aspect-ratio:auto;border-radius:1.1rem;padding:.3rem;overflow:hidden;}
+.hero-devices .device-samsung .authentic-phone-frame .authentic-app-screen {display:block;inline-size:100%;block-size:auto;aspect-ratio:1290/2621;object-fit:contain;border-radius:.7rem;}
+
+/* Asymmetric feature showcase: live localized text, selected material artwork. */
+.page-home .bento-features {grid-template-columns:repeat(12,minmax(0,1fr));gap:1rem;}
+.page-home .bento-feature {grid-column:span 4;background:#fcf8ef;border:1px solid #dfd2b8;border-radius:1.4rem;box-shadow:0 6px 22px #594b3010;min-width:0;}
+.bento-card {position:relative;display:block;height:100%;min-height:210px;padding:1.35rem;color:inherit;text-decoration:none;isolation:isolate;}
+.bento-card:hover {background:#fffaf1;}
+.bento-card:focus-visible {outline:3px solid #af873b;outline-offset:-4px;border-radius:1.4rem;}
+.bento-icon {display:block;width:54px;height:54px;margin-bottom:.65rem;}
+.bento-icon-image {display:block;width:100%;height:100%;overflow:hidden;border-radius:10px;}
+.bento-card .feature-body {position:relative;z-index:1;padding:0;width:65%;}
+.bento-card .feature-body h3 {font-size:1.15rem;line-height:1.35;letter-spacing:-.035em;}
+.bento-card .feature-body p {font-size:.88rem;line-height:1.65;color:#746d61;}
+.bento-art {position:absolute;right:0;bottom:0;width:43%;height:auto;z-index:-1;overflow:hidden;pointer-events:none;mask-image:linear-gradient(to right,transparent,#000 14%);}
+.bento-arrow {position:absolute;right:1rem;top:1rem;opacity:.45;}
+.bento-arrow svg {width:16px;height:16px;}
+.page-home .bento-clock {grid-column:span 7;}
+.page-home .bento-book {grid-column:span 5;}
+.bento-clock .bento-card,.bento-book .bento-card {min-height:285px;padding:1.65rem;}
+.bento-clock .feature-body,.bento-book .feature-body {width:49%;}
+.bento-clock .feature-body h3,.bento-book .feature-body h3 {font-size:1.45rem;}
+.bento-clock .bento-art {width:53%;}
+.bento-book .bento-art {width:52%;}
+.bento-compass .bento-art {width:41%;}
+.bento-bell .bento-art {width:31%;}
+.bento-beads .bento-art {width:43%;}
+.bento-steps .bento-card,.bento-kaaba .bento-card,.bento-mosque .bento-card {min-height:185px;}
+.bento-steps .bento-art {width:24%;}
+.bento-kaaba .feature-body,.bento-mosque .feature-body {width:100%;padding-right:1rem;}
+@media(max-width:900px){
+ .page-home .bento-features {grid-template-columns:repeat(2,minmax(0,1fr));}
+ .page-home .bento-feature,.page-home .bento-clock,.page-home .bento-book {grid-column:span 1;}
+ .bento-clock .bento-card,.bento-book .bento-card {min-height:285px;padding:1.25rem;}
+ .bento-clock .feature-body h3,.bento-book .feature-body h3 {font-size:1.2rem;}
+ .bento-card .feature-body {width:67%;}
+ .bento-clock .feature-body,.bento-book .feature-body {width:60%;}
+ .bento-clock .bento-art,.bento-book .bento-art {width:48%;}
+}
+@media(max-width:560px){
+ .page-home .bento-features {grid-template-columns:1fr;}
+ .bento-card {min-height:205px;}
+ .bento-clock .bento-card,.bento-book .bento-card {min-height:245px;}
+ .bento-card .feature-body {max-width:235px;}
+ .bento-kaaba .feature-body,.bento-mosque .feature-body {width:100%;max-width:none;}
+}
+
+/* Fade the atlas background into the warm card rather than a white rectangle. */
+.bento-art {
+ mix-blend-mode:multiply;
+ mask-image:linear-gradient(to right,transparent 0%,#000 32%),linear-gradient(to bottom,transparent 0%,#000 30%);
+ mask-composite:intersect;
+}
+.bento-book .bento-art,.bento-beads .bento-art,.bento-steps .bento-art {
+ mask-image:linear-gradient(to right,transparent 0%,#000 38%),linear-gradient(to bottom,transparent 0%,#000 36%);
+}
+.bento-icon-image {mix-blend-mode:multiply;}
+.bento-beads .feature-body {width:59%;}
+
+/* Complete transparent objects: no gradient or colour blending over their surface. */
+.bento-cutout {position:absolute;right:.45rem;bottom:.65rem;width:41%;height:72%;object-fit:contain;pointer-events:none;z-index:0;mask-image:none;mix-blend-mode:normal;filter:none;}
+.bento-cutout-steps {width:30%;height:73%;right:.2rem;}
+.bento-steps .feature-body {width:68%;}
+.bento-steps .bento-icon-image {mix-blend-mode:normal;}
+@media(max-width:560px){.bento-cutout {right:.2rem;width:40%;height:70%;}.bento-cutout-steps {width:29%;}}
+
+/* Compact, expandable showcase with three explicitly unfinished editorial slots. */
+.page-home .bento-features {gap:.85rem;}
+.bento-card {padding:1.1rem;min-height:190px;}
+.bento-icon {width:45px;height:45px;margin-bottom:.55rem;}
+.bento-card .feature-body h3 {font-size:1.05rem;}
+.bento-card .feature-body p {font-size:.84rem;line-height:1.6;margin-top:.45rem;}
+.bento-clock .bento-card,.bento-book .bento-card {min-height:250px;padding:1.35rem;}
+.bento-clock .feature-body h3,.bento-book .feature-body h3 {font-size:1.28rem;}
+.bento-steps .bento-card,.bento-kaaba .bento-card,.bento-mosque .bento-card {min-height:170px;}
+.bento-placeholder .bento-card {min-height:165px;}
+.bento-placeholder .feature-body {width:100%;max-width:none;}
+.bento-icon-pending {border:1px dashed #cdbf9f;border-radius:12px;background:linear-gradient(145deg,#f0e8d933,#e9decb55);}
+.bento-placeholder-label {position:absolute;right:1.1rem;top:1.2rem;font-size:.65rem;letter-spacing:.05em;color:#8b7c62;}
+@media(max-width:900px){.bento-clock .bento-card,.bento-book .bento-card {min-height:245px;padding:1.1rem;}}
+@media(max-width:560px){.bento-card {min-height:190px;}.bento-clock .bento-card,.bento-book .bento-card {min-height:225px;}}
+
+/* Both store badges share one baseline despite different phone frame heights. */
+.hero-devices {align-items:stretch;}
+.hero-devices .device-preview {justify-content:space-between;}
+.hero-devices .device-store {flex-shrink:0;}
+
+/* Dedicated watch showcase, with full resolution artwork and readable screens. */
+.hero-devices .device-preview .product-screen,.hero-devices .device-preview .device-store {inline-size:100%;align-self:center;}
+.hero-devices .product-frame {margin-inline:auto;}
+.watch-device-pair {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;align-items:center;width:100%;max-width:36rem;margin-inline:auto;}
+.watch-device-pair figure {margin:0;min-width:0;display:grid;justify-items:center;gap:1rem;}
+.watch-device-pair .watch-shell.watch-photo {position:relative;left:auto;right:auto;top:auto;transform:none;inline-size:100%;max-inline-size:17rem;margin:0;}
+.watch-device-pair figcaption {font-size:.85rem;color:var(--muted);text-align:center;}
+.watch-showcase .watch-layout {gap:2.5rem;}
+@media(min-width:60rem){.watch-showcase .watch-layout {grid-template-columns:minmax(0,.9fr) minmax(0,1.3fr);}}
+@media(max-width:560px){.watch-device-pair {gap:.65rem;max-width:30rem;}.watch-showcase .watch-layout {gap:2rem;}}
+
+/* Equal case height, with the title spanning the whole showcase. */
+.watch-showcase .watch-layout {grid-template-columns:1fr;text-align:center;gap:2rem;}
+.watch-showcase .watch-layout p {max-inline-size:none;margin-inline:auto;}
+.watch-showcase .watch-layout h2 {font-size:clamp(1rem,3vw,2.6rem);line-height:1.25;letter-spacing:-.035em;white-space:nowrap;margin-block:.8rem 1rem;}
+.watch-device-pair {align-items:end;max-width:38rem;gap:2rem;}
+.watch-device-pair figure {grid-template-rows:1fr auto;align-self:stretch;align-items:center;}
+.watch-device-pair .watch-shell.watch-photo {block-size:clamp(9rem,32vw,16rem);inline-size:auto;max-inline-size:none;}
+.watch-device-pair .watch-apple.watch-photo {aspect-ratio:1133/1388;}
+.watch-device-pair .watch-galaxy.watch-photo {aspect-ratio:1;}
+.watch-device-pair .watch-photo>img {inline-size:100%;block-size:100%;}
+@media(max-width:560px){.watch-device-pair {gap:1rem;}.watch-device-pair figcaption {font-size:.75rem;}}
+
+/* Brand palette from the supplied mobile app's colors.dart (day theme). */
+:root {
+ --brand-emerald:#064e3b;
+ --brand-gold:#c8962a;
+ --brand-gold-deep:#9c6b16;
+ --cream:#f5f1e8;
+ --bg:#f5f1e8;
+ --bg-alt:#ede8dc;
+ --surface:#fdfaf4;
+ --gold:var(--brand-gold);
+ --text:#1a2e22;
+ --heading:#1a2e22;
+ --heading-accent:var(--brand-emerald);
+ --link:var(--brand-emerald);
+ --accent:#80570f;
+ --muted:#68796c;
+ --line:#c8962a47;
+ --shadow:0 2px 5px #064e3b06,0 14px 36px -16px #064e3b20;
+}
+.page-home .hero h1 {color:var(--brand-emerald);}
+.page-home .bento-feature {background:#fdfaf4;border-color:#c8962a47;box-shadow:0 5px 22px #064e3b09;}
+.bento-card:hover {background:#faf4e6;}
+.bento-card .feature-body h3 {color:var(--heading);}
+.bento-card .feature-body p {color:#68796c;}
+.bento-arrow {color:var(--brand-gold-deep);opacity:.85;}
+.bento-card:focus-visible {outline-color:var(--brand-emerald);}
+.eyebrow,.watch-layout .eyebrow {color:#80570f;}
+.device-store {background:#fdfaf4cc;border-color:#c8962a47;color:var(--brand-emerald);}
+.device-store-soon {background:#fdfaf499;}
+.device-store:hover {background:#faf2de;}
+.bento-icon-pending {border-color:#c8962a66;}
+.bento-placeholder-label {color:#80570f;}
+.watch-device-pair figcaption {color:var(--brand-emerald);}
+::selection {background:#e0b84a66;color:#1a2e22;}
+
+/* App-matched cream surfaces with stronger emerald/gold identity. */
+:root {
+ --wallpaper-image:none;
+ --wallpaper-wash:transparent;
+ --bg:#f5f1e8;
+ --bg-alt:#ede8dc;
+ --surface:#fdfaf4;
+ --emerald:#064e3b;
+ --emerald-2:#0d6844;
+ --emerald-deep:#064e3b;
+ --line:#c8962a70;
+}
+body,body::before {background:#f5f1e8;background-image:none;}
+.topbar {background:#ede8dc;color:#064e3b;border-color:#c8962a70;}
+.site-header {background:#fdfaf4;border-bottom:1px solid #c8962a70;}
+.brand,.main-nav a,.nav-link {color:#064e3b;}
+.page-home .section-head h2,.watch-layout h2,.strip h2,.split-main h2,.contact-section h2 {color:#064e3b;}
+.page-home .bento-feature {background:#fdfaf4;border:1px solid #c8962a80;box-shadow:0 8px 24px #064e3b0c;}
+.bento-card .feature-body h3 {color:#064e3b;}
+.bento-card .feature-body p {color:#627366;}
+.page-home .bento-book {background:linear-gradient(110deg,#fdfaf4 20%,#f3e9d1);}
+.bento-card:hover {background:#f5ecd8;}
+.bento-arrow {color:#9c6b16;opacity:1;}
+.eyebrow,.watch-layout .eyebrow {color:#9c6b16;}
+.strip {background:#fdfaf4;border:1px solid #c8962a80;box-shadow:0 10px 28px #064e3b0b;}
+.strip-grid {border-color:#c8962a70;}
+.strip-grid li+li {border-color:#c8962a70;}
+.strip-grid li {color:#064e3b;}
+.page-home a.button:not(.button-gold):not(.button-outline) {background:#064e3b;color:#fdfaf4;border-color:#c8962a;}
+.page-home a.button:not(.button-gold):not(.button-outline):hover {background:#0d6844;}
+.device-store {background:#fdfaf4;border:1px solid #c8962a90;color:#064e3b;box-shadow:0 5px 18px #064e3b0b;}
+.device-store-soon {background:#f3eddf;}
+.device-store strong {color:#064e3b;}
+.site-footer {background:#ede8dc;border-top:1px solid #c8962a70;}
+.site-footer h2,.site-footer a {color:#064e3b;}
+
+/* User-controlled horizontal feature and screenshot carousels. */
+.slider-controls {display:flex;justify-content:flex-end;gap:.6rem;margin-block:0 1rem;}
+.slider-controls button {width:44px;height:44px;border:1px solid #c8962a80;border-radius:50%;background:#fdfaf4;color:#064e3b;font-size:1.3rem;cursor:pointer;}
+.slider-controls button:hover {background:#ede8dc;}
+.slider-controls button:disabled {opacity:.3;cursor:default;}
+.page-home .bento-features.card-slider {display:flex;gap:1rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:2px;padding:2px 2px 1.25rem;scrollbar-width:thin;scrollbar-color:#c8962a80 transparent;}
+.page-home .card-slider .bento-feature {flex:0 0 min(85vw,22rem);scroll-snap-align:start;}
+.card-slider .bento-card,.card-slider .bento-clock .bento-card,.card-slider .bento-book .bento-card,.card-slider .bento-placeholder .bento-card {min-height:260px;height:100%;padding:1.25rem;}
+.card-slider .bento-card .feature-body {width:62%;}
+.card-slider .bento-clock .feature-body h3,.card-slider .bento-book .feature-body h3 {font-size:1.1rem;}
+.card-slider .bento-kaaba .feature-body,.card-slider .bento-mosque .feature-body,.card-slider .bento-placeholder .feature-body {width:100%;}
+.card-slider .bento-clock .bento-art,.card-slider .bento-book .bento-art {width:47%;}
+#screen-slider {max-width:72rem;margin-inline:auto;scroll-snap-type:x mandatory;scroll-padding-inline:1.25rem;}
+#screen-slider ul {margin-inline:0;padding-inline:1.25rem;}
+#screen-slider li {scroll-snap-align:start;}
+@media(max-width:560px){.slider-controls {margin-bottom:.8rem;}#screen-slider .phone {inline-size:15rem;}}
+#screen-slider .phone {inline-size:18rem;}
+@media(max-width:560px){#screen-slider .phone {inline-size:15rem;}}
+
+/* Automatically flowing rows remain draggable; hover pauses via script. */
+#feature-slider.auto-slider,#screen-slider.auto-slider {scroll-snap-type:none;scroll-behavior:auto;cursor:grab;scrollbar-width:none;overflow-anchor:none;}
+#feature-slider.auto-slider::-webkit-scrollbar,#screen-slider.auto-slider::-webkit-scrollbar {display:none;}
+.auto-slider.is-dragging {cursor:grabbing!important;user-select:none;}
+.auto-slider img {user-select:none;-webkit-user-drag:none;}
+.auto-slider.is-dragging a {cursor:grabbing;}
+@media(prefers-reduced-motion:reduce){#feature-slider.auto-slider,#screen-slider.auto-slider {scrollbar-width:thin;}}
+
+/* App emerald is now the defining colour of the upper site chrome. */
+.topbar {background:#064e3b;color:#fdfaf4;border-bottom:1px solid #c8962a80;}
+.site-header {background:#064e3b;color:#fdfaf4;border-bottom:1px solid #c8962a;}
+.site-header .brand,.site-header .main-nav .nav-label>a,.site-header .nav-expand,.site-header .mobile-menu summary {color:#fdfaf4;}
+.site-header .main-nav .nav-label>a:hover,.site-header .nav-expand:hover {color:#e0b84a;}
+.topbar .lang summary {color:#fdfaf4;}
+.site-header a.header-cta.button {background:#e0b84a!important;color:#1a2e22!important;border-color:#e0b84a!important;}
+.site-header a.header-cta.button:hover {background:#edc968!important;}
+.site-header .nav-panel {background:#fdfaf4;color:#1a2e22;}
+.site-header .nav-panel a {color:#064e3b;}
+.site-header .mobile-menu nav .nav-label>a,.site-header .mobile-menu nav .nav-expand {color:#064e3b;}
+
+/* Real, original-resolution app screens in a front-facing Pro Max style case. */
+#screen-slider .gallery-iphone .phone-frame {position:relative;aspect-ratio:1290/2796;padding:0;border:5px solid #0c0e0d;border-radius:2.6rem;background:#f5f1e8;box-shadow:0 0 0 2px #b2ada2,0 0 0 4px #686b67,0 14px 30px #1a2e2218;overflow:hidden;}
+#screen-slider .gallery-iphone .phone-frame img {display:block;width:100%;height:100%;object-fit:contain;border-radius:0;}
+#screen-slider .gallery-iphone .phone-frame picture {display:block;width:100%;height:100%;}
+.gallery-island {position:absolute;z-index:2;left:35%;top:1.45%;width:30%;height:3.5%;border-radius:999px;background:#080908;box-shadow:inset -6px 0 8px #17202470;pointer-events:none;}
+.gallery-island::after {content:"";position:absolute;right:10%;top:35%;height:30%;aspect-ratio:1;border-radius:50%;background:#152533;box-shadow:inset 0 0 2px #020405;}
+.gallery-home {position:absolute;z-index:2;bottom:.6%;left:34%;width:32%;height:.45%;border-radius:5px;background:#1a2e22;pointer-events:none;}
+#screen-slider .phone figcaption {font-family:var(--sans);color:#064e3b;font-size:.95rem;}
+
+/* Hide captured iOS status information without resizing or distorting the app. */
+#screen-slider .gallery-iphone .phone-frame img {clip-path:inset(6% 0 0 0);}
+#screen-slider .gallery-iphone .phone-frame {background:#f5f1e8;}
+
+/* Real day/night app screens replace the theme placeholders. */
+.theme-pair .product-frame {position:relative;aspect-ratio:1290/2796;padding:0;border:5px solid #090d0b;border-radius:2.6rem;box-shadow:0 0 0 2px #a5a298,0 14px 30px #1a2e2218;overflow:hidden;background:#f5f1e8;}
+.theme-pair .product-screen-night .product-frame {background:#061327;}
+.theme-pair .product-frame img {display:block;width:100%;height:100%;object-fit:contain;clip-path:inset(6% 0 0 0);border-radius:0;}
+.theme-pair .product-frame .gallery-island {top:1.45%;}
+.theme-pair .product-screen {max-width:19rem;margin-inline:auto;}
+
+#screen-slider .gallery-widget .phone-frame img {clip-path:none;}
+#screen-slider .gallery-widget .phone-frame {background:#5d83ac;}
+#screen-slider .gallery-widget .phone-frame img {object-fit:cover;object-position:center top;}
+
+/* Keep the two widget themes together in the gallery. */
+#screen-slider .widget-pair {display:flex;gap:1.5rem;flex-shrink:0;}
+#screen-slider .widget-pair figcaption {font-weight:600;}
+
+/* Full-screen theme previews; remove captured status area without distorting the app. */
+.theme-pair .theme-day,.theme-pair .theme-night {background:#f5f1e8;color:#1a2e22;border:1px solid #d8ceba;}
+.theme-pair .product-frame {aspect-ratio:1290/2628.24;}
+.theme-pair .product-frame img {position:absolute;left:0;top:-6.383%;width:100%;height:106.383%;max-width:none;object-fit:fill;clip-path:none;}
+.theme-pair .product-frame .gallery-island {z-index:2;}
+
+/* Reserve a camera safe area so greetings stay below the Dynamic Island. */
+.theme-pair .product-frame {aspect-ratio:1290/2796;background:#28a7ef;}
+.theme-pair .product-screen-night .product-frame {background:#061327;}
+.theme-pair .product-frame img {top:0;height:100%;object-fit:fill;clip-path:inset(6% 0 0 0);}
+
+/* Completed feature illustrations, matching the existing product cards. */
+.card-slider .bento-added .bento-card {position:relative;overflow:hidden;}
+.card-slider .bento-added .feature-body {position:relative;z-index:1;width:64%;padding-top:.3rem;}
+.bento-added-art {position:absolute;right:-.35rem;bottom:.6rem;width:43%;height:72%;object-fit:contain;pointer-events:none;}
+.card-slider .bento-added h3 {max-width:17ch;}
+
+/* QR codes are for desktop visitors; phones use the store link directly. */
+@media (max-width:767px),(hover:none) and (pointer:coarse){.download .qr {display:none;}}

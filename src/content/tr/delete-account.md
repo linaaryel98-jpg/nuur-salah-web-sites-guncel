@@ -10,8 +10,8 @@ Nuur Salah hesabınızı dilediğiniz zaman, uygulamanın içinden kendiniz sile
 
 1. Nuur Salah uygulamasını açın.
 2. **Profil** sekmesine gidin.
-3. **Hesabım** bölümünü açın.
-4. **Hesabımı Sil** seçeneğine dokunun ve onaylayın.
+3. **Hesap ve gizlilik** bölümünde **Hesabımı sil** satırına dokunun.
+4. Çıkan uyarıda onaylayın.
 
 Silme işlemi onayın ardından başlar ve geri alınamaz.
 

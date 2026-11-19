@@ -25,7 +25,7 @@ for (const p of ['src', 'site.config.mjs', 'build.mjs']) {
 }
 
 const types = {
-  '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml',
+  '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.css': 'text/css; charset=utf-8', '.svg': 'image/svg+xml',
   '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.woff2': 'font/woff2',
   '.xml': 'application/xml', '.txt': 'text/plain; charset=utf-8', '.webmanifest': 'application/manifest+json',
 };
@@ -50,4 +50,4 @@ createServer(async (req, res) => {
   } catch {
     res.writeHead(404).end('Not found');
   }
-}).listen(port, () => console.log(`\nÖnizleme: http://localhost:${port}`));
+}).listen(port, '127.0.0.1', () => console.log(`\nÖnizleme: http://localhost:${port}`));

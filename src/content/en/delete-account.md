@@ -10,8 +10,8 @@ You can delete your Nuur Salah account yourself at any time, from within the app
 
 1. Open the Nuur Salah app.
 2. Go to the **Profile** tab.
-3. Open **My Account**.
-4. Tap **Delete My Account** and confirm.
+3. In the **Account and privacy** section, tap **Delete my account**.
+4. Confirm in the dialog that appears.
 
 Deletion begins once you confirm and cannot be undone.
 

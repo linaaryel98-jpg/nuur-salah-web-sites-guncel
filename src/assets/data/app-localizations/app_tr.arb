@@ -1,0 +1,1265 @@
+{
+  "@@locale": "tr",
+  "anaSayfa": "Ana Sayfa",
+  "profil": "Profil",
+  "namazVakitleri": "Namaz Vakitleri",
+  "ezanSesleri": "Ezân-ı Muhammedî",
+  "kible": "Kıble",
+  "abdest": "Abdest",
+  "namazKilmayiOgren": "Namaz Kılmayı Öğren",
+  "namazDualari": "Namaz Duaları ve Sûreleri",
+  "sureRehberi": "Sûre Rehberi",
+  "tesbih": "Tesbih",
+  "faziletler": "Faziletler",
+  "yolculuktaNamaz": "Yolculukta Namaz",
+  "yolculuktaOruc": "Yolculukta Oruç",
+  "hikmet": "Manevi Paylaşımlar",
+  "ruyaRehberi": "Rüya Rehberi",
+  "kisisel": "Kişisel",
+  "kurAnIKerim": "Kur'ân-ı Kerîm",
+  "hikmetHazinesi": "Manevi Paylaşımlar",
+  "asirlardanSuzulenSozler": "Asırlardan süzülen sözler",
+  "abdestNasilAlinir": "Abdest Nasıl Alınır",
+  "adimAdimSirasiyla": "Adım adım, sırasıyla",
+  "namazKilmayiOgreniyorum": "Namaz Kılmayı Öğreniyorum",
+  "niyettenSelamaAdimAdim": "Niyetten selama, adım adım",
+  "namazdaOkunanDualarArapcaOkunus": "Namazda okunan dualar · Arapça, okunuş ve anlam",
+  "sayisiylaOkunanZikirVeDualar": "Sayısıyla okunan zikir ve dualar",
+  "sizeOzelManeviTakipAlani": "Size özel manevi takip alanı",
+  "sunnetinIsigindaRuyalar": "Sünnetin ışığında rüyalar",
+  "t114SureninInisYeriSirasi": "114 sûrenin iniş yeri, sırası ve konusu",
+  "ezanVeBildirimler": "Ezan ve Bildirimler",
+  "vakitGirdigindeBulundugunuzYerdeEzan": "Vakit girdiğinde bulunduğunuz yerde ezan okunur",
+  "hukukiMetinler": "Hukuki Metinler",
+  "kosullarGizlilikVeVerileriniz": "Koşullar, gizlilik ve verileriniz",
+  "kosullar": "Koşullar",
+  "gizlilik": "Gizlilik",
+  "veriSaklama": "Veri Saklama",
+  "uygulama": "Uygulama",
+  "hesapVeGizlilik": "Hesap ve gizlilik",
+  "temaSecimi": "Tema Seçimi",
+  "dilSecimi": "Dil Seçimi",
+  "vakitHesaplama": "Vakit hesaplama",
+  "takvimKaynagi": "Takvim kaynağı",
+  "bildirimler": "Bildirimler",
+  "gizlilikVeHukukiMetinler": "Gizlilik ve hukuki metinler",
+  "hesabimiSil": "Hesabımı sil",
+  "yardimVeIletisim": "Yardım ve iletişim",
+  "profileWebsite": "Web sitesi",
+  "premium": "Premium",
+  "satinAlimlariGeriYukle": "Satın alımları geri yükle",
+  "cikisYap": "Çıkış Yap",
+  "premiumUye": "Premium Üye",
+  "otomatik": "Otomatik",
+  "gunduz": "Gündüz",
+  "gece": "Gece",
+  "hesaplamaYontemi": "Hesaplama yöntemi",
+  "yurtDisindaDiyanetVakitleriniKullan": "Yurt dışında Diyanet vakitlerini kullan",
+  "turkiyeDekiVakitlereAliskinOlanlar": "Türkiye'deki vakitlere alışkın olanlar için",
+  "imsak": "İmsak",
+  "gunes": "Güneş",
+  "ogle": "Öğle",
+  "ikindi": "İkindi",
+  "aksam": "Akşam",
+  "yatsi": "Yatsı",
+  "imsakNamazi": "İmsak Namazı",
+  "sabahNamazi": "Sabah Namazı",
+  "ogleNamazi": "Öğle Namazı",
+  "ikindiNamazi": "İkindi Namazı",
+  "aksamNamazi": "Akşam Namazı",
+  "yatsiNamazi": "Yatsı Namazı",
+  "sabahNamaziVakti": "Sabah namazı vakti",
+  "sabahNamazininSonVakti": "Sabah namazının son vakti",
+  "siradakiNamaz": "SIRADAKİ NAMAZ",
+  "siradaki": "Sıradaki",
+  "bugun": "Bugün",
+  "kaydet": "Kaydet",
+  "paylas": "Paylaş",
+  "kapat": "Kapat",
+  "vazgec": "Vazgeç",
+  "anladim": "Anladım",
+  "basla": "Başla",
+  "sifirla": "↺ Sıfırla",
+  "araVer": "Ara ver",
+  "meal": "Meal",
+  "mushaf": "Mushaf",
+  "mealGorunumundeAc": "Meal görünümünde aç",
+  "erkek": "Erkek",
+  "kadin": "Kadın",
+  "namazAbdesti": "Namaz Abdesti",
+  "boyAbdestiGusul": "Boy Abdesti (Gusül)",
+  "bilinmesiGerekenler": "Bilinmesi Gerekenler",
+  "kibleyiNasilBulurum": "Kıbleyi nasıl bulurum?",
+  "bugununKibleSaati": "Bugünün kıble saati",
+  "pusulayiBaslat": "Pusulayı Başlat",
+  "konumumuKullan": "Konumumu Kullan",
+  "konumumuKullan2": "Konumumu kullan",
+  "tumDunya": "Tüm dünya",
+  "kendiDilimde": "Kendi dilimde",
+  "kurallar": "Kurallar",
+  "tumu": "Tümü",
+  "sifa": "Şifa",
+  "aile": "Aile",
+  "ummet": "Ümmet",
+  "rizik": "Rızık",
+  "hidayet": "Hidâyet",
+  "genel": "Genel",
+  "gunluk": "Günlük",
+  "sabahVeAksam": "Sabah ve akşam",
+  "uykuOncesi": "Uyku öncesi",
+  "korunma": "Korunma",
+  "hadisISerif": "Hadîs-i Şerîf",
+  "irfan": "Âlimlerin Kaleminden",
+  "ayet": "Âyet",
+  "esmaUlHusna": "Esmâ-ül Hüsnâ",
+  "cuma": "Cuma",
+  "cumaNuru": "Cuma Nuru",
+  "cumaNuruSub": "Hayırlı Cumalar için mesajlar ve kartlar",
+  "cumaTabGuide": "Cuma Namazı Rehberi",
+  "cumaTabVirtue": "Cuma Günü Fazileti",
+  "cumaTabMessages": "Cuma Mesajları",
+  "tesbihatModu": "Tesbihat modu",
+  "kisiselBilgiIceriyor": "Kişisel bilgi içeriyor",
+  "bagisVeyaParaIstiyor": "Bağış veya para istiyor",
+  "hakaretNefretVeyaBeddua": "Hakaret, nefret veya beddua",
+  "siyasiVeyaReklamIcerik": "Siyasi veya reklam içerik",
+  "baskaBirSorun": "Başka bir sorun",
+  "buKisiyiEngelle": "Bu kişiyi engelle",
+  "hayraYor": "Hayra yor",
+  "huzurVerdi": "Huzur verdi",
+  "tedirginEtti": "Tedirgin etti",
+  "karisikAnlamsiz": "Karışık, anlamsız",
+  "kazaBorcumuHesapla": "Kaza borcumu hesapla",
+  "kazaNamaziTakibi": "Kaza namazı takibi",
+  "kalanBorc": "Kalan borç",
+  "bugunkuNamazlarim": "Bugünkü namazlarım",
+  "kaydettiklerim": "Kaydettiklerim",
+  "premiumUBaslat": "Premium'u başlat",
+  "konumumaIzinVer": "Konumuma izin ver",
+  "simdilikVarsayilanSehriKullan": "Şimdilik varsayılan şehri kullan",
+  "izinVeriyorum": "İzin veriyorum",
+  "imsakiye": "İmsakiye",
+  "siradakiNamaz2": "Sıradaki Namaz",
+  "siradakiNamaz3": "Sıradaki namaz",
+  "standartEzan": "Standart ezan",
+  "makamliEzan": "Makamlı ezan",
+  "ezanVaktiniOnizle": "Ezan vaktini önizle",
+  "anaEkrandaNuurSalah": "Ana ekranda Nuur Salah",
+  "kuzeydenAci": "Kuzeyden açı",
+  "yon": "Yön",
+  "kabeYeMesafe": "Kâbe'ye mesafe",
+  "kuzey": "Kuzey",
+  "guney": "Güney",
+  "dogu": "Doğu",
+  "bati": "Batı",
+  "kuzeydogu": "Kuzeydoğu",
+  "kuzeybati": "Kuzeybatı",
+  "guneydogu": "Güneydoğu",
+  "guneybati": "Güneybatı",
+  "kibleyeDondunuz": "Kıbleye döndünüz",
+  "kibleIstikametindesiniz": "Kıble istikametindesiniz",
+  "pusulaAcik": "Pusula açık",
+  "langName": "Türkçe",
+  "obTag": "NAMAZ NURDUR",
+  "obQuote": "“Namaz nurdur.”",
+  "obRef": "Hadîs-i Şerîf · Müslim, Tahâret 1",
+  "obDesc": "Nuur Salah, her vakitte sizi bu nura çağıran sessiz bir yoldaş.",
+  "obStart": "Başla",
+  "greetMorning": "Hayırlı Sabahlar",
+  "greetMorningSub": "Rabbim gününüzü hayr ve bereketle açsın.",
+  "greetDay": "Hayırlı Günler",
+  "greetDaySub": "Rabbim işlerinizi kolaylaştırsın, vaktinize bereket versin.",
+  "greetEvening": "Hayırlı Akşamlar",
+  "greetEveningSub": "Rabbim akşamınızı huzurla, sofranızı bereketle doldursun.",
+  "greetNight": "Hayırlı Geceler",
+  "greetNightSub": "Rabbim gecenizi huzurlu, uykunuzu ibadet eylesin.",
+  "homeSelam": "Esselâmü aleyküm ve rahmetullâhi ve berekâtüh",
+  "quranSubtitle": "114 sûre · Mushaf-ı Şerîf",
+  "homeTrustNote": "Kişisel kayıtlarınız yalnızca bu cihazda saklanır. Dinî bilgiler Diyanet İşleri Başkanlığı kaynaklarına dayanır.",
+  "timeLeftHoursMinutes": "{hours} saat {minutes} dakika kaldı",
+  "@timeLeftHoursMinutes": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "timeLeftMinutes": "{minutes} dakika kaldı",
+  "@timeLeftMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "inDays": "{days} gün sonra",
+  "@inDays": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      }
+    }
+  },
+  "permTitle": "Namaz vakitleriniz için konumunuz",
+  "permSubtitle": "Vakitleri ve kıbleyi bulunduğunuz yere göre hesaplayabilmemiz için konumunuza ihtiyacımız var.",
+  "permItem1": "Bulunduğunuz yere göre namaz vakitleri",
+  "permItem2": "Kıble yönü ve Kâbe'ye uzaklık",
+  "permItem3": "Vaktinde ezan ve hatırlatmalar",
+  "permPrivacy": "Konumunuz yalnızca telefonunuzda kullanılır; hiçbir sunucuya gönderilmez.",
+  "permAllow": "Konumuma izin ver",
+  "permLater": "Şimdilik varsayılan şehri kullan",
+  "permLaterNote": "Vakitler şimdilik varsayılan şehre göre gösteriliyor. Profil'den dilediğiniz an konumunuzu kullanabilirsiniz.",
+  "locationSet": "Vakitler ve kıble {city} için ayarlandı.",
+  "@locationSet": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "locationFailed": "Konuma erişilemedi. {city} vakitleri gösteriliyor.",
+  "@locationFailed": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "ptSelectedManually": "Elle seçildi",
+  "backLabel": "Geri",
+  "ptToastDiyanet": "Diyanet vakitleri kullanılıyor.",
+  "ptToastOfficial": "Bulunduğunuz ülkenin resmî yöntemi kullanılıyor.",
+  "ptNote": "Türkiye'de yöntem Diyanet iken internet varsa ilçenizin Diyanet resmî tablosu kullanılır (kaynak satırında ilçe adı ve “Diyanet resmî tablosu” yazar); tablo alınamazsa ya da ilçeniz bulunamazsa vakitler Diyanet yöntemiyle cihazınızda hesaplanır ve satırda “hesaplandı” yazar. Diğer ülkelerde vakitler bulunduğunuz ülkenin yöntemiyle cihazınızda, internetsiz hesaplanır. İkindi asr-ı evveldir. Yerel camiinizin vakitleriyle birkaç dakika fark olabilir. Makamlı ezan ve konum ayarları vitrindeki Ezân-ı Muhammedî bölümünde.",
+  "methodDiyanet": "Türkiye · Diyanet İşleri Başkanlığı",
+  "methodUmmAlQura": "Suudi Arabistan · Ümmülkurâ",
+  "methodIsna": "Kuzey Amerika · ISNA",
+  "methodJakim": "Malezya · JAKIM",
+  "methodKemenag": "Endonezya · Din İşleri Bakanlığı",
+  "methodGulf": "Körfez · BAE, Kuveyt",
+  "methodKarachi": "Güney Asya · Karaçi İslami İlimler Üniv.",
+  "methodFrance": "Fransa · UOIF (12°)",
+  "methodRussia": "Rusya · Müslümanlar Dinî İdaresi",
+  "methodMwl": "Muslim World League",
+  "qiblaPlace": "{city} · Kâbe'ye olan yön",
+  "@qiblaPlace": {
+    "placeholders": {
+      "city": {
+        "type": "String"
+      }
+    }
+  },
+  "compassStartTitle": "Pusulayı başlatın",
+  "compassStartSub": "Aşağıdaki düğmeye dokunun, gerisini birlikte yapalım",
+  "compassOpening": "Pusula açılıyor...",
+  "holdFlat": "Telefonu düz tutun",
+  "compassNotFound": "Pusula sensörü bulunamadı",
+  "qiblaAngleInfo": "Kıble, kuzeyden saat yönünde {deg}° ({dir})",
+  "@qiblaAngleInfo": {
+    "placeholders": {
+      "deg": {
+        "type": "int"
+      },
+      "dir": {
+        "type": "String"
+      }
+    }
+  },
+  "locating": "Konum alınıyor...",
+  "locationUpdated": "Konum güncel",
+  "turnRight": "Sağa doğru dönün · {deg}°",
+  "@turnRight": {
+    "placeholders": {
+      "deg": {
+        "type": "int"
+      }
+    }
+  },
+  "turnLeft": "Sola doğru dönün · {deg}°",
+  "@turnLeft": {
+    "placeholders": {
+      "deg": {
+        "type": "int"
+      }
+    }
+  },
+  "turnHint": "Kâbe görselini üstteki işaretin altına getirin",
+  "alignedSub": "Kâbe tam karşınızda. Allah kabul etsin.",
+  "nearRight": "Tam hizalamak için sağa {deg}° dönün",
+  "@nearRight": {
+    "placeholders": {
+      "deg": {
+        "type": "int"
+      }
+    }
+  },
+  "nearLeft": "Tam hizalamak için sola {deg}° dönün",
+  "@nearLeft": {
+    "placeholders": {
+      "deg": {
+        "type": "int"
+      }
+    }
+  },
+  "sunNote": "Bu saatte güneş gökyüzünde kıble yönündedir; güneşe dönen kıbleye dönmüş olur. Yalnızca güneş görünüyorsa kullanılabilir.",
+  "sunNone": "Bugün bulunduğunuz yerde güneş kıble yönüne gelmiyor.",
+  "qiblaRule": "Diyanet'e göre Kâbe yönünden sağa veya sola 45 dereceye kadar sapmalar namazın geçerliliğine engel değildir. Pusuladaki küçük sapmalar bu yüzden endişe konusu olmamalı; camiide namaz kılarken de mihrabın yönü esas alınır.",
+  "qiblaStep1": "Telefonunuzu yere paralel, avucunuzda düz tutun.",
+  "qiblaStep2": "Metal eşyalardan, duvardaki demirden ve mıknatıslı kılıflardan uzak durun; pusula bunlardan etkilenir.",
+  "qiblaStep3": "Pusuladaki Kâbe görseli en üstteki işaretin tam altına gelene kadar kendi etrafınızda yavaşça dönün.",
+  "qiblaStep4": "Kart yeşile döndüğünde ve telefon titrediğinde kıbleye dönmüşsünüz demektir.",
+  "compassCalibration": "Pusula kalibrasyonu gerekiyor. Telefonu havada 8 şeklinde döndürün ve metal eşyalardan uzak durun.",
+  "adhanFajr": "Sabah Ezanı",
+  "adhanDhuhr": "Öğle Ezanı",
+  "adhanAsr": "İkindi Ezanı",
+  "adhanMaghrib": "Akşam Ezanı",
+  "adhanIsha": "Yatsı Ezanı",
+  "ezanMasterTitle": "Vakit girince ezan okunsun",
+  "ezanMasterSub": "Telefon sessizde değilse ezan sesli okunur",
+  "ezanTimezone": "Vakitler bu konumun saatine göre · {tz}",
+  "@ezanTimezone": {
+    "placeholders": {
+      "tz": {
+        "type": "String"
+      }
+    }
+  },
+  "ezanAbroadNote": "Yurt dışına çıktığınızda vakitler ve ezan, bulunduğunuz ülkenin saatine göre kendiliğinden ayarlanır.",
+  "ezanModeNoteStd": "Bütün vakitlerde aynı sade okuyuş. Makamlı ezan Premium üyelere açıktır.",
+  "ezanModeNoteMakam": "Her vakit, geleneğimizdeki kendi makamıyla okunur. Makamların anlamlarını aşağıda bulabilirsiniz.",
+  "ezanStandardRecitation": "Standart okuyuş",
+  "ezanToastOn": "Vakit girince ezan okunacak",
+  "ezanToastOff": "Ezan kapatıldı; sessiz bildirim gelecek",
+  "ezanPremiumOnly": "Makamlı ezan Premium üyelere açıktır.",
+  "camiiDirections": "Yol tarifi al",
+  "qiblaMapHint": "Haritayı sürükleyip yakınlaştırabilirsiniz",
+  "psUnlisted": "Ülkenizin resmî kurumu listede yoksa Otomatik, dünyada yaygın olan Müslüman Dünya Birliği (MWL) yöntemini kullanır. Yerel camii takviminizle birkaç dakika fark olabilir; en yakın yöntemi seçebilirsiniz.",
+  "citySheetTitle": "Şehir seç",
+  "citySearchHint": "Şehir ara (örn. Paris, Kazan, Jakarta)",
+  "cityPopular": "Hızlı seçim",
+  "cityUseDevice": "Cihaz konumumu kullan",
+  "cityManualNote": "Bu şehir elle seçildi: vakitler ve bildirimler bu şehre göre kurulur, konum otomatik güncellenmez.",
+  "cityNoResult": "Sonuç bulunamadı",
+  "citySearchError": "Arama yapılamadı. İnternet bağlantınızı kontrol edin; hızlı seçimi kullanabilirsiniz.",
+  "cityPrivacy": "Yazdığınız şehir adı arama hizmetine (Open-Meteo) gönderilir; konumunuz gönderilmez.",
+  "notificationsOff": "Bildirimler kapalı. Ezanın okunması için Ayarlar'dan bildirimlere izin verin.",
+  "openSettings": "Ayarlar'ı aç",
+  "ezgButton": "Ezan duyulmuyor mu?",
+  "ezgButtonSub": "Telefon ayarları için adım adım rehber",
+  "ezgTitle": "Ezanın vaktinde okunması için",
+  "ezgSubtitle": "Telefonların sessiz mod, odak modu ve pil tasarrufu ayarları ezan bildirimini susturabilir. Telefonunuzu seçin:",
+  "ezgIos1": "Ayarlar › Bildirimler › Nuur Salah bölümünde bildirimlere ve seslere izin verin.",
+  "ezgIos2": "Ayarlar › Odak › Rahatsız Etme › Uygulamalar bölümüne Nuur Salah'ı ekleyin. Uyku ve iş odaklarınız varsa aynısını onlarda da yapın.",
+  "ezgIos3": "Telefonun yanındaki sessiz anahtarı açıksa bildirim sesi çalmaz; ezan için zil modunda olmalıdır.",
+  "ezgIos4": "iPhone'da bildirim sesi en fazla 30 saniyedir. Bildirime dokunduğunuzda ezanın tamamı uygulamada devam eder.",
+  "ezgAndroid1": "Ayarlar › Uygulamalar › Nuur Salah › Bildirimler bölümünde bildirimlere ve sese izin verin.",
+  "ezgAndroid2": "Ayarlar › Uygulamalar › Nuur Salah › Pil bölümünde “Kısıtlanmamış” seçeneğini seçin. Bazı telefonlarda adı “Pil optimizasyonu” ya da “Arka planda çalışma”dır.",
+  "ezgAndroid3": "“Alarmlar ve hatırlatıcılar” iznini açın; ezanın tam vaktinde okunması için gereklidir.",
+  "ezgAndroid4": "Rahatsız Etme modunu kullanıyorsanız, istisnalar bölümüne Nuur Salah'ı ekleyin.",
+  "ezgOk": "Anladım",
+  "specialDaysTitle": "Mübarek Gün ve Geceler",
+  "specialDaysSource": "Diyanet İşleri Başkanlığı dinî günler takvimine göre.",
+  "leftTonight": "Bu gece",
+  "leftTomorrow": "Yarın",
+  "leftTomorrowNight": "Yarın gece",
+  "nightOfWeekday": "{weekday} gecesi",
+  "@nightOfWeekday": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "dayRegaib": "Regaib Kandili",
+  "dayMirac": "Miraç Kandili",
+  "dayBerat": "Berat Kandili",
+  "dayRamadan": "Ramazan-ı Şerîf",
+  "dayQadr": "Kadir Gecesi",
+  "dayEidFitr": "Ramazan Bayramı",
+  "dayEidAdha": "Kurban Bayramı",
+  "dayQiblaDay": "Dünya Kıble Günü",
+  "noteRamadan": "İlk oruç · ilk sahur {prev} ile {next} arasındaki gece",
+  "@noteRamadan": {
+    "placeholders": {
+      "prev": {
+        "type": "String"
+      },
+      "next": {
+        "type": "String"
+      }
+    }
+  },
+  "noteEid": "Arefe {arefe} · Bayram {range}",
+  "@noteEid": {
+    "placeholders": {
+      "arefe": {
+        "type": "String"
+      },
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "noteQiblaDay": "Güneş Kâbe'nin tam üzerinde · saat {time} ({tz}): güneşe dönen kıbleye dönmüş olur",
+  "@noteQiblaDay": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      },
+      "tz": {
+        "type": "String"
+      }
+    }
+  },
+  "ezanDuaTitle": "Ezan duası",
+  "ezanTimes": "{n} kez",
+  "@ezanTimes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ezanRecordingsNote": "Ezan kayıtları, makamına hâkim bir müezzinle stüdyoda kaydedilip mağaza sürümünde eklenecek.",
+  "ezanPreviewButton": "Ezan vaktini önizle",
+  "ezanListen": "dinle",
+  "widgetsSub": "Uygulamayı açmadan sıradaki namazı ve kalan süreyi görün.",
+  "widgetSmall": "Küçük",
+  "widgetMedium": "Orta",
+  "widgetNote": "Widget'ı eklemek için telefonunuzun ana ekranına uzun basıp Nuur Salah'ı seçmeniz yeterli olacak. Widget'lar mağaza sürümüyle birlikte gelecek.",
+  "widgetLeftHM": "{hours} sa {minutes} dk kaldı",
+  "@widgetLeftHM": {
+    "placeholders": {
+      "hours": {
+        "type": "int"
+      },
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "widgetLeftM": "{minutes} dk kaldı",
+  "@widgetLeftM": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "abdestBarTitle": "Abdest Rehberi",
+  "abdestDuaToggle": "Abdest dualarını göster",
+  "abdestDuaToggleSub": "Her adımda okunması müstehap olan dua. Okunmadan da abdest tamamdır.",
+  "badgeFarz": "FARZ",
+  "badgeSunnah": "SÜNNET",
+  "legendFarz": "Mutlaka yapılmalı",
+  "legendSunnah": "Sevap kazandırır",
+  "contentTurkishNote": "Bu içerik onaylı çevirisi tamamlanana kadar Türkçe gösterilir.",
+  "prayerSuresTitle": "Namazda okunan kısa sûreler",
+  "prayerSuresSub": "Fâtiha'dan sonra okunacak zamm-ı sûre için en çok tercih edilenler. Dokununca Kur'an'da açılır.",
+  "surahNumber": "{n}. sûre",
+  "@surahNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ogPreTitle": "Önce abdest",
+  "ogGoToWudu": "Abdest Rehberi'ne git ›",
+  "ogRecited": "Okunanlar",
+  "ogRepeatBadge": "2–7. adımlar tekrar",
+  "ogGlossaryTitle": "Namaz terimleri",
+  "ogGlossarySub": "Anlatımda geçen kelimelerin kısa anlamları",
+  "ogStepAlt": "{n}. adım",
+  "@ogStepAlt": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tesbihSubtitle": "Namaz sonrası zikir",
+  "tesbihTotal": "Toplam: {n} / 99",
+  "@tesbihTotal": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "tesbihTap": "Zikir çek",
+  "tesbihatFlowSub": "Namazdan sonra istiğfar, Ente's-Selâm, Âyetü'l-Kürsî, 33'lük zikirler ve tevhid; adım adım",
+  "tesbihModelsTitle": "Tesbih Modelim",
+  "tesbihPremiumTag": "Premium ile tüm modeller",
+  "tesbihModelKehribar": "Kehribar",
+  "tesbihModelOltu": "Oltu Taşı",
+  "tesbihModelKuka": "Kuka",
+  "tesbihModelSedef": "Sedef",
+  "tesbihModelGul": "Gül Ağacı",
+  "tesbihModelYesim": "Yeşim",
+  "premiumGo": "Premium'a Geç",
+  "previewLoginTitle": "Ön izleme için giriş yapın",
+  "previewLoginText": "Premium özellikleri satın almadan önce görmek için giriş yapın. Ön izlemede özellikler kilitli görünür; kalıcı olarak kullanmak için Premium gerekir.",
+  "previewLoginGo": "Giriş yap",
+  "previewBadge": "Ön izleme · Premium",
+  "previewEnd": "Ön izlemeyi bitir",
+  "previewTapNotice": "Ön izlemede kullanılamaz. Kullanmak için Premium'a geçin.",
+  "makamPreviewIntro": "Her makamı 30 saniye dinleyebilirsiniz; tamamı Premium'dur.",
+  "makamPreviewPlay": "30 sn dinle",
+  "makamPreviewSoon": "Bu makamın kaydı hazırlanıyor.",
+  "makamPreviewEnded": "Önizleme bitti. Tamamını dinlemek için Premium'a geçin.",
+  "previewOf": "Ön izleme: {name}",
+  "@previewOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "premiumSoon": "Premium üyelik adımı yayın sürümünde eklenecek.",
+  "tesbihDone": "Tesbihatınız tamamlandı. Allah kabul etsin.",
+  "faziletSubtitle": "Sayısıyla okunan zikir ve dualar",
+  "faziletRuleTitle": "Bu bölümdeki ilkemiz",
+  "faziletRuleBody": "Burada yalnızca Kur'ân'da ve sahih hadis kaynaklarında yer alan zikir ve dualar bulunur; sayı varsa kaynağında geçtiği gibidir. Kaynağı bulunmayan \"şu kadar okuyan şuna kavuşur\" türünden rivayetlere yer verilmez. Şifa ve korunma dualarının yanında tedaviye ve tedbire devam etmek de sünnettir.",
+  "faziletSourceNote": "Metin ve kaynaklar yayın öncesi uzman kontrolünden geçirilecektir.",
+  "faziletLinkTitle": "Namaz sonrası zikirler",
+  "faziletLinkSub": "Tesbih › Tesbihat modunda adım adım",
+  "faziletCatGunluk": "Günlük",
+  "faziletCatSabahAksam": "Sabah ve akşam",
+  "faziletCatUyku": "Uyku öncesi",
+  "faziletCatSifa": "Şifa",
+  "faziletCatKorunma": "Korunma",
+  "faziletCatNamazSonrasi": "Namaz sonrası",
+  "faziletKez": "{n} kez",
+  "@faziletKez": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "faziletBugun": "Bugün {done} / {total}",
+  "@faziletBugun": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "faziletBugunTamam": "Bugün tamamlandı",
+  "faziletTekrar": "Tekrar",
+  "faziletDevam": "Devam et",
+  "faziletBasla": "Saymaya başla",
+  "faziletReadFull": "Tam metni oku",
+  "faziletReadFullClose": "Kapat",
+  "faziletBolum": "{i}. bölüm / {n}",
+  "@faziletBolum": {
+    "placeholders": {
+      "i": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "zikirTapCount": "Dokunarak sayın",
+  "zikirTapRead": "Okuduktan sonra dokunun",
+  "zikirSay": "Say",
+  "zikirPhaseDone": "{a} tamamlandı. Sıradaki: {b}",
+  "@zikirPhaseDone": {
+    "placeholders": {
+      "a": {
+        "type": "String"
+      },
+      "b": {
+        "type": "String"
+      }
+    }
+  },
+  "zikirAllDone": "Tamamlandı. Allah kabul etsin.",
+  "tesbihatTitle": "Tesbihat",
+  "tesbihatStep": "{n}. adım / 7 · {name} · bitince tevhide dönülecek",
+  "@tesbihatStep": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "tesbihatPaused": "Tesbihata ara verdiniz. Tesbihat modundan kaldığınız yerden devam edebilirsiniz.",
+  "tesbihat33Done": "33'lük zikirler tamamlandı. Şimdi tevhid ile yüze tamamlayın.",
+  "tesbihatIntroTitle": "Namaz sonrası tesbihat 7 adımda yapılır",
+  "tesbihatStart": "Başla",
+  "tesbihatOnce": "Bir kez",
+  "tesbihatInTesbih": "tesbih ekranında",
+  "tesbihatNextInTesbih": "sonraki adımlar tesbih ekranında",
+  "tesbihatFinalTitle": "Tesbihat tamamlandı",
+  "tesbihatFinalBody": "Allah kabul etsin. Şimdi ellerinizi açıp dilediğiniz gibi dua edebilirsiniz.",
+  "hikmetSubtitle": "Asırlardan süzülen sözler",
+  "hikmetFeatHadis": "Günün hadisi",
+  "hikmetFeatSoz": "Bu haftanın sözü",
+  "hikmetFeatAyet": "Bu haftanın âyeti",
+  "hikmetFeatIsim": "Günün ismi",
+  "hikmetFeatCuma": "Bu Cuma'nın mesajı",
+  "hikmetWeekWords": "Bu haftanın sözleri · {range}",
+  "@hikmetWeekWords": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "hikmetWeekThink": "Bu hafta üzerinde düşünmek için · {range}",
+  "@hikmetWeekThink": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "hikmetCumaReady": "Cuma gecesi için hazırlandı · {when}",
+  "@hikmetCumaReady": {
+    "placeholders": {
+      "when": {
+        "type": "String"
+      }
+    }
+  },
+  "hikmetEveningAt": "{weekday} akşamı {time}",
+  "@hikmetEveningAt": {
+    "placeholders": {
+      "weekday": {
+        "type": "String"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hikmetSaved": "✓ Kaydedildi",
+  "hikmetSavedAdded": "Kişisel › Kaydettiklerim'e eklendi",
+  "hikmetSavedRemoved": "Kaydettiklerim'den çıkarıldı",
+  "hikmetShareStory": "Hikâyende paylaş",
+  "hikmetShareSoon": "Paylaşım görseli sonraki adımda eklenecek.",
+  "sureSubtitle": "114 sûrenin iniş yeri, sırası ve konusu",
+  "sureSearchHint": "Sûre adı veya numarası",
+  "sureNoResult": "Sonuç bulunamadı.",
+  "sureSource": "Âyet sayısı, iniş yeri ve nüzul sırası: Tanzil Projesi (Mısır Mushafı sıralaması). İniş bağlamı; Vâhidî, Suyûtî, İbn Kesîr ve Taberî gibi klasik esbâb-ı nüzûl ve tefsir kaynakları ile sahih hadis kitaplarından özetlenmiştir; yayın öncesi uzman incelemesinden geçecektir. Bazı sûrelerin Mekke'de mi Medine'de mi indiği konusunda farklı görüşler vardır.",
+  "sureSheetTitle": "{name} Sûresi",
+  "@sureSheetTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sureFactPlace": "İniş yeri",
+  "sureFactAyahs": "Âyet sayısı",
+  "sureFactOrder": "Nüzul sırası",
+  "sureFactMushaf": "Mushaf'ta",
+  "sureFactMushafValue": "{n}. sûre · {c}. cüz",
+  "@sureFactMushafValue": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "c": {
+        "type": "int"
+      }
+    }
+  },
+  "sureFactOrderValue": "{n}. sûre",
+  "@sureFactOrderValue": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "sureMakki": "Mekke",
+  "sureMadani": "Medine",
+  "sureTopic": "Konusu",
+  "sureReason": "Nüzul sebebi",
+  "sureRead": "Sûreyi oku",
+  "quranListSubtitle": "Mushaf-ı Şerîf · Bütün sûreler",
+  "quranCount": "{n} Sûre",
+  "@quranCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "quranSearchHint": "Sûre adı veya numarası...",
+  "quranNoResult": "Aradığınız sûre bulunamadı.",
+  "quranLastRead": "Kaldığınız yer: {name} Sûresi",
+  "@quranLastRead": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "quranPageOf": "Sayfa {i} / {n}",
+  "@quranPageOf": {
+    "placeholders": {
+      "i": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "quranSourceNote": "Arapça metin: Tanzil Projesi · tanzil.net",
+  "quranAyahNo": "{a}. âyet",
+  "@quranAyahNo": {
+    "placeholders": {
+      "a": {
+        "type": "int"
+      }
+    }
+  },
+  "mealOpenView": "Meal görünümünde aç",
+  "mealModeMushaf": "Mushaf",
+  "mealModeMeal": "Meal",
+  "mealSourceLine": "Meal · {name}",
+  "@mealSourceLine": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "mealFallbackNote": "Bu dilde meal yayın sürümünde eklenecek; şimdilik Türkçe gösteriliyor.",
+  "mealArabicNote": "Arapça kullanıcılar için kısa tefsir yayın sürümünde eklenecek.",
+  "pfGreeting": "Esselamu Aleykum",
+  "temaSheetTitle": "Tema",
+  "temaSheetText": "Gece modu gözü yormayan koyu yeşil ve altın tonlarıyla gece okumaları için hazırlandı.",
+  "temaAutoSub": "Yatsıdan imsaka kadar gece modu",
+  "temaLightSub": "Her zaman açık tema",
+  "temaDarkSub": "Her zaman koyu tema",
+  "langSheetTitle": "Dil / Language",
+  "langSheetText": "Uygulama telefonunuzun diliyle açılır. Diliniz listede yoksa Global English kullanılır.",
+  "calSheetText": "Mübarek gün ve geceler ile hicrî tarih bu kaynağa göre gösterilir. Hilalin görülmesine göre ay başları ülkeden ülkeye bir gün değişebilir.",
+  "calSrcAuto": "Otomatik (ülkenize göre)",
+  "calSrcDiyanet": "Diyanet İşleri Başkanlığı",
+  "calSrcUmm": "Ümmülkurâ (Suudi Arabistan)",
+  "calSrcCfcm": "CFCM (Fransa)",
+  "calSrcGmp": "Paris Büyük Camii",
+  "calAdjLabel": "Gün düzeltmesi",
+  "calAdjNote": "Bulunduğunuz yerdeki camiinin ilanına göre bir gün ileri ya da geri alabilirsiniz.",
+  "ntEzan": "Ezan",
+  "ntEzanSub": "Vakti gelen her namaz için; vakit vakit ayarı Ezân-ı Muhammedî'te",
+  "ntDini": "Mübarek gün ve geceler",
+  "ntDiniSub": "Bir gün önce hatırlatma",
+  "ntRamazan": "Sahur ve iftar",
+  "ntRamazanSub": "Ramazan boyunca",
+  "ntGoEzan": "Ezan ayarlarına git",
+  "pmUpgrade": "Yükselt",
+  "pmRestoreToast": "Satın alımlarınız mağaza hesabınızdan kontrol edilip geri yüklenecek (mağaza sürümünde).",
+  "pmLogoutToast": "Oturumunuz kapatıldı.",
+  "legalPermsTitle": "Verdiğiniz izinler",
+  "legalAiDream": "Rüya Rehberi yapay zekâ izni:",
+  "legalAiTranslate": "Çeviri yapay zekâ izni:",
+  "legalGranted": "verildi",
+  "legalNotGranted": "verilmedi",
+  "legalAiRevoke": "Yapay zekâ izinlerimi geri al",
+  "legalAiRevoked": "Yapay zekâ izinleriniz geri alındı.",
+  "legalMarketingConsent": "Ticari elektronik ileti izni",
+  "legalDeleteAccount": "Hesabımı ve verilerimi sil",
+  "legalDeleteNote": "Mağaza kuralları gereği hesap silme işlemi uygulama içinden her an yapılabilir.",
+  "legalNoAccount": "Cihazınızda bir hesap bulunmuyor.",
+  "obBegin": "Başla",
+  "kpFajr": "Sabah",
+  "kpVitir": "Vitir",
+  "kpPrayersSub": "Kıldıkça işaretleyin",
+  "kpDhikrTitle": "Zikir ve dua",
+  "kpUnitDhikr": "zikir",
+  "kpUnitAmin": "âmin dediğim dua",
+  "kpUnitSaved": "kaydettiğim",
+  "kpLastReadTitle": "Kur'ân-ı Kerîm'de kaldığım yer",
+  "kpLastReadNone": "Henüz bir sûre açmadınız",
+  "kpLastReadGo": "{name} Sûresi · devam etmek için dokunun",
+  "@kpLastReadGo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "kpSavedSub": "Âyet, hadîs ve sözler",
+  "kpSavedEmpty": "Hikmet ve Kur'ân bölümlerinde \"Kaydet\"e dokunduğunuz âyet, hadîs ve sözler burada toplanır.",
+  "kpRemove": "Kaldır",
+  "kpDecrease": "Azalt",
+  "kpIncrease": "Artır",
+  "kzTitle": "Kaza borcu hesaplama",
+  "kzIntro": "Buluğ çağından düzenli namaza başladığınız zamana kadar kılınmamış namazlar tahmin edilir. Hanefî mezhebine göre farzlar ve vâcip olan vitir kaza edilir; sünnetler kaza edilmez.",
+  "kzBaligh": "Buluğ yaşınız",
+  "kzBalighHint": "Bilmiyorsanız ihtiyatlı hesap için erkeklerde 12, kadınlarda 9 esas alınır.",
+  "kzStart": "Düzenli namaza başladığınız yaş",
+  "kzHaid": "Aylık ortalama özel gün sayısı",
+  "kzHaidHint": "Bu günlerde namaz farz olmadığından hesaptan düşülür.",
+  "kzOutYears": "{y} yıl · her vakit için {n} namaz",
+  "@kzOutYears": {
+    "placeholders": {
+      "y": {
+        "type": "int"
+      },
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "kzOutNone": "Kaza borcu görünmüyor.",
+  "kzApply": "Sayaçlara aktar",
+  "kzNote": "Bu bir tahmindir; emin olunamayan yıllarda ihtiyatlı davranmak tavsiye edilir. Niyet örneği: \"Niyet ettim Allah rızası için kılamadığım ilk sabah namazının farzını kaza etmeye.\"",
+  "kzConfirm": "Kaza sayaçlarınız her vakit için {n} olarak ayarlanacak. Devam edilsin mi?",
+  "@kzConfirm": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "kzDone": "Kaza sayaçlarınız güncellendi. Allah kolaylık versin.",
+  "kzCancel": "Vazgeç",
+  "kzContinue": "Devam et",
+  "camiiBul": "Camii Bul",
+  "hacVeUmre": "Hac ve Umre",
+  "mekkeVeMedine": "Mekke ve Medine'de Peygamberimiz",
+  "siyerHayat": "Hz. Peygamberimizin Hayatı",
+  "kissalar": "Peygamber Kıssaları",
+  "soruRehberi": "Soru Rehberi",
+  "homeHijriLabel": "Hicrî",
+  "fbNext": "Sonraki sayfa",
+  "fbPrev": "Önceki sayfa",
+  "fbNextSure": "Sonraki sûre",
+  "fbHint": "Sayfayı çevirmek için ekranı kaydırın ya da oka dokunun.",
+  "pmSignIn": "Giriş yap ya da hesap oluştur",
+  "ptDiyanetTable": "Diyanet resmî tablosu · {d}",
+  "@ptDiyanetTable": {
+    "placeholders": {
+      "d": {
+        "type": "String"
+      }
+    }
+  },
+  "dayNewYear": "Hicrî yılbaşı",
+  "dayAshura": "Âşûrâ günü",
+  "dayMawlid": "Mevlid Kandili",
+  "dayIsraMiraj": "Miraç Kandili",
+  "dayMidShaban": "Berat Kandili",
+  "dayArafah": "Arefe günü",
+  "specialDaysGlobalNote": "Ümmülkurâ (Suudi Arabistan) takvimine göre hesaplanmıştır. Hilal gözlemine göre ülkenizde bir gün fark olabilir.",
+  "specialDaysSourceGlobal": "Ümmülkurâ (Suudi Arabistan) takvimine göre; Hicrî tarihler cihazda hesaplanır.",
+  "okunusLabel": "Okunuş",
+  "mealLabel": "Meal",
+  "okunusNoteDraft": "Okunuş Türkçe imlâya kural tabanlı uyarlamadır (taslak); doğru okuyuş için Arapça metin esastır.",
+  "okunusNote": "Doğru okuyuş için Arapça metin esastır.",
+  "sureContext": "İniş bağlamı",
+  "ezanFajrDelayTitle": "Sabah ezanı imsaktan sonra",
+  "ezanFajrDelayNote": "Sabah ezanı camiilerde imsak saatinden bir süre sonra okunur. Ezanın ve bildirimin kaç dakika sonra gelmesini istediğini ayarla; Namaz Vakitleri'ndeki imsak saati değişmez.",
+  "ezanFajrDelayValue": "{n} dk sonra",
+  "@ezanFajrDelayValue": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "ezanFajrDelayZero": "İmsak vaktinde",
+  "ezanSilentTitle": "Telefon sessizdeyken",
+  "ezanSilentNote": "Telefon sessizdeyken ezan sesi çalmaz, yalnızca bildirim görünür. Ezanı duymak için telefonu sesli moda al.",
+  "duaSoonTitle": "Yakında",
+  "tesbihModelAbanoz": "Abanoz",
+  "tesbihModelAkik": "Akik",
+  "tesbihModelLapis": "Lapis Lazuli",
+  "tesbihModelInci": "İnci",
+  "tesbihModelKristal": "Kristal",
+  "tesbihModelGumus": "Gümüş",
+  "ezanTestButton": "Bildirim sesini dene",
+  "selaTestButton": "Cuma Selâsını dene",
+  "selaTestSub": "Cuma Selâsı bildirimini seçtiğiniz süre sonra sela sesiyle gönderir (yalnızca test sürümü)",
+  "ezanTestSub": "Gerçek ezan bildirimini seçtiğiniz süre sonra gönderir; dokununca ezan ekranı açılır",
+  "ezanTestSent": "{n} saniye içinde bildirim gelecek. Telefonu kilitleyip bekleyin; saatiniz varsa bildirim saate de yansır.",
+  "legalTranslationNote": "",
+  "prayerLeadTitle": "{prayer}na {m} dakika kaldı",
+  "@prayerLeadTitle": {
+    "placeholders": {
+      "prayer": {
+        "type": "String"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "ezanLeadTitle": "Namaza kalan süre hatırlatması",
+  "ezanLeadNote": "Her vaktin girmesine seçtiğin süre kala, ezandan ayrı olarak tek bir kısa bildirim gelir. Telefon sessizdeyken yalnızca bildirim görünür.",
+  "ezanLead45": "45 dakika kala",
+  "ezanLead30": "30 dakika kala",
+  "esmaSubtitle": "99 isim: anlam ve zikir",
+  "esmaMoodTitle": "Nasıl hissediyorsun?",
+  "esmaMoodNote": "Öneriler isimlerin anlamlarına dayanır; bir hüküm ya da sevap vaadi değildir.",
+  "esmaListNote": "İsim listesi, Tirmizî rivayetindeki meşhur 99 tertibine göre verilmiştir. Allah'ın isimleri yalnızca bu 99 ile sınırlı değildir; 99 sayısı sınırlandırma değildir ve rivayetlerdeki listeler birbirinden farklıdır (TDV İslâm Ansiklopedisi, Esmâ-i Hüsnâ).",
+  "cumaBgLabel": "Arka plan {n}",
+  "cumaBgSelected": "Arka plan {n}, seçili",
+  "@cumaBgLabel": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@cumaBgSelected": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "esmaSuggested": "Sana önerilenler",
+  "esmaAllNames": "Bütün isimler",
+  "esmaStart": "Zikre başla",
+  "moodAnxious": "Kaygılıyım",
+  "moodSad": "Üzgünüm",
+  "moodGrateful": "Şükrediyorum",
+  "moodProvision": "Rızık ve bereket",
+  "moodRepent": "Tövbe etmek istiyorum",
+  "moodWeak": "Güçsüz hissediyorum",
+  "moodGuidance": "Yol arıyorum",
+  "esmaToday": "Bugün {n} / {goal}",
+  "@esmaToday": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "esmaStreak": "{n} gün seri",
+  "@esmaStreak": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "kpUnitStreak": "gün seri",
+  "esmaGoal": "Günlük hedef",
+  "esmaRound": "Tur hedefi",
+  "esmaTapHint": "Saymak için ekrana dokun",
+  "esmaRoundDone": "Tur tamamlandı. Allah kabul etsin.",
+  "esmaReset": "Sıfırla",
+  "esmaOwnZikir": "Kendi zikrim",
+  "esmaDuas": "Önerilen dualar",
+  "ezanLeadOff": "Kapalı",
+  "ownZikirSub": "Kendi zikrini yaz, say ve günlük hedefini takip et",
+  "ezanMakamSoon": "Makamlı ezan yakında eklenecek.",
+  "premiumGateTitle": "Premium özellik",
+  "premiumGateCamii": "Yakındaki camiiler haritası ve yol tarifi Premium üyelere açıktır.",
+  "premiumGateSoru": "Soru Rehberi Premium üyelere açıktır.",
+  "noticeSoonTitle": "Yakında",
+  "accountNoticeTitle": "Bu bölüm hesap sahipleri için",
+  "accountNoticeText": "Hesap oluşturmak ücretsizdir ve bir dakikanı alır. Kur'an, namaz vakitleri, kıble ve ezan hesapsız da açık kalır.",
+  "accountNoticeGo": "Hesap oluştur",
+  "accountNoticeLater": "Şimdi değil",
+  "pfNameHint": "Adını ekle",
+  "pfNameEditTitle": "Adın",
+  "pfNameField": "Adını yaz",
+  "pfNameTip": "Adına ya da kaleme dokunarak adını istediğin gibi yazabilirsin.",
+  "premiumTestBadge": "Premium özellik · test sürümünde açık",
+  "quranViewBook": "Kitap",
+  "quranViewHatim": "Hatim",
+  "quranViewList": "Liste",
+  "quranBookHint": "Kitabı açmak için dokun",
+  "quranBookResume": "Kaldığın yerden devam edersin",
+  "quranBookStart": "Baştan okumaya başlarsın",
+  "sabahEzaniAt": "Sabah ezanı {time}",
+  "@sabahEzaniAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "ezanFajrTitle": "Sabah ezanı",
+  "ezanFajrAtImsak": "İmsak vaktinde",
+  "ezanFajrMosque": "Camiime göre",
+  "ezanFajrToday": "Bugün: imsak {imsak} · ezan {ezan} (+{n} dk)",
+  "ezanFajrTodayZero": "Bugün: imsak ve ezan {imsak}",
+  "ezanFajrPick": "Camiimin ezan saatini seç",
+  "ezanFajrChange": "Saati değiştir",
+  "ezanFajrNote": "Diyanet yalnızca imsak saatini yayımlar; sabah ezanının saati il, camii ve mevsime göre değişebilir. Varsayılan imsak vaktidir. Camiiden duyduğun ezan saatini girersen ezan ve bildirim o saate kurulur.",
+  "ezanFajrStale": "Bu ayar {n} gün önce yapıldı. Günler uzayıp kısaldıkça imsak ile ezan arasındaki fark değişebilir; camiiden duyduğun saati yeniden gir.",
+  "ezanFajrRange": "Ezan saati imsaktan önce olamaz ve imsaktan en fazla 90 dakika sonra olabilir.",
+  "sabahEzaniAtMosque": "Sabah ezanı {time} · camiiye göre",
+  "@ezanFajrToday": {
+    "placeholders": {
+      "imsak": {
+        "type": "String"
+      },
+      "ezan": {
+        "type": "String"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@ezanFajrTodayZero": {
+    "placeholders": {
+      "imsak": {
+        "type": "String"
+      }
+    }
+  },
+  "@ezanFajrStale": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@sabahEzaniAtMosque": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "hadisSubtitle": "Sahîh hadisler · Arapça metin ve anlam",
+  "hadisAll": "Tümü",
+  "hadisCopy": "Kopyala",
+  "hadisCopied": "Kopyalandı",
+  "hadisPrev": "Önceki",
+  "hadisNext": "Sonraki",
+  "hadisCount": "{n} hadis",
+  "hadisNote": "Hadisler Buhârî ve Müslim'de bulunan sahih rivayetlerdir. Arapça metin, çeviri, derece ve açıklamalar HadeethEnc.com'dan (Rowwad Translation Center) değiştirilmeden alınmıştır.",
+  "hadisArabicOnly": "Arapça arayüzde hadis metni Arapça gösterilir.",
+  "@hadisCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "kuranOgreniyorum": "Kur'ân Öğreniyorum",
+  "checkinTitle": "Namazlarını işaretledin mi?",
+  "checkinBody1": "Sabah ve öğle namazlarını kıldıysan Namaz Vakitleri'nden işaretle.",
+  "checkinBody2": "Bugünkü namazlarını işaretleyerek takibini sürdür.",
+  "trackTitle": "Bugünkü namazlar",
+  "trackSub": "Kıldığın namazı işaretle. Vakti girmemiş namaz işaretlenemez.",
+  "trackWeek": "Son 7 gün: {n}/{t} vakit",
+  "trackAllDone": "Bugünün beş vaktini işaretledin, Allah kabul etsin.",
+  "ezanCheckinTitle": "Namaz takibi hatırlatması",
+  "ezanCheckinNote": "Günde iki kez gönderilir: ikindiden 45 dakika önce ve yatsıdan 90 dakika sonra. O günün namazları işaretlenmemişse hatırlatma yapılır; tümü işaretliyse bildirim gönderilmez.",
+  "@trackWeek": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "t": {
+        "type": "int"
+      }
+    }
+  },
+  "trackFajr": "Sabah",
+  "hadisExplanation": "Açıklama",
+  "hadisLessons": "Hadisten çıkarılan dersler",
+  "hadisFallback": "Bu hadis için seçili dilde çeviri henüz yok; İngilizce gösteriliyor.",
+  "hadisCredit": "Hadis metni, çeviri, derece ve açıklamalar: {credit} (alım tarihi {version}). Değiştirilmeden gösterilir.",
+  "@hadisCredit": {
+    "placeholders": {
+      "credit": {
+        "type": "String"
+      },
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "camiiRevoked": "İzin geri alındı. Konumunuz artık harita hizmetlerine gönderilmez; Camii Bul'u tekrar kullanmak için izni yeniden verebilirsiniz.",
+  "elifba": "Elifba",
+  "ezanTestSec": "{n} sn",
+  "ezanBtTitle": "Kablosuz kulaklık",
+  "ezanBtNote": "Kablosuz kulaklık bağlıyken bildirim sesi telefonun hoparlöründen değil kulaklıktan çalar; kulaklık takılı değilse ses duyulmaz. Bu, iOS'un davranışıdır ve uygulama değiştiremez.",
+  "ezanAwakeTitle": "Ekran açıkkenki ezan",
+  "ezanAwakeNote": "Telefon açık ve kullanımdayken gelen bildirimde ezan sesi, bildirim kutusu kapanınca erken kesilebilir. Ezanın tamamı için bildirime dokunun; ezan uygulamada baştan çalar. Telefon kilitliyken ses tam çalar.",
+  "ezanKeepTitle": "Bildirimlerin sürmesi",
+  "ezanKeepNote": "Ezan ve hatırlatma bildirimleri telefonda önceden kurulur; yaklaşık 10 gün sürer. Kesintisiz gelmeleri için uygulamayı haftada bir açın.",
+  "reopenNotifTitle": "Bildirimleri yenileyin",
+  "reopenNotifBody": "Ezan bildirimlerinin sürmesi için Nuur Salah'ı bir kez açın.",
+  "accountDeleteApple": "Hesabınız Apple ile açıldığı için silmeden önce Apple ile yeniden doğrulamanız gerekir. Doğrulamayı tamamlayıp yeniden deneyin.",
+  "accountDeleteAppleFail": "Apple oturumu kapatılamadığı için hesap silinemedi. Biraz sonra yeniden deneyin; hiçbir veriniz silinmedi.",
+  "accountDeleteNetwork": "Hesap silinemedi: bağlantı kurulamadı. İnternetinizi kontrol edip yeniden deneyin.",
+  "accountDeleteFail": "Hesap şu anda silinemedi. Biraz sonra yeniden deneyin. Sorun sürerse info@nuursalah.com adresine yazın.",
+  "feedbackWait": "Bir önceki mesajınızın üzerinden çok az zaman geçti. Lütfen bir dakika sonra yeniden gönderin.",
+  "feedbackDaily": "Bugün için mesaj sınırına ulaştınız. Yarın yeniden yazabilirsiniz.",
+  "sponsorsTitle": "Sponsorlarımız",
+  "sponsorsSub": "Nuur Salah'ı destekleyen firmalar. Firmaları proje sahibi seçer; kişisel verileriniz firmalarla paylaşılmaz.",
+  "sponsorsEmpty": "Şu anda listelenen bir sponsor yok.",
+  "adClose": "Reklamı kapat",
+  "adCloseIn": "{n} sn sonra kapatılabilir",
+  "@adCloseIn": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@ezanTestSent": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "@ezanTestSec": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "watchTestAdhan": "Ezan sesini dene",
+  "watchTestWait": "10 sn sonra çalacak",
+  "watchGoal": "Hedef",
+  "watchUntilSuffix": "Namazı",
+  "watchLeft": "kaldı",
+  "feedbackTitle": "Öneri ve İstek",
+  "feedbackIntro": "Önerini, isteğini, şikâyetini ya da bir hatayı yaz; mesajın ekibimize ulaşır. Yanıt verdiğimizde burada görürsün.",
+  "feedbackKindSuggestion": "Öneri",
+  "feedbackKindRequest": "İstek",
+  "feedbackKindComplaint": "Şikâyet",
+  "feedbackKindBug": "Hata",
+  "feedbackHint": "Mesajını yaz…",
+  "feedbackNoPersonal": "Lütfen şifre, kimlik numarası ya da kart bilgisi gibi kişisel bilgileri yazma.",
+  "feedbackContact": "E-posta (isteğe bağlı, yanıt için)",
+  "feedbackSend": "Gönder",
+  "feedbackTooShort": "Lütfen en az 10 karakter yaz.",
+  "feedbackSent": "Mesajın bize ulaştı. Teşekkürler.",
+  "feedbackQueued": "Mesajın cihazında kaydedildi; bağlantı kurulunca iletilecek.",
+  "feedbackMine": "Gönderdiklerim",
+  "feedbackEmpty": "Henüz mesaj göndermedin.",
+  "feedbackPending": "Gönderilmedi",
+  "feedbackDelivered": "İletildi",
+  "feedbackAnswered": "Yanıtlandı",
+  "feedbackReplyLabel": "Ekibimizin yanıtı",
+  "feedbackGuestNote": "Yanıtı uygulamada görmek için hesapla giriş yap; ya da yukarıya e-postanı yaz.",
+  "feedbackTestNote": "Test sürümü: sunucu bağlı değil, mesajlar yalnızca cihazda saklanır.",
+  "watchReset": "Sıfırla",
+  "watchToday": "Bugün",
+  "watchZikirStart": "Zikre başla",
+  "watchAllah": "Allah",
+  "watchQiblaOk": "Kıbledesiniz",
+  "watchLocate": "Konum izni gerekli",
+  "ezanNotesTitle": "Ezan bildirimleri hakkında",
+  "ezanNotesHint": "Namaz takibi hatırlatmasını ve bu notları Profil › Bildirimler bölümünde bulabilirsiniz.",
+  "ezanNotesOk": "Anladım",
+  "ezanNotesSettings": "Bildirim ayarları",
+  "hadisFullNarration": "Rivayetin tamamı",
+  "adhanFajrShort": "Sabah (İmsak)",
+  "referralOfficialTitle": "Resmî kurumlar",
+  "referralOfficialNote": "Yanıt dili kurumdan kuruma değişir; Diyanet yanıtları Türkçe olabilir. İletişim bilgileri kurumların kendi sitelerinden alınmıştır.",
+  "weekDoneTitle": "Bir haftayı eksiksiz tamamladın",
+  "weekDoneText": "Yedi gün, beş vakit. Allah kabul etsin; istikrarın bereketli olsun.",
+  "hikmetMore": "Daha fazla göster",
+  "tamamLabel": "Tamam",
+  "doneTesbihTitle": "Tesbihatınız tamamlandı",
+  "doneAccept": "Allah kabul etsin.",
+  "doneTesbihBody": "Zikriniz, dualarınızın ve niyetlerinizin hayırlara vesile olmasını dileriz.",
+  "doneDayTitle": "Bugünün namazları tamamlandı",
+  "doneDayText": "Bugünün beş vaktini işaretledin.",
+  "doneRoundTitle": "Zikir turu tamamlandı",
+  "vtMekkeMedine": "Mekke ve Medine",
+  "vtSiyer": "Peygamberimizin Hayatı",
+  "vtNamazDualari": "Namaz Duaları",
+  "vtYolculuk": "Yolculukta Namaz",
+  "vtKissalar": "Peygamber Kıssaları",
+  "moodAfraid": "Korkuyorum",
+  "moodSick": "Hastayım",
+  "moodCalamity": "Bir musibet yaşadım",
+  "moodTravel": "Yolculuğa çıkıyorum",
+  "moodSleep": "Uyumadan önce",
+  "fzMoodNote": "Öneriler duaların anlamına dayanır; bir hüküm ya da sevap vaadi değildir.",
+  "fzMoodSuggested": "Sana uygun dua ve sûreler",
+  "cumaKartLink": "Adınla Cuma mesajı hazırla",
+  "cumaKartLinkSub": "Görseli ve mesajı seç, adını yaz, paylaş",
+  "cumaKartTitle": "Cuma mesajı kartı",
+  "cumaKartGreeting": "Hayırlı Cumalar",
+  "cumaKartBg": "Görsel",
+  "cumaKartMsg": "Mesaj",
+  "cumaKartChangeMsg": "Mesajı değiştir",
+  "cumaKartName": "Adın ve soyadın",
+  "cumaKartNameHint": "Ad Soyad",
+  "cumaKartNameNote": "Adın yalnızca paylaştığın görselde yer alır; cihazından dışarı gönderilmez. Boş bırakırsan görselde isim olmaz.",
+  "cumaKartShare": "Görseli paylaş",
+  "koMarksG1": "1. Harekeler: ünlü sesler",
+  "koMarksG2": "2. Okuyuş işaretleri",
+  "koMarksG3": "3. Uzatma ve hemze",
+  "koMarksG4": "4. Kelime başı ve Mushaf işaretleri",
+  "cumaKartPremiumNote": "Premium özellik: kendi adınla görselli Cuma mesajı paylaşmak Premium üyelere açıktır. Ücretsiz olarak Cuma mesajlarını Cuma Nuru › Cuma Mesajları sekmesinden paylaşabilirsin.",
+  "cumaKartLocked": "Premium ile paylaşılır",
+  "cumaKartShareLocked": "Paylaşmak için Premium",
+  "cumaKartPremiumBadge": "Premium",
+  "yaziBoyutu": "Yazı boyutu",
+  "yaziNormal": "Normal",
+  "yaziBuyuk": "Büyük",
+  "yaziCokBuyuk": "Çok büyük",
+  "yaziOrnek": "Esselamu aleyküm. Yazılar bu boyutta görünür.",
+  "mushafCoverPremium": "Mushaf kaplamalarını değiştirmek Premium üyelere açıktır.",
+  "atiflar": "Atıflar",
+  "atiflarTitle": "Atıflar ve Lisanslar",
+  "tamamBtn": "Tamam",
+  "a11ySureInfoOf": "{name} hakkında bilgi",
+  "@a11ySureInfoOf": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "a11ySureInfo": "Sûre bilgisi",
+  "a11yOpenMushaf": "Kur'ân-ı Kerîm'i aç",
+  "a11yCredits": "Kaynaklar ve lisanslar",
+  "sajdaAyah": "Secde âyeti (tilâvet secdesi)",
+  "sureDisputedMadani": "Bu sûre için Medine'de indiği görüşü esas alınmıştır; Mekke'de indiğini söyleyen görüşler de vardır.",
+  "sureDisputedMakki": "Bu sûre için Mekke'de indiği görüşü esas alınmıştır; Medine'de indiğini söyleyen görüşler de vardır.",
+  "mealGroupNote": "{from}–{to}. âyetlerin meali birlikte verilmiştir",
+  "@mealGroupNote": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      }
+    }
+  },
+  "methodGulfNote": "Genel Körfez profili; BAE ve Kuveyt'in resmî takvimi değildir, yaklaşık hesaptır.",
+  "bellToggle": "{name} vakti bildirimini aç/kapat",
+  "@bellToggle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "quranLens": "Büyüteç",
+  "quranLensHint": "Büyütmek için sayfada bir âyete dokunun",
+  "quranLensPrev": "Önceki âyet",
+  "quranLensNext": "Sonraki âyet"
+}

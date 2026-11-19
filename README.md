@@ -1,7 +1,7 @@
 # Nuur Salah · Web sitesi
 
 Nuur Salah iOS uygulamasının tanıtım ve mağaza zorunlulukları sitesi. Tamamen statiktir:
-sunucu kodu, veritabanı, form, çerez, analiz ya da izleme yoktur. Sayfalarda JavaScript çalışmaz.
+sunucu kodu, veritabanı, form, çerez, analiz ya da izleme yoktur. Tema ve gezinme için yalnız yerel bir JavaScript dosyası çalışır; dış istek veya analiz içermez.
 
 - **Diller:** Türkçe (varsayılan, kök adreste) ve İngilizce (`/en` altında)
 - **Sayfalar:** ana sayfa, gizlilik politikası, kullanım koşulları, destek, hesap silme, 404
@@ -117,3 +117,37 @@ dist/                Derleme çıktısı (depoya girmez)
 ## Yazı tipi lisansları
 
 Playfair Display ve Plus Jakarta Sans, SIL Open Font License ile dağıtılır; lisans metinleri `src/assets/fonts/` içindedir.
+
+
+## 16 Kasım 2026 — görsel bağımsız yenileme
+
+Masaüstündeki kaynak klasör korundu. Production yayını yapılmadı.
+
+- Destek adresi merkezi ayarda info@nuursalah.com oldu; TR/EN sayfalarına aktarılır. Posta kutusuna test mesajı gönderilmedi.
+- Ürün odaklı koyu yeşil/altın hero, CSS ile çalışan mobil menü ve destek çağrısı eklendi.
+- Gündüz/gece ve Apple Watch sahneleri gerçek ekranlar gelene kadar açıkça bekleyen görsel alanları gösterir.
+- site.config.mjs içindeki productScreens.hero, .day, .night, .watch gerçek görsel yollarını alır. Mevcut screenshots listesi korunur. Hero görseli öncelikli, diğerleri tembel yüklenir.
+- Ekran içerikleri uydurulmadı. Mevcut özellikler ve Premium listesi gerçek uygulamayla doğrulanmalıdır.
+- Mağaza hedefi eksik olduğu için “App Store’da” ifadesi kaldırıldı; mağaza, QR ve sosyal hedefler bekliyor.
+- Yasal Markdown belgeleri ve taslak/noindex işleyişi korundu.
+- Yeni framework, analiz, form veya dış font eklenmedi. (17 Kasım güncellemesinde tema ve gezinme için yerel JavaScript eklendi.)
+- Yerel sunucu yalnız 127.0.0.1 adresinde dinler.
+
+Derleme ve yerel bağlantı kontrolleri yapıldı. Masaüstü hero Chrome’da görsel olarak incelendi. Mobil cihaz görünümü ve gerçek ekranların yerleşimi henüz görsel olarak test edilmedi.
+
+
+## 17 Kasım 2026 — nötr temalar ve yeni gezinme
+
+Önceki yeşil–altın yüzey yönü kullanıcı talebiyle değiştirildi. Sayfa arka planları yeşil değildir: gündüz #f5f5f7, gece #111113. Yeşil site yüzeylerinden kaldırıldı. Altın yalnız küçük vurgularda kaldı.
+
+- Header’da ışık ikonlu tek tema anahtarı var. İlk açılışta sistem tercihi alınır; kullanıcı seçimi yerel depolamadaki nuur-theme anahtarında hatırlanır. Ağ isteği veya izleme yapılmaz.
+- Tema anahtarı tüm sayfalarda aynı davranır; klavye ve erişilebilir switch durumu vardır.
+- Özellikler/Ekranlar/Premium/Destek başlıkları doğrudan hedeflerine gider. Masaüstünde üzerine gelince veya klavyeyle odaklanınca alt menü açılır. Dokunmatik kullanımda ok düğmesi aynı alt menüyü açar. Escape ve dışarı tıklama kapatır.
+- Alt başlıklar kendi özellik/ekran/Premium maddelerine veya destek bölümlerine gider.
+- İndir düğmesi nötr renkte, yuvarlak ve modern hale getirildi.
+- Gerçek uygulama ikonu için site.config.mjs → appIcon; bölüm ikonları için appIcons.clock/bell/compass/book vb. yerel dosya yolları kullanılacak. Henüz paylaşılmadıkları için gerçek uygulama ikonlarının yerleştirildiği iddia edilmez; mevcut web ikonları geçicidir.
+- CSP yalnız kendi alanımızdaki betiğe izin verecek şekilde güncellendi; inline veya dış kaynak betiği eklenmedi.
+
+Doğrulama: derleme ve JavaScript sözdizimi başarılı. 12 sayfada 986 yerel bağlantı/varlık/anchor kontrolünde hata veya yinelenen ID yok. Chrome’da açık tema, koyu tema, temanın destek sayfasında korunması, destek sayfasının açılması, özellik alt menüsü ve Kıble bağlantısı doğrulandı. Gerçek mobil cihaz ve hover işaretçisiyle görsel test ayrıca yapılacak.
+
+Canlı site ve masaüstündeki kaynak klasör değiştirilmedi.
