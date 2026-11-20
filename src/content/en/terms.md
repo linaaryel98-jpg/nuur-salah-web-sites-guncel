@@ -1,7 +1,7 @@
 ---
 title: Terms of use
 description: The terms of use for the Nuur Salah app.
-updated: 2026-11-19
+updated: 2026-11-20
 draft: false
 ---
 
@@ -21,11 +21,11 @@ Nuur's core features (times, adhan, qibla, Quran, ablution and prayer guides) ca
 
 ## 4. Age and parents
 
-Nuur is suitable for users aged 4 and over (App Store age rating: 4+). Children under 13 may use the app only with the knowledge, permission and supervision of their parent or legal guardian; a parent or legal guardian must make or expressly approve account creation and purchases. If the age limits in your country are higher, that country's rule applies. If the participation of a legal representative is required in your country for you to enter into a contract or to give valid consent to data processing, the relevant feature can be used only after the appropriate process is completed. Rules on children differ between countries; access to general religious content, account creation, public sharing and purchases may not be subject to the same age or consent rule. If you believe a child's data is being processed without the appropriate process, you can report it to info@nuursalah.com.
+Nuur is suitable for users aged 4 and over (App Store age rating: 4+). Children under 13 may use the app only with the knowledge, permission and supervision of their parent or legal guardian; a parent or legal guardian must make or expressly approve account creation and purchases. If the age limits in your country are higher, that country's rule applies. If the participation of a legal representative is required in your country for you to enter into a contract or to give valid consent to data processing, the relevant feature can be used only after the appropriate process is completed. Rules on children differ between countries; access to general religious content, account creation and purchases may not be subject to the same age or consent rule. If you believe a child's data is being processed without the appropriate process, you can report it to info@nuursalah.com.
 
 ## 5. Premium and purchases
 
-The Quran text and translations, prayer times, qibla and religious guide content are free. Premium covers features such as special tasbih models, removal of ads, the Khatm plan, Mushaf covers and the illustrated Friday message; the scope is shown on the purchase screen. The scope, total price, taxes, billing period, automatic renewal status and any trial period of Premium are shown before purchase. Purchases are made through the App Store, Google Play or AppGallery; for payment, renewal, cancellation and refunds the relevant store's process applies, and this process does not remove your mandatory consumer rights. The store operator is not a party to these terms; on Apple devices Apple's standard Licensed Application End User License Agreement (EULA) also applies. You can restore your purchases under Profile › Restore purchases. Cancelling a subscription and deleting an account are different actions: deleting your account may not automatically end your paid store subscription; stop renewal in the store's subscription management. Withdrawal and refund information is presented separately on the purchase screen according to your country.
+The Quran text and translations, prayer times, qibla and religious guide content are free. Premium covers features such as special tasbih models, the Khatm plan, Mushaf covers, the illustrated Friday message and maqam adhan, and gives priority access to new features that arrive with updates; the scope is shown on the purchase screen. The scope, total price, taxes, billing period, automatic renewal status and any trial period of Premium are shown before purchase. Purchases are made through the App Store, Google Play or AppGallery; for payment, renewal, cancellation and refunds the relevant store's process applies, and this process does not remove your mandatory consumer rights. The store operator is not a party to these terms; on Apple devices Apple's standard Licensed Application End User License Agreement (EULA) also applies. You can restore your purchases under Profile › Restore purchases. Cancelling a subscription and deleting an account are different actions: deleting your account may not automatically end your paid store subscription; stop renewal in the store's subscription management. Withdrawal and refund information is presented separately on the purchase screen according to your country.
 
 ## 6. AI features
 

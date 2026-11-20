@@ -1,7 +1,7 @@
 ---
 title: Gizlilik politikası
 description: Nuur Salah uygulamasının kişisel verileri nasıl işlediğini açıklar.
-updated: 2026-11-19
+updated: 2026-11-20
 draft: false
 ---
 
@@ -15,19 +15,19 @@ Bu politika Nuur Salah'ın mobil ve web sürümleri için geçerlidir. Veri soru
 
 ### 2. Yerel kullanım ile dışarı aktarılan veriler
 
-Konum, namaz ve kaza kayıtları, zikir sayıları, hatim planı, kaydettikleriniz ve profil adınız cihazınızda işlenir. Şu anda bulut yedekleme veya cihazlar arası eşitleme yoktur; eklenirse yalnızca ayrı açık rızanızla sunulur ve ayrıca bilgilendirilirsiniz. Hesap açmamanız, hiçbir teknik verinin işlenmediği anlamına gelmez: vakit tablosu, harita ve şehir araması ile sürüm denetimi sırasında IP adresiniz ilgili sağlayıcılarca görülebilir. Dışarıya giden akışlar ilgili bölümlerde açıklanır.
+Konum, namaz ve kaza kayıtları, zikir sayıları, hatim planı, kaydettikleriniz ve profil adınız cihazınızda işlenir. Şu anda bulut yedekleme veya cihazlar arası eşitleme yoktur; eklenirse yalnızca ayrı açık rızanızla sunulur ve ayrıca bilgilendirilirsiniz. Hesap açmamanız, hiçbir teknik verinin işlenmediği anlamına gelmez: vakit tablosu, harita ve şehir araması ile sürüm denetimi sırasında IP adresiniz ilgili sağlayıcılarca görülebilir. Dışarıya giden akışlar ilgili bölümlerde açıklanır. Apple Watch ve ana ekran widget'ları, vakit ve takip bilgilerini cihaz içinde (Apple'ın iPhone–Apple Watch bağlantısı ve uygulama grubu üzerinden) alır; bu veriler Nuur sunucusuna gönderilmez.
 
 ### 3. Hesap, doğrulama ve destek
 
-Hesap için e-posta adresiniz ve doğrulama kayıtları işlenir; Apple veya Google ile girişte ilgili sağlayıcıdan kullanıcı kimliği ve e-posta (ya da sağlayıcının sunduğu gizli e-posta) alınır. Yazdığınız profil adı yalnızca cihazınızda tutulur. Destek için başvurunuz ve iletişim bilgileriniz işlenir. Her alanın zorunlu olup olmadığı kayıt sırasında gösterilir. Sosyal giriş sağlayıcısının kendi hizmetindeki işlemleri kendi politikasına tabidir; Nuur'un aldığı veriler bakımından sorumluluğumuz devam eder. Hesap ve talep ettiğiniz hizmet için gerekli işlemler sözleşmenin kurulması ve ifasına, hukuki yükümlülükler ilgili mevzuata, ölçülü güvenlik işlemleri uygulanabilir hukuki sebebe dayanır; amaç bazlı ayrıntılar KVKK sekmesindedir.
+Hesap için e-posta adresiniz ve doğrulama kayıtları işlenir; Apple veya Google ile girişte ilgili sağlayıcıdan kullanıcı kimliği ve e-posta (ya da sağlayıcının sunduğu gizli e-posta) alınır. Yazdığınız profil adı yalnızca cihazınızda tutulur. Destek için başvurunuz ve iletişim bilgileriniz işlenir. Her alanın zorunlu olup olmadığı kayıt sırasında gösterilir. Sosyal giriş sağlayıcısının kendi hizmetindeki işlemleri kendi politikasına tabidir; Nuur'un aldığı veriler bakımından sorumluluğumuz devam eder. Hesap ve talep ettiğiniz hizmet için gerekli işlemler sözleşmenin kurulması ve ifasına, hukuki yükümlülükler ilgili mevzuata, ölçülü güvenlik işlemleri uygulanabilir hukuki sebebe dayanır; amaç bazlı ayrıntılar KVKK sekmesindedir. Hesapsız gönderilen geri bildirimlerde, kötüye kullanımı önlemek için uygulamanın cihazda ürettiği rastgele bir kimlik mesajla birlikte sunucuya gönderilir; bu kimlik reklam veya takip için kullanılmaz.
 
 ### 4. İbadet kayıtları ve hassas veriler
 
-Namaz, kaza, zikir, hatim ve dinî tercih kayıtları dinî inanca ilişkin bilgi ortaya çıkarabilir (KVKK m.6, GDPR m.9); dua ve destek içerikleri de sağlık, aile veya başka hassas bilgiler içerebilir. Bu verileri sırf uygulama içinde kullanıldığı için olağan veri saymayız. İbadet kayıtları şu anda yalnızca cihazınızda tutulur. Buluta alınmaları ileride sunulursa ayrı açık rıza istenir; rıza vermezseniz yerel özellikler kullanılmaya devam eder, izni geri alabilirsiniz ve mevcut bulut kopyasının akıbeti önceden açıklanır. Bu verileri reklam, profilleme veya üçüncü kişilerle paylaşım için kullanmayız. Şifreleme tek başına verinin anonim olduğu anlamına gelmez.
+Namaz, kaza, zikir, hatim ve dinî tercih kayıtları dinî inanca ilişkin bilgi ortaya çıkarabilir (KVKK m.6, GDPR m.9); geri bildirim ve destek içerikleri de sağlık, aile veya başka hassas bilgiler içerebilir. Bu verileri sırf uygulama içinde kullanıldığı için olağan veri saymayız. İbadet kayıtları şu anda yalnızca cihazınızda tutulur. Buluta alınmaları ileride sunulursa ayrı açık rıza istenir; rıza vermezseniz yerel özellikler kullanılmaya devam eder, izni geri alabilirsiniz ve mevcut bulut kopyasının akıbeti önceden açıklanır. Bu verileri reklam, profilleme veya üçüncü kişilerle paylaşım için kullanmayız. Şifreleme tek başına verinin anonim olduğu anlamına gelmez.
 
 ### 5. Konum ve haritalar
 
-Konum; vakit, kıble veya yakındaki camiileri göstermek için kullanılır. Namaz vakitleri ve kıble için konumunuz cihazınızda hesaplanır, sunucumuza gönderilmez. Camii Bul'da, açık izninizle yaklaşık konumunuz (≈100 m) iOS'ta Apple Haritalar'a, ayrıca OpenStreetMap tabanlı Overpass hizmetlerine ve harita görüntüsü sağlayıcılarına gider; bu istekler Nuur sunucularından geçmez. Türkiye'de Diyanet vakit tablosu için konumunuzun il/ilçe bilgisi tablo hizmetine gider. Şehir seçerken yazdığınız şehir adı bir coğrafi arama hizmetine (Open-Meteo) gönderilir, konumunuz gönderilmez. Yaklaşık konum da kişisel veri olabilir; sağlayıcılar IP adresinizi görebilir ve kendi politikalarına tabidir. Cihaz konumunu vermeden şehri elle seçerek vakitleri kullanabilirsiniz. İşletim sistemi izni, farklı amaçlarla kullanım için genel izin değildir. Uygulama arka planda konum izlemez ve geçmiş konum kaydı tutmaz. Sağlayıcı listesi Atıflar sekmesindedir ve yayın öncesi kesinleştirilecektir.
+Konum; vakit, kıble veya yakındaki camiileri göstermek için kullanılır. Namaz vakitleri ve kıble için konumunuz cihazınızda hesaplanır, sunucumuza gönderilmez. Camii Bul'da, açık izninizle yaklaşık konumunuz (≈100 m) iOS'ta Apple Haritalar'a, ayrıca OpenStreetMap tabanlı Overpass hizmetlerine ve harita görüntüsü sağlayıcılarına gider; bu istekler Nuur sunucularından geçmez. Türkiye'de Diyanet vakit tablosu için konumunuzun il/ilçe bilgisi tablo hizmetine gider. Şehir seçerken yazdığınız şehir adı bir coğrafi arama hizmetine (Open-Meteo) gönderilir, konumunuz gönderilmez. Yaklaşık konum da kişisel veri olabilir; sağlayıcılar IP adresinizi görebilir ve kendi politikalarına tabidir. Cihaz konumunu vermeden şehri elle seçerek vakitleri kullanabilirsiniz. İşletim sistemi izni, farklı amaçlarla kullanım için genel izin değildir. Uygulama arka planda konum izlemez ve geçmiş konum kaydı tutmaz. Sağlayıcı listesi Atıflar sekmesindedir.
 
 ### 6. Yapay zekâ, çeviri ve moderasyon
 
@@ -35,7 +35,7 @@ Konum; vakit, kıble veya yakındaki camiileri göstermek için kullanılır. Na
 
 ### 7. Satın alma, bildirim ve güvenlik
 
-Ödeme sağlayıcısı ilgili mağazadır (Apple, Google, Huawei). Nuur'a abonelik durumu ve işlem/ürün bilgisi ulaşır; kart bilginiz ulaşmaz. Bu veriler satın almayı doğrulamak, erişim sağlamak, iade/destek ve kanuni kayıt yükümlülükleri için kullanılır. Ezan ve hatırlatma bildirimleri cihazda yerel olarak planlanır; sunucuya bildirim jetonu ya da bildirim içeriği gönderilmez. İbadet bildirimlerinin kilit ekranında görünürlüğünü telefonun bildirim ayarlarından yönetebilirsiniz. Ticari ileti tercihi hizmet ve güvenlik bildirimlerinden ayrıdır. Hesaplı kullanımda barındırma sağlayıcısında güvenlik amaçlı sunucu kayıtları (giriş denemeleri, IP adresi) oluşabilir; süreleri Veri Saklama sekmesindedir.
+Ödeme sağlayıcısı ilgili mağazadır (Apple, Google, Huawei). Nuur'a abonelik durumu ve işlem/ürün bilgisi ulaşır; kart bilginiz ulaşmaz. Bu veriler satın almayı doğrulamak, erişim sağlamak, iade/destek ve kanuni kayıt yükümlülükleri için kullanılır. Ezan ve hatırlatma bildirimleri cihazda yerel olarak planlanır; sunucuya bildirim jetonu ya da bildirim içeriği gönderilmez. İbadet bildirimlerinin kilit ekranında görünürlüğünü telefonun bildirim ayarlarından yönetebilirsiniz. Ticari ileti tercihi hizmet ve güvenlik bildirimlerinden ayrıdır. Hesaplı kullanımda barındırma sağlayıcısında güvenlik amaçlı sunucu kayıtları (giriş denemeleri, IP adresi) oluşabilir; süreleri Veri Saklama sekmesindedir. Abonelik durumunuz, App Store'dan cihazınızda sorgulanır ve Premium özellikleri açmak ya da kapatmak için kullanılır; bu sorgu Nuur sunucusuna gönderilmez.
 
 ### 8. Analitik, çerez ve reklam
 
@@ -43,7 +43,7 @@ Uygulamada analitik, hata izleme veya reklam SDK'sı bulunmaz; kullanım istatis
 
 ### 9. Alıcılar ve uluslararası aktarım
 
-Veriler, ilgili amaçla sınırlı olarak barındırma ve kimlik doğrulama sağlayıcısı (Supabase), harita ve arama sağlayıcıları (Apple Haritalar, OpenStreetMap/Overpass, Open-Meteo, harita görüntüsü sağlayıcıları), Diyanet vakit tablosu hizmeti, giriş sağlayıcıları (Apple, Google) ve uygulama mağazalarıyla paylaşılabilir; kanunen gerekli hallerde yetkili kurumlara açıklama yapılabilir. Kamuya paylaşmayı seçtiğiniz içeriklerin alıcıları diğer kullanıcılardır. Sunucu konumu: İsveç (Stokholm, AB). Türkiye dışındaki depolama veya uzaktan erişim için KVKK m.9; AB ve Birleşik Krallık için kendi aktarım kuralları ayrıca uygulanır. Standart sözleşme, yeterlilik kararı veya başka bir güvence ancak gerçekten mevcut ve ilgili akışa uygulanabilirse dayanak gösterilir; hizmeti kabul etmek düzenli yurt dışı aktarım için genel izin değildir. Uygun güvenceler hakkında bilgi için info@nuursalah.com adresine başvurabilirsiniz.
+Veriler, ilgili amaçla sınırlı olarak barındırma ve kimlik doğrulama sağlayıcısı (Supabase), harita ve arama sağlayıcıları (Apple Haritalar, OpenStreetMap/Overpass, Open-Meteo, harita görüntüsü sağlayıcıları), Diyanet vakit tablosu hizmeti, giriş sağlayıcıları (Apple, Google) ve uygulama mağazalarıyla paylaşılabilir; kanunen gerekli hallerde yetkili kurumlara açıklama yapılabilir. Sunucu konumu: İsveç (Stokholm, AB). Türkiye dışındaki depolama veya uzaktan erişim için KVKK m.9; AB ve Birleşik Krallık için kendi aktarım kuralları ayrıca uygulanır. Standart sözleşme, yeterlilik kararı veya başka bir güvence ancak gerçekten mevcut ve ilgili akışa uygulanabilirse dayanak gösterilir; hizmeti kabul etmek düzenli yurt dışı aktarım için genel izin değildir. Uygun güvenceler hakkında bilgi için info@nuursalah.com adresine başvurabilirsiniz.
 
 ### 10. Saklama, güvenlik ve silme
 
@@ -75,16 +75,15 @@ Güncel ve önceki sürümler nuursalah.com adresindedir. Esaslı değişiklikle
 
 • Hesap iletişim bilgileri ve doğrulama kayıtları: hesabın kurulması, giriş ve kurtarma; sözleşmenin kurulması/ifasıyla doğrudan ilgili ve gerekli ölçüde m.5/2-c.
 • İşlem/abonelik doğrulama bilgileri: satın alınan hakkın sunulması ve destek; m.5/2-c, kayıt yükümlülüğü varsa m.5/2-ç.
-• Güvenlik ve kötüye kullanım kayıtları: hesap ve hizmet güvenliği; somut zorunlulukta m.5/2-ç, ölçülülük ve dengeleme sağlanırsa m.5/2-f, hak tesisi/kullanımı/korunması için m.5/2-e (her alt amacın dayanağı yayın öncesi doğrulanacaktır).
+• Güvenlik ve kötüye kullanım kayıtları: hesap ve hizmet güvenliği; somut zorunlulukta m.5/2-ç, ölçülülük ve dengeleme sağlanırsa m.5/2-f, hak tesisi/kullanımı/korunması için m.5/2-e.
 • Destek ve hak başvuruları: talebin karşılanması; talebe göre m.5/2-c, ç veya e.
-• Dua paylaşımları ve moderasyon: seçilen paylaşımın sunulması ve topluluk güvenliği; m.5 şartı ve dinî veya diğer özel nitelikli veri varsa ayrıca m.6 şartı (yayın öncesi hukukçu tarafından belirlenecektir).
 • Konum, harita ve şehir sorguları: seçilen işlevin sunulması; amaca ve teknik tasarıma göre somut şart; işletim sistemi izni tek başına genel açık rıza sayılmaz.
 • Ticari elektronik ileti tercihi: duyuru ve kampanya iletileri; açık rıza ve ilgili ticari ileti mevzuatı.
 İbadet kayıtları şu anda yalnızca cihazınızda tutulur ve sistemlerimize gelmez; buluta alınmaları sunulursa m.6/3-a uyarınca ayrı açık rıza alınır.
 
 ### 3. Özel nitelikli kişisel veriler (m.6)
 
-Namaz, kaza, zikir ve hatim kayıtları ile dua içerikleri dinî inancınızı veya sağlık gibi başka özel bilgileri açığa çıkarabilir. İbadet kayıtları şu anda yalnızca cihazınızda kalır. Buluta alınmaları sunulursa yalnız ayrı açık rızanızla yapılır; rıza vermezseniz ilgisiz temel özellikler engellenmez ve rızanızı dilediğiniz an geri alabilirsiniz. Dua paylaşımındaki özel nitelikli veriler için işleme şartı ayrıca belirlenir.
+Namaz, kaza, zikir ve hatim kayıtları dinî inancınızı veya sağlık gibi başka özel bilgileri açığa çıkarabilir. İbadet kayıtları şu anda yalnızca cihazınızda kalır. Buluta alınmaları sunulursa yalnız ayrı açık rızanızla yapılır; rıza vermezseniz ilgisiz temel özellikler engellenmez ve rızanızı dilediğiniz an geri alabilirsiniz.
 
 ### 4. Toplama yöntemi
 
@@ -118,7 +117,7 @@ Kampanya ve duyuru iletileri yalnızca onay vermeniz hâlinde seçtiğiniz kanal
 
 ### 1. Saklama ilkesi
 
-Veriler belirli bir amaç veya uygulanabilir yasal yükümlülük olmadan süresiz tutulmaz. Aşağıdaki süreler takvim süresidir ve başlangıç olayı belirtilir. Köşeli parantezli süreler, yayın öncesi ölçülmüş teknik işleyiş ve ilgili mevzuatla kesinleştirilecektir.
+Veriler belirli bir amaç veya uygulanabilir yasal yükümlülük olmadan süresiz tutulmaz. Aşağıdaki süreler takvim süresidir ve başlangıç olayı belirtilir.
 
 ### 2. Hesap ve iletişim bilgileri
 
@@ -154,4 +153,4 @@ Hesaplı kullanımda barındırma sağlayıcısındaki güvenlik günlükleri ol
 
 ### 10. Hesabı silme ve cihazdaki kopyalar
 
-Hesabınızı ve verilerinizi Profil › Hesabımı sil yolundan ya da info@nuursalah.com üzerinden silebilirsiniz. Güvenli ve orantılı doğrulamadan sonra silme aktif sistemde hemen, en geç 30 gün içinde tamamlanır; sistem yedeği tutulmadığından yedeklerde kopya kalmaz; sonuç bildirilir. Kanunen tutulması gereken sınırlı kayıtlar varsa veri türü, amaç ve süre açıklanır; bu kayıtlar normal kullanım, pazarlama veya profil oluşturma için kullanılmaz. Hesabın silinmesi mağaza aboneliğini otomatik iptal etmeyebilir; abonelik iptali de tek başına hesabı silmez. Cihazdaki kayıtlar (konum, namaz takibi, kaza sayaçları, zikir, kaydettikleriniz) Hesabımı sil işlemiyle ya da uygulamayı kaldırarak silinir; tarayıcı depolaması, işletim sistemi yedeği ve başka cihazlardaki kopyalar için cihaz ve tarayıcı ayarlarını kullanın. Paylaşımınızın Nuur'daki kopyasını kaldırırız; başkalarının bağımsız kopyaları üzerinde kontrolümüz yoktur.
+Hesabınızı ve verilerinizi Profil › Hesabımı sil yolundan ya da info@nuursalah.com üzerinden silebilirsiniz. Güvenli ve orantılı doğrulamadan sonra silme aktif sistemde hemen, en geç 30 gün içinde tamamlanır; sistem yedeği tutulmadığından yedeklerde kopya kalmaz; sonuç bildirilir. Kanunen tutulması gereken sınırlı kayıtlar varsa veri türü, amaç ve süre açıklanır; bu kayıtlar normal kullanım, pazarlama veya profil oluşturma için kullanılmaz. Hesabın silinmesi mağaza aboneliğini otomatik iptal etmeyebilir; abonelik iptali de tek başına hesabı silmez. Cihazdaki kayıtlar (konum, namaz takibi, kaza sayaçları, zikir, kaydettikleriniz) Hesabımı sil işlemiyle ya da uygulamayı kaldırarak silinir; tarayıcı depolaması, işletim sistemi yedeği ve başka cihazlardaki kopyalar için cihaz ve tarayıcı ayarlarını kullanın.

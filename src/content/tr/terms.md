@@ -1,7 +1,7 @@
 ---
 title: Kullanım koşulları
 description: Nuur Salah uygulamasının kullanım koşulları.
-updated: 2026-11-19
+updated: 2026-11-20
 draft: false
 ---
 
@@ -19,11 +19,11 @@ Nuur'un temel özellikleri (vakitler, ezan, kıble, Kur'an, abdest ve namaz rehb
 
 ## 4. Yaş ve ebeveynler
 
-Nuur 4 yaş ve üzeri kullanıcılar için uygundur (App Store yaş derecelendirmesi: 4+). 13 yaşından küçükler uygulamayı yalnızca ebeveynlerinin ya da yasal temsilcilerinin bilgisi, izni ve gözetimiyle kullanabilir; hesap açma ve satın alma işlemlerini ebeveyn ya da yasal temsilci yapmalı veya açıkça onaylamalıdır. Bulunduğunuz ülkede bu yaş sınırları daha yüksekse o ülkenin kuralı uygulanır. Bulunduğunuz ülkede sözleşme yapabilmeniz veya veri işlemlerine geçerli rıza verebilmeniz için yasal temsilci katılımı gerekiyorsa ilgili özellik ancak uygun süreç tamamlandıktan sonra kullanılabilir. Çocuklara ilişkin kurallar ülkeler arasında farklıdır; genel dinî içeriğe erişim, hesap açma, kamuya paylaşım ve satın alma aynı yaş veya izin kuralına tabi olmayabilir. Çocuğa ait verilerin uygun süreç olmadan işlendiğini düşünüyorsanız info@nuursalah.com adresine bildirebilirsiniz.
+Nuur 4 yaş ve üzeri kullanıcılar için uygundur (App Store yaş derecelendirmesi: 4+). 13 yaşından küçükler uygulamayı yalnızca ebeveynlerinin ya da yasal temsilcilerinin bilgisi, izni ve gözetimiyle kullanabilir; hesap açma ve satın alma işlemlerini ebeveyn ya da yasal temsilci yapmalı veya açıkça onaylamalıdır. Bulunduğunuz ülkede bu yaş sınırları daha yüksekse o ülkenin kuralı uygulanır. Bulunduğunuz ülkede sözleşme yapabilmeniz veya veri işlemlerine geçerli rıza verebilmeniz için yasal temsilci katılımı gerekiyorsa ilgili özellik ancak uygun süreç tamamlandıktan sonra kullanılabilir. Çocuklara ilişkin kurallar ülkeler arasında farklıdır; genel dinî içeriğe erişim, hesap açma ve satın alma aynı yaş veya izin kuralına tabi olmayabilir. Çocuğa ait verilerin uygun süreç olmadan işlendiğini düşünüyorsanız info@nuursalah.com adresine bildirebilirsiniz.
 
 ## 5. Premium ve satın alma
 
-Kur'an metni ve mealleri, namaz vakitleri, kıble ve dinî rehber içerikleri ücretsizdir. Premium; özel tesbih modelleri, reklamların kaldırılması, Hatim planı, Mushaf kaplamaları ve görselli Cuma mesajı gibi özellikleri kapsar; kapsam satın alma ekranında gösterilir. Premium'un kapsamı, toplam fiyatı, vergileri, ödeme dönemi, otomatik yenileme durumu ve varsa deneme süresi satın almadan önce gösterilir. Satın alma App Store, Google Play veya AppGallery üzerinden yapılır; ödeme, yenileme, iptal ve iade süreçlerinde ilgili mağazanın işleyişi uygulanır ve bu işleyiş zorunlu tüketici haklarınızı ortadan kaldırmaz. Mağaza işletmecisi bu koşulların tarafı değildir; Apple cihazlarında Apple'ın standart Uygulama Lisans Sözleşmesi (EULA) da geçerlidir. Satın alımlarınızı Profil › Satın alımları geri yükle bölümünden geri yükleyebilirsiniz. Abonelik iptali ile hesabın silinmesi farklı işlemlerdir: hesabınızı silmek mağazadaki ücretli aboneliğinizi kendiliğinden sonlandırmayabilir; yenilemeyi mağazanın abonelik yönetiminden durdurun. Cayma ve iade bilgileri satın alma ekranında ülkenize göre ayrıca sunulur.
+Kur'an metni ve mealleri, namaz vakitleri, kıble ve dinî rehber içerikleri ücretsizdir. Premium; özel tesbih modelleri, Hatim planı, Mushaf kaplamaları, görselli Cuma mesajı ve makamlı ezanlar gibi özellikleri kapsar ve güncellemelerle gelen yeni özelliklere öncelikli erişim sağlar; kapsam satın alma ekranında gösterilir. Premium'un kapsamı, toplam fiyatı, vergileri, ödeme dönemi, otomatik yenileme durumu ve varsa deneme süresi satın almadan önce gösterilir. Satın alma App Store, Google Play veya AppGallery üzerinden yapılır; ödeme, yenileme, iptal ve iade süreçlerinde ilgili mağazanın işleyişi uygulanır ve bu işleyiş zorunlu tüketici haklarınızı ortadan kaldırmaz. Mağaza işletmecisi bu koşulların tarafı değildir; Apple cihazlarında Apple'ın standart Uygulama Lisans Sözleşmesi (EULA) da geçerlidir. Satın alımlarınızı Profil › Satın alımları geri yükle bölümünden geri yükleyebilirsiniz. Abonelik iptali ile hesabın silinmesi farklı işlemlerdir: hesabınızı silmek mağazadaki ücretli aboneliğinizi kendiliğinden sonlandırmayabilir; yenilemeyi mağazanın abonelik yönetiminden durdurun. Cayma ve iade bilgileri satın alma ekranında ülkenize göre ayrıca sunulur.
 
 ## 6. Yapay zekâ özellikleri
 
