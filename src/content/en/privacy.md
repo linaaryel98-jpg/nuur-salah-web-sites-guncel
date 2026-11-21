@@ -43,7 +43,7 @@ The app contains no analytics, error tracking or advertising SDK; no usage stati
 
 ### 9. Recipients and international transfers
 
-Data may be shared, limited to the relevant purpose, with the hosting and authentication provider (Supabase), map and search providers (Apple Maps, OpenStreetMap/Overpass, Open-Meteo, map image providers), the Diyanet prayer-time table service, sign-in providers (Apple, Google) and app stores; disclosures to competent authorities may be made where required by law. Server location: Sweden (Stockholm, EU). For storage or remote access outside Türkiye, KVKK Art. 9 applies; for the EU and the UK their own transfer rules apply separately. A standard contract, adequacy decision or other safeguard is cited as a basis only if it actually exists and applies to the relevant flow; accepting the service is not a general consent for regular transfers abroad. For information on the appropriate safeguards you can apply to info@nuursalah.com.
+Data may be shared, limited to the relevant purpose, with the hosting and authentication provider (Supabase), the email delivery provider for verification codes (Resend), map and search providers (Apple Maps, OpenStreetMap/Overpass, Open-Meteo, map image providers), the Diyanet prayer-time table service, sign-in providers (Apple, Google) and app stores; disclosures to competent authorities may be made where required by law. Server location: Sweden (Stockholm, EU). For storage or remote access outside Türkiye, KVKK Art. 9 applies; for the EU and the UK their own transfer rules apply separately. A standard contract, adequacy decision or other safeguard is cited as a basis only if it actually exists and applies to the relevant flow; accepting the service is not a general consent for regular transfers abroad. For information on the appropriate safeguards you can apply to info@nuursalah.com.
 
 ### 10. Retention, security and deletion
 
@@ -107,6 +107,8 @@ Campaign and announcement messages are sent through the channel you choose only 
 | Recipient | Purpose | Data transferred | Location |
 |---|---|---|---|
 | Supabase (hosting and authentication) | Account, sign-in, feedback messages | Email, user ID, feedback text | Server: Stockholm, Sweden (EU) |
+| Email delivery (Resend) | Verification code emails | Email address, verification code | Providers' servers |
+| Website hosting (Vercel) | Serving nuursalah.com pages | IP address, browser information (server logs) | Providers' servers |
 | Apple (Sign in with Apple, App Store, Apple Maps) | Sign-in, subscription, mosque search | Apple identity token, approximate location | Apple's global infrastructure |
 | Google (Sign in with Google) | Sign-in | Google identity token | Google's global infrastructure |
 | OpenStreetMap / Overpass and map tiles | Find a Mosque map and search | Approximate location, IP address | Providers' servers |

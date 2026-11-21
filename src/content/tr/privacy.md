@@ -43,7 +43,7 @@ Uygulamada analitik, hata izleme veya reklam SDK'sı bulunmaz; kullanım istatis
 
 ### 9. Alıcılar ve uluslararası aktarım
 
-Veriler, ilgili amaçla sınırlı olarak barındırma ve kimlik doğrulama sağlayıcısı (Supabase), harita ve arama sağlayıcıları (Apple Haritalar, OpenStreetMap/Overpass, Open-Meteo, harita görüntüsü sağlayıcıları), Diyanet vakit tablosu hizmeti, giriş sağlayıcıları (Apple, Google) ve uygulama mağazalarıyla paylaşılabilir; kanunen gerekli hallerde yetkili kurumlara açıklama yapılabilir. Sunucu konumu: İsveç (Stokholm, AB). Türkiye dışındaki depolama veya uzaktan erişim için KVKK m.9; AB ve Birleşik Krallık için kendi aktarım kuralları ayrıca uygulanır. Standart sözleşme, yeterlilik kararı veya başka bir güvence ancak gerçekten mevcut ve ilgili akışa uygulanabilirse dayanak gösterilir; hizmeti kabul etmek düzenli yurt dışı aktarım için genel izin değildir. Uygun güvenceler hakkında bilgi için info@nuursalah.com adresine başvurabilirsiniz.
+Veriler, ilgili amaçla sınırlı olarak barındırma ve kimlik doğrulama sağlayıcısı (Supabase), doğrulama kodlarını ileten e-posta gönderim sağlayıcısı (Resend), harita ve arama sağlayıcıları (Apple Haritalar, OpenStreetMap/Overpass, Open-Meteo, harita görüntüsü sağlayıcıları), Diyanet vakit tablosu hizmeti, giriş sağlayıcıları (Apple, Google) ve uygulama mağazalarıyla paylaşılabilir; kanunen gerekli hallerde yetkili kurumlara açıklama yapılabilir. Sunucu konumu: İsveç (Stokholm, AB). Türkiye dışındaki depolama veya uzaktan erişim için KVKK m.9; AB ve Birleşik Krallık için kendi aktarım kuralları ayrıca uygulanır. Standart sözleşme, yeterlilik kararı veya başka bir güvence ancak gerçekten mevcut ve ilgili akışa uygulanabilirse dayanak gösterilir; hizmeti kabul etmek düzenli yurt dışı aktarım için genel izin değildir. Uygun güvenceler hakkında bilgi için info@nuursalah.com adresine başvurabilirsiniz.
 
 ### 10. Saklama, güvenlik ve silme
 
@@ -107,6 +107,8 @@ Kampanya ve duyuru iletileri yalnızca onay vermeniz hâlinde seçtiğiniz kanal
 | Alıcı | Amaç | Aktarılan veri | Konum |
 |---|---|---|---|
 | Supabase (barındırma ve kimlik doğrulama) | Hesap, giriş, geri bildirim mesajları | E-posta, kullanıcı kimliği, geri bildirim metni | Sunucu: İsveç/Stokholm (AB) |
+| E-posta gönderimi (Resend) | Doğrulama kodu e-postası | E-posta adresi, doğrulama kodu | Sağlayıcının sunucuları |
+| Web sitesi barındırma (Vercel) | nuursalah.com sayfalarını sunma | IP adresi, tarayıcı bilgisi (sunucu kayıtları) | Sağlayıcının sunucuları |
 | Apple (Apple ile giriş, App Store, Apple Haritalar) | Giriş, abonelik, camii araması | Apple kimliği belirteci, yaklaşık konum | Apple'ın küresel altyapısı |
 | Google (Google ile giriş) | Giriş | Google kimliği belirteci | Google'ın küresel altyapısı |
 | OpenStreetMap / Overpass ve harita karoları | Camii Bul haritası ve araması | Yaklaşık konum, IP adresi | Sağlayıcıların sunucuları |
